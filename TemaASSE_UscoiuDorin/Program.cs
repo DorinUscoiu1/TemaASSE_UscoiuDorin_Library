@@ -76,6 +76,13 @@ namespace TemaASSE_UscoiuDorin
                     MinAvailablePercentage = 0,
                     MaxBooksStaffPerDay = 100,
                     MaxExtensionDays = 10,
+                    MaxBooksPerPeriod = 5,
+                    MaxBooksPerDay = 3,
+                    MaxBooksPerDomain = 2,
+                    DomainLimitMonths = 3,
+                    MinDaysBetweenBorrows = 7,
+                    MaxBooksPerRequest = 3,
+                    BorrowingPeriodDays = 30,
                 };
 
                 var domainRepository = new BookDomainDataService(context);

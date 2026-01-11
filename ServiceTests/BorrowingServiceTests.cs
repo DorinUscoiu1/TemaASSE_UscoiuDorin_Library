@@ -19,6 +19,8 @@ namespace ServiceTests
     [TestClass]
     public class BorrowingServiceTests
     {
+        private const int DefaultStaffId = 2;
+
         private IBorrowing mockBorrowingRepository;
         private IBook mockBookRepository;
         private IReader mockReaderRepository;
@@ -617,6 +619,7 @@ namespace ServiceTests
             {
                 new Borrowing
                 {
+                    ReaderId = 1,
                     BookId = 10,
                     BorrowingDate = DateTime.Now.AddDays(-20),
                     ReturnDate = DateTime.Now.AddDays(-5),
@@ -702,7 +705,7 @@ namespace ServiceTests
         public void CreateBorrowings_WithInvalidReader()
         {
             this.mockReaderRepository.Stub(x => x.GetById(999)).Return(null);
-            this.borrowingService.CreateBorrowings(999, new List<int> { 1 }, DateTime.Now, 14);
+            this.borrowingService.CreateBorrowings(999, new List<int> { 1 }, DateTime.Now, 14, DefaultStaffId);
         }
 
         /// <summary>
@@ -713,9 +716,11 @@ namespace ServiceTests
         public void CreateBorrowings_WhenExceedingMaxBooksPerRequest_NonStaff()
         {
             var reader = new Reader { Id = 1, IsStaff = false };
+            var staff = new Reader { Id = DefaultStaffId, IsStaff = true };
             this.mockReaderRepository.Stub(x => x.GetById(1)).Return(reader);
+            this.mockReaderRepository.Stub(x => x.GetById(DefaultStaffId)).Return(staff);
             var bookIds = Enumerable.Range(1, this.mockConfigRepository.MaxBooksPerRequest + 1).ToList();
-            this.borrowingService.CreateBorrowings(1, bookIds, DateTime.Now, 14);
+            this.borrowingService.CreateBorrowings(1, bookIds, DateTime.Now, 14, DefaultStaffId);
         }
 
         /// <summary>
@@ -768,9 +773,11 @@ namespace ServiceTests
         public void CreateBorrowings_With3Books_WhenAnyBookNotFound()
         {
             var reader = new Reader { Id = 1, IsStaff = false };
+            var staff = new Reader { Id = DefaultStaffId, IsStaff = true };
             this.mockReaderRepository.Stub(x => x.GetById(1)).Return(reader);
+            this.mockReaderRepository.Stub(x => x.GetById(DefaultStaffId)).Return(staff);
             this.mockBookRepository.Stub(x => x.GetById(1)).Return(null);
-            this.borrowingService.CreateBorrowings(1, new List<int> { 1, 2, 3 }, DateTime.Now, 14);
+            this.borrowingService.CreateBorrowings(1, new List<int> { 1, 2, 3 }, DateTime.Now, 14, DefaultStaffId);
         }
 
         /// <summary>
@@ -781,13 +788,15 @@ namespace ServiceTests
         public void CreateBorrowings_With3BooksFromSingleDomain()
         {
             var reader = new Reader { Id = 1, IsStaff = false };
+            var staff = new Reader { Id = DefaultStaffId, IsStaff = true };
             this.mockReaderRepository.Stub(x => x.GetById(1)).Return(reader);
+            this.mockReaderRepository.Stub(x => x.GetById(DefaultStaffId)).Return(staff);
 
             var domain = new BookDomain { Id = 10, Name = "D1" };
             this.mockBookRepository.Stub(x => x.GetById(1)).Return(new Book { Id = 1, TotalCopies = 10, Domains = new List<BookDomain> { domain }, BorrowingRecords = new List<Borrowing>() });
             this.mockBookRepository.Stub(x => x.GetById(2)).Return(new Book { Id = 2, TotalCopies = 10, Domains = new List<BookDomain> { domain }, BorrowingRecords = new List<Borrowing>() });
             this.mockBookRepository.Stub(x => x.GetById(3)).Return(new Book { Id = 3, TotalCopies = 10, Domains = new List<BookDomain> { domain }, BorrowingRecords = new List<Borrowing>() });
-            this.borrowingService.CreateBorrowings(1, new List<int> { 1, 2, 3 }, DateTime.Now, 14);
+            this.borrowingService.CreateBorrowings(1, new List<int> { 1, 2, 3 }, DateTime.Now, 14, DefaultStaffId);
         }
 
         /// <summary>
@@ -798,7 +807,9 @@ namespace ServiceTests
         public void CreateBorrowings_WhenExceedingDailyLimit_NonStaff()
         {
             var reader = new Reader { Id = 1, IsStaff = false };
+            var staff = new Reader { Id = DefaultStaffId, IsStaff = true };
             this.mockReaderRepository.Stub(x => x.GetById(1)).Return(reader);
+            this.mockReaderRepository.Stub(x => x.GetById(DefaultStaffId)).Return(staff);
 
             var borrowDate = DateTime.Now.AddDays(-5);
 
@@ -808,7 +819,7 @@ namespace ServiceTests
 
             this.mockBorrowingRepository.Stub(x => x.GetBorrowingsByDateRange(Arg<DateTime>.Is.Anything, Arg<DateTime>.Is.Anything)).Return(todayBorrowings);
 
-            this.borrowingService.CreateBorrowings(1, new List<int> { 10 }, borrowDate, 14);
+            this.borrowingService.CreateBorrowings(1, new List<int> { 10 }, borrowDate, 14, DefaultStaffId);
         }
 
         /// <summary>
@@ -819,7 +830,9 @@ namespace ServiceTests
         public void CreateBorrowings_WhenExceedingPeriodLimit_NonStaff()
         {
             var reader = new Reader { Id = 1, IsStaff = false };
+            var staff = new Reader { Id = DefaultStaffId, IsStaff = true };
             this.mockReaderRepository.Stub(x => x.GetById(1)).Return(reader);
+            this.mockReaderRepository.Stub(x => x.GetById(DefaultStaffId)).Return(staff);
 
             var borrowDate = DateTime.Now.AddDays(-5);
 
@@ -829,7 +842,7 @@ namespace ServiceTests
                 .Select(i => new Borrowing { Id = i, BorrowingDate = borrowDate.AddDays(-1), ReaderId = 1 }).ToList();
 
             this.mockBorrowingRepository.Stub(x => x.GetBorrowingsByDateRange(Arg<DateTime>.Is.Anything, Arg<DateTime>.Is.Anything)).Return(periodBorrowings);
-            this.borrowingService.CreateBorrowings(1, new List<int> { 10 }, borrowDate, 14);
+            this.borrowingService.CreateBorrowings(1, new List<int> { 10 }, borrowDate, 14, DefaultStaffId);
         }
 
         /// <summary>
@@ -840,12 +853,14 @@ namespace ServiceTests
         public void CreateBorrowings_WhenCanBorrowBookFails()
         {
             var reader = new Reader { Id = 1, IsStaff = false };
+            var staff = new Reader { Id = DefaultStaffId, IsStaff = true };
             this.mockReaderRepository.Stub(x => x.GetById(1)).Return(reader);
+            this.mockReaderRepository.Stub(x => x.GetById(DefaultStaffId)).Return(staff);
             var borrowDate = DateTime.Now.AddDays(-5);
             this.mockBorrowingRepository.Stub(x => x.GetBorrowingsByDateRange(borrowDate.Date, borrowDate)).Return(new List<Borrowing>());
             this.mockBorrowingRepository.Stub(x => x.GetBorrowingsByDateRange(Arg<DateTime>.Is.Anything, Arg<DateTime>.Is.Anything)).Return(new List<Borrowing>());
             this.mockBookRepository.Stub(x => x.GetById(10)).Return(null);
-            this.borrowingService.CreateBorrowings(1, new List<int> { 10 }, borrowDate, 14);
+            this.borrowingService.CreateBorrowings(1, new List<int> { 10 }, borrowDate, 14, DefaultStaffId);
         }
 
         /// <summary>
@@ -1027,7 +1042,6 @@ namespace ServiceTests
         [ExpectedException(typeof(InvalidOperationException))]
         public void ExtendBorrowing_WhenBookUnavailable()
         {
-            // Arrange
             this.mockConfigRepository.MaxExtensionDays = 10;
             this.mockConfigRepository.MinAvailablePercentage = 0;
 
@@ -1062,7 +1076,6 @@ namespace ServiceTests
         [ExpectedException(typeof(InvalidOperationException))]
         public void ExtendBorrowing_WhenAvailabilityBelowMinimumPercentage()
         {
-            // Arrange
             this.mockConfigRepository.MaxExtensionDays = 10;
             this.mockConfigRepository.MinAvailablePercentage = 0.9;
 
@@ -1090,8 +1103,6 @@ namespace ServiceTests
             this.mockBorrowingRepository.Stub(x => x.GetById(1)).Return(borrowing);
             this.mockReaderRepository.Stub(x => x.GetById(1)).Return(new Reader { Id = 1, IsStaff = false });
             this.mockBookRepository.Stub(x => x.GetById(10)).Return(book);
-
-            // Act
             this.borrowingService.ExtendBorrowing(1, 1, DateTime.Now);
         }
 
@@ -1258,7 +1269,6 @@ namespace ServiceTests
             this.mockBorrowingRepository.Stub(x => x.GetBorrowingsByDateRange(Arg<DateTime>.Is.Anything, Arg<DateTime>.Is.Anything))
                 .Return(new List<Borrowing>());
 
-            // Act
             this.borrowingService.BorrowBook(1, 10, 14, 2);
         }
 
@@ -1268,7 +1278,6 @@ namespace ServiceTests
         [TestMethod]
         public void CreateBorrowings_WhenBorrowerIsStaff_DoesNotApplyStaffDailyLimit()
         {
-            // Arrange
             var borrowDate = DateTime.Now.AddDays(-10);
 
             var reader = new Reader { Id = 1, IsStaff = true };

@@ -258,7 +258,15 @@ namespace Service
                 return false;
             }
 
-            var availablePercentage = (double)book.GetAvailableCopies() / book.TotalCopies;
+            // Rule: minimum available percentage should be considered from loanable stock
+            // (total copies excluding reading-room-only copies).
+            var loanableStock = book.TotalCopies - book.ReadingRoomOnlyCopies;
+            if (loanableStock <= 0)
+            {
+                return false;
+            }
+
+            var availablePercentage = (double)book.GetAvailableCopies() / loanableStock;
             if (availablePercentage < config.MinAvailablePercentage)
             {
                 return false;
@@ -289,8 +297,9 @@ namespace Service
                 }
             }
 
-            // Rule 5: Check DELTA - min days between consecutive borrows
+            // Rule 5: DELTA - min days between consecutive borrows of the same book by the same reader
             var lastBorrowing = this.borrowingRepository.GetBorrowingsByBook(bookId)
+                .Where(b => b.ReaderId == readerId)
                 .OrderByDescending(b => b.BorrowingDate)
                 .FirstOrDefault();
 
@@ -368,16 +377,13 @@ namespace Service
                 var staff = this.readerRepository.GetById(staffId.Value);
                 ValidateStaffMember(staff);
 
-                // PERSIMP: apply only for non-staff readers (staff borrowing for themselves should not be limited here)
                 if (!reader.IsStaff)
                 {
-                    var staffBorrowingsToday = this.borrowingRepository
-                        .GetBorrowingsByDateRange(DateTime.Now.Date, DateTime.Now)
-                        .Where(b => b.StaffId.HasValue && b.StaffId.Value == staffId.Value)
-                        .Count();
+                var staffBorrowingsSeq = this.borrowingRepository.GetBorrowingsByDateRange(DateTime.Now.Date, DateTime.Now) ?? Enumerable.Empty<Borrowing>();
+                var staffBorrowingsToday = staffBorrowingsSeq.Where(b => b.StaffId.HasValue && b.StaffId.Value == staffId.Value).Count();
 
-                    if (staffBorrowingsToday + 1 > this.configRepository.MaxBooksStaffPerDay)
-                    {
+                if (staffBorrowingsToday + 1 > this.configRepository.MaxBooksStaffPerDay)
+                  {
                         throw new InvalidOperationException(
                             $"Staff cannot distribute more than {this.configRepository.MaxBooksStaffPerDay} books per day.");
                     }
@@ -435,13 +441,11 @@ namespace Service
                 var staff = this.readerRepository.GetById(staffId.Value);
                 ValidateStaffMember(staff);
 
-                // PERSIMP: apply only for non-staff readers (staff borrowing for themselves should not be limited here)
                 if (!reader.IsStaff)
                 {
-                    var staffBorrowingsToday = this.borrowingRepository
-                        .GetBorrowingsByDateRange(borrowingDate.Date, borrowingDate)
-                        .Where(b => b.StaffId.HasValue && b.StaffId.Value == staffId.Value)
-                        .Count();
+                    var staffBorrowingsSeq = this.borrowingRepository.GetBorrowingsByDateRange(borrowingDate.Date, borrowingDate) ?? Enumerable.Empty<Borrowing>();
+                    var staffBorrowingsToday = staffBorrowingsSeq
+                        .Where(b => b.StaffId.HasValue && b.StaffId.Value == staffId.Value).Count();
 
                     if (staffBorrowingsToday + bookIds.Count > this.configRepository.MaxBooksStaffPerDay)
                     {
@@ -453,15 +457,12 @@ namespace Service
 
             var config = this.configRepository;
 
-            var maxBooksPerRequest = reader.IsStaff
-                ? config.MaxBooksPerRequest * 2
-                : config.MaxBooksPerRequest;
+            var maxBooksPerRequest = reader.IsStaff ? config.MaxBooksPerRequest * 2 : config.MaxBooksPerRequest;
 
             if (bookIds.Count > maxBooksPerRequest)
             {
                 Logger.WarnFormat("CreateBorrowings failed: exceeded max per request. count={0}, max={1}", bookIds.Count, maxBooksPerRequest);
-                throw new InvalidOperationException(
-                    $"Cannot borrow more than {maxBooksPerRequest} books at once.");
+                throw new InvalidOperationException($"Cannot borrow more than {maxBooksPerRequest} books at once.");
             }
 
             if (bookIds.Count >= 3)
@@ -480,7 +481,7 @@ namespace Service
                 }
 
                 var distinctDomains = books
-                    .SelectMany(b => b.Domains)
+                    .SelectMany(b => b.Domains ?? Enumerable.Empty<BookDomain>())
                     .Select(d => d.Id)
                     .Distinct()
                     .Count();
@@ -488,40 +489,31 @@ namespace Service
                 if (distinctDomains < 2)
                 {
                     Logger.Warn("CreateBorrowings failed: domain diversity rule violated.");
-                    throw new InvalidOperationException(
-                        "When borrowing 3 or more books, they must be from at least 2 different domains.");
+                    throw new InvalidOperationException("When borrowing 3 or more books, they must be from at least 2 different domains.");
                 }
             }
 
             var maxBooksPerDay = reader.IsStaff ? int.MaxValue : config.MaxBooksPerDay;
-            var todayBorrowings = this.borrowingRepository.GetBorrowingsByDateRange(
-                borrowingDate.Date,
-                borrowingDate);
+            var todayBorrowings = this.borrowingRepository.GetBorrowingsByDateRange(borrowingDate.Date, borrowingDate) ?? Enumerable.Empty<Borrowing>();
 
             if (todayBorrowings.Count() + bookIds.Count > maxBooksPerDay)
             {
                 Logger.WarnFormat("CreateBorrowings failed: daily limit exceeded. today={0}, requested={1}, max={2}", todayBorrowings.Count(), bookIds.Count, maxBooksPerDay);
 
-                throw new InvalidOperationException(
-                    $"Cannot borrow more than {maxBooksPerDay} books per day.");
+                throw new InvalidOperationException($"Cannot borrow more than {maxBooksPerDay} books per day.");
             }
 
             var periodDays = config.BorrowingPeriodDays;
             var periodStart = borrowingDate.AddDays(-periodDays);
-            var borrowingsInPeriod = this.borrowingRepository.GetBorrowingsByDateRange(
-                periodStart,
-                borrowingDate);
+            var borrowingsInPeriod = this.borrowingRepository.GetBorrowingsByDateRange(periodStart, borrowingDate) ?? Enumerable.Empty<Borrowing>();
 
-            var maxBooksInPeriod = reader.IsStaff
-                ? config.MaxBooksPerPeriod * 2
-                : config.MaxBooksPerPeriod;
+            var maxBooksInPeriod = reader.IsStaff ? config.MaxBooksPerPeriod * 2 : config.MaxBooksPerPeriod;
 
             if (borrowingsInPeriod.Count() + bookIds.Count > maxBooksInPeriod)
             {
                 Logger.WarnFormat("CreateBorrowings failed: period limit exceeded. period={0}, requested={1}, max={2}", borrowingsInPeriod.Count(), bookIds.Count, maxBooksInPeriod);
 
-                throw new InvalidOperationException(
-                    $"Cannot borrow more than {maxBooksInPeriod} books in {periodDays} days.");
+                throw new InvalidOperationException($"Cannot borrow more than {maxBooksInPeriod} books in {periodDays} days.");
             }
 
             foreach (var bookId in bookIds)
@@ -529,8 +521,7 @@ namespace Service
                 if (!this.CanBorrowBook(readerId, bookId))
                 {
                     Logger.WarnFormat("CreateBorrowings blocked by business rules. readerId={0}, bookId={1}", readerId, bookId);
-                    throw new InvalidOperationException(
-                        $"Cannot borrow book {bookId}. Business rules violated.");
+                    throw new InvalidOperationException($"Cannot borrow book {bookId}. Business rules violated.");
                 }
 
                 var borrowing = new Borrowing

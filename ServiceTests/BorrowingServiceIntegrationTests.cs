@@ -419,7 +419,7 @@ namespace ServiceTests
         /// Test.
         /// </summary>
         [TestMethod]
-        public void BookAvailability_AfterLoans_UpdatesCorrectly()
+        public void BookAvailability_AfterLoans()
         {
             var bookIds = new List<int>();
             var readerIds = new List<int>();
@@ -692,12 +692,7 @@ namespace ServiceTests
                     readerIds.Add(createdReader.Id);
                     readerIds.Add(createdStaff.Id);
 
-                    services.BorrowingService.CreateBorrowings(
-                        createdReader.Id,
-                        new List<int> { createdBook.Id },
-                        DateTime.Now.AddDays(-100),
-                        14,
-                        createdStaff.Id);
+                    services.BorrowingService.CreateBorrowings(createdReader.Id, new List<int> { createdBook.Id }, DateTime.Now.AddDays(-100), 14, createdStaff.Id);
 
                     var bookAfterBorrow = context.Books.Find(createdBook.Id);
                     Assert.IsNotNull(bookAfterBorrow);
@@ -724,7 +719,7 @@ namespace ServiceTests
         /// </summary>
         [TestMethod]
         [ExpectedException(typeof(InvalidOperationException))]
-        public void CreateBorrowings_With3BooksFrom1Domain_ThrowsException()
+        public void CreateBorrowings_With3BooksFrom1Domain()
         {
             var bookIds = new List<int>();
             var readerIds = new List<int>();
@@ -764,13 +759,27 @@ namespace ServiceTests
                         Email = "test@" + Guid.NewGuid().ToString() + ".com",
                         Address = "Test Address",
                     };
+                    var staff = new Reader
+                    {
+                        FirstName = "Staff",
+                        LastName = "Member",
+                        Email = "staff@" + Guid.NewGuid().ToString() + ".com",
+                        Address = "Test Address",
+                        IsStaff = true,
+                        RegistrationDate = DateTime.Now,
+                    };
+
                     services.ReaderService.CreateReader(reader);
+                    services.ReaderService.CreateReader(staff);
                     context.SaveChanges();
 
                     var createdReader = context.Readers.FirstOrDefault(r => r.Email == reader.Email);
+                    var createdStaff = context.Readers.FirstOrDefault(r => r.Email == staff.Email);
+                    Assert.IsNotNull(createdStaff);
                     readerIds.Add(createdReader.Id);
+                    readerIds.Add(createdStaff.Id);
 
-                    services.BorrowingService.CreateBorrowings(createdReader.Id, bookIds, DateTime.Now.AddDays(-110), 14);
+                    services.BorrowingService.CreateBorrowings(createdReader.Id, bookIds, DateTime.Now.AddDays(-110), 14, createdStaff.Id);
                 }
                 finally
                 {
@@ -823,15 +832,30 @@ namespace ServiceTests
                         Address = "Test Address",
                         IsStaff = false,
                     };
+
+                    var staff = new Reader
+                    {
+                        FirstName = "Staff",
+                        LastName = "Daily",
+                        Email = "staff.daily@" + Guid.NewGuid().ToString() + ".com",
+                        Address = "Test Address",
+                        IsStaff = true,
+                        RegistrationDate = DateTime.Now,
+                    };
+
                     services.ReaderService.CreateReader(reader);
+                    services.ReaderService.CreateReader(staff);
                     context.SaveChanges();
 
                     var createdReader = context.Readers.FirstOrDefault(r => r.Email == reader.Email);
+                    var createdStaff = context.Readers.FirstOrDefault(r => r.Email == staff.Email);
+                    Assert.IsNotNull(createdStaff);
                     readerIds.Add(createdReader.Id);
+                    readerIds.Add(createdStaff.Id);
 
                     var testDate = DateTime.Now.AddDays(-120);
-                    services.BorrowingService.CreateBorrowings(createdReader.Id, bookIds.Take(services.Config.MaxBooksPerDay).ToList(), testDate, 14);
-                    services.BorrowingService.CreateBorrowings(createdReader.Id, bookIds.Skip(services.Config.MaxBooksPerDay).Take(1).ToList(), testDate, 14);
+                    services.BorrowingService.CreateBorrowings(createdReader.Id, bookIds.Take(services.Config.MaxBooksPerDay).ToList(), testDate, 14, createdStaff.Id);
+                    services.BorrowingService.CreateBorrowings(createdReader.Id, bookIds.Skip(services.Config.MaxBooksPerDay).Take(1).ToList(), testDate, 14, createdStaff.Id);
                 }
                 finally
                 {
@@ -884,18 +908,32 @@ namespace ServiceTests
                         Address = "Test Address",
                         IsStaff = false,
                     };
+                    var staff = new Reader
+                    {
+                        FirstName = "Staff",
+                        LastName = "Period",
+                        Email = "staff.period@" + Guid.NewGuid().ToString() + ".com",
+                        Address = "Test Address",
+                        IsStaff = true,
+                        RegistrationDate = DateTime.Now,
+                    };
+
                     services.ReaderService.CreateReader(reader);
+                    services.ReaderService.CreateReader(staff);
                     context.SaveChanges();
 
                     var createdReader = context.Readers.FirstOrDefault(r => r.Email == reader.Email);
+                    var createdStaff = context.Readers.FirstOrDefault(r => r.Email == staff.Email);
+                    Assert.IsNotNull(createdStaff);
                     readerIds.Add(createdReader.Id);
+                    readerIds.Add(createdStaff.Id);
 
                     for (int i = 0; i < services.Config.MaxBooksPerPeriod; i++)
                     {
-                        services.BorrowingService.CreateBorrowings(createdReader.Id, new List<int> { bookIds[i] }, DateTime.Now.AddDays(-130 - i), 14);
+                        services.BorrowingService.CreateBorrowings(createdReader.Id, new List<int> { bookIds[i] }, DateTime.Now.AddDays(-130 - i), 14, createdStaff.Id);
                     }
 
-                    services.BorrowingService.CreateBorrowings(createdReader.Id, new List<int> { bookIds[services.Config.MaxBooksPerPeriod] }, DateTime.Now.AddDays(-100), 14);
+                    services.BorrowingService.CreateBorrowings(createdReader.Id, new List<int> { bookIds[services.Config.MaxBooksPerPeriod] }, DateTime.Now.AddDays(-100), 14, createdStaff.Id);
                 }
                 finally
                 {
@@ -1166,11 +1204,25 @@ namespace ServiceTests
                         Email = "reader1@" + Guid.NewGuid().ToString() + ".com",
                         Address = "Test",
                     };
-                    services.ReaderService.CreateReader(reader1);
-                    var createdReader1 = context.Readers.FirstOrDefault(r => r.Email == reader1.Email);
-                    readerIds.Add(createdReader1.Id);
+                    var staff = new Reader
+                    {
+                        FirstName = "Staff",
+                        LastName = "Member",
+                        Email = "staff.unavail@" + Guid.NewGuid().ToString() + ".com",
+                        Address = "Test",
+                        IsStaff = true,
+                        RegistrationDate = DateTime.Now,
+                    };
 
-                    services.BorrowingService.CreateBorrowings(createdReader1.Id, new List<int> { createdBook.Id }, DateTime.Now.AddDays(-170), 14);
+                    services.ReaderService.CreateReader(reader1);
+                    services.ReaderService.CreateReader(staff);
+                    var createdReader1 = context.Readers.FirstOrDefault(r => r.Email == reader1.Email);
+                    var createdStaff = context.Readers.FirstOrDefault(r => r.Email == staff.Email);
+                    Assert.IsNotNull(createdStaff);
+                    readerIds.Add(createdReader1.Id);
+                    readerIds.Add(createdStaff.Id);
+
+                    services.BorrowingService.CreateBorrowings(createdReader1.Id, new List<int> { createdBook.Id }, DateTime.Now.AddDays(-170), 14, createdStaff.Id);
                     var borrowing1 = context.Borrowings.FirstOrDefault(b => b.BookId == createdBook.Id);
 
                     services.BorrowingService.ExtendBorrowing(borrowing1.Id, 5, DateTime.Now);
@@ -1321,8 +1373,6 @@ namespace ServiceTests
                     readerIds.Add(createdReader.Id);
                     readerIds.Add(createdStaff.Id);
 
-                    // Use a "safe" borrowing date range (well inside SQL datetime range).
-                    // Also keep each borrowing on a different day to avoid daily limit interference.
                     var borrowingDateBase = DateTime.Now.Date.AddDays(-300);
 
                     for (int i = 0; i < services.Config.MaxBooksPerPeriod; i++)
@@ -1510,11 +1560,24 @@ namespace ServiceTests
                         Email = "inactive@" + Guid.NewGuid().ToString() + ".com",
                         Address = "Test",
                     };
+
+                    var staff = new Reader
+                    {
+                        FirstName = "Inactive",
+                        LastName = "stfaf",
+                        Email = "staff@" + Guid.NewGuid().ToString() + ".com",
+                        Address = "Test",
+                        IsStaff = true,
+                    };
+
+                    services.ReaderService.CreateReader(staff);
                     services.ReaderService.CreateReader(reader);
                     var createdReader = context.Readers.FirstOrDefault(r => r.Email == reader.Email);
+                    var createdStaff = context.Readers.FirstOrDefault(r => r.Email == staff.Email);
                     readerIds.Add(createdReader.Id);
+                    readerIds.Add(createdStaff.Id);
 
-                    services.BorrowingService.CreateBorrowings(createdReader.Id, new List<int> { createdBook.Id }, DateTime.Now.AddDays(-220), 14);
+                    services.BorrowingService.CreateBorrowings(createdReader.Id, new List<int> { createdBook.Id }, DateTime.Now.AddDays(-220), 14,createdStaff.Id);
                     var borrowing = context.Borrowings.FirstOrDefault(b => b.BookId == createdBook.Id);
                     services.BorrowingService.ReturnBorrowing(borrowing.Id, DateTime.Now.AddDays(-210));
 
@@ -1611,12 +1674,10 @@ namespace ServiceTests
                     readerIds.Add(createdReader.Id);
                     readerIds.Add(createdStaff.Id);
 
-                    // Same day for all operations
                     var day = DateTime.Now.Date.AddDays(-200).AddHours(10);
 
                     services.BorrowingService.CreateBorrowings(createdReader.Id, bookIds.Take(services.Config.MaxBooksStaffPerDay).ToList(), day, 14, createdStaff.Id);
 
-                    // One more on the same day by the same staff => must throw due to PERSIMP
                     services.BorrowingService.CreateBorrowings(
                         createdReader.Id,
                         new List<int> { bookIds[services.Config.MaxBooksStaffPerDay] },
