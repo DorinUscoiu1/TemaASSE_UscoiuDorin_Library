@@ -1,11 +1,14 @@
+// <copyright file="Program.cs" company="Transilvania University of Brasov">
+// Uscoiu Dorin Petrut
+// </copyright>
+
 namespace TemaASSE_UscoiuDorin
 {
     using System;
     using System.Collections.Generic;
-    using System.Data.Entity.Migrations;
+    using System.IO;
     using System.Linq;
     using Data;
-    using Data.Migrations;
     using Data.Repositories;
     using Domain.Models;
     using log4net;
@@ -69,7 +72,6 @@ namespace TemaASSE_UscoiuDorin
             using (var context = new LibraryDbContext())
             {
                 // Helpful when debugging.
-                context.Database.Log = msg => Logger.Debug(msg);
 
                 var config = new LibraryConfiguration
                 {
@@ -139,13 +141,9 @@ namespace TemaASSE_UscoiuDorin
             // Domain hierarchy
             var science = EnsureDomain(context, DemoDomainScience, parentDomainId: null);
             var cs = EnsureDomain(context, DemoDomainCs, parentDomainId: science.Id);
-
-            // Readers (required fields filled: FirstName/LastName/Address/IsStaff/RegistrationDate).
             EnsureReader(context, readerService, DemoStaffEmail, "Demo", "Staff", isStaff: true);
             EnsureReader(context, readerService, DemoUserEmail, "Demo", "User", isStaff: false);
 
-            // IMPORTANT: Do NOT pass both parent + child domain ids (science.Id + cs.Id).
-            // Pick one domain (typically the most specific / leaf) to satisfy BookService hierarchy rule.
             var book = EnsureBook(context, bookService, DemoIsbn, "Demo Book", new List<int> { cs.Id });
             EnsureEdition(context, editionService, book.Id);
 

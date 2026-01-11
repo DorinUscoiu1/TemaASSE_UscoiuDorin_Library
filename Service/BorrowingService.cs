@@ -258,8 +258,6 @@ namespace Service
                 return false;
             }
 
-            // Rule: minimum available percentage should be considered from loanable stock
-            // (total copies excluding reading-room-only copies).
             var loanableStock = book.TotalCopies - book.ReadingRoomOnlyCopies;
             if (loanableStock <= 0)
             {
@@ -279,17 +277,12 @@ namespace Service
                 return false;
             }
 
-            // Rule 4: Check books per domain in last L months
             var domainLimitMonths = config.DomainLimitMonths;
-            var lastMonthBorrowings = this.borrowingRepository.GetBorrowingsByDateRange(
-                DateTime.Now.AddMonths(-domainLimitMonths),
-                DateTime.Now);
+            var lastMonthBorrowings = this.borrowingRepository.GetBorrowingsByDateRange(DateTime.Now.AddMonths(-domainLimitMonths), DateTime.Now);
 
             foreach (var domain in book.Domains)
             {
-                var domainBooksCount = lastMonthBorrowings
-                    .Count(b => b.Book != null && b.Book.Domains.Any(d => d.Id == domain.Id));
-
+                var domainBooksCount = lastMonthBorrowings.Count(b => b.Book != null && b.Book.Domains.Any(d => d.Id == domain.Id));
                 var maxDomainBooks = reader.IsStaff ? config.MaxBooksPerDomain * 2 : config.MaxBooksPerDomain;
                 if (domainBooksCount >= maxDomainBooks)
                 {
@@ -297,18 +290,13 @@ namespace Service
                 }
             }
 
-            // Rule 5: DELTA - min days between consecutive borrows of the same book by the same reader
-            var lastBorrowing = this.borrowingRepository.GetBorrowingsByBook(bookId)
-                .Where(b => b.ReaderId == readerId)
-                .OrderByDescending(b => b.BorrowingDate)
-                .FirstOrDefault();
+            var lastBorrowing = this.borrowingRepository.GetBorrowingsByBook(bookId).Where(b => b.ReaderId == readerId)
+                .OrderByDescending(b => b.BorrowingDate).FirstOrDefault();
 
             if (lastBorrowing != null && lastBorrowing.ReturnDate.HasValue)
             {
                 var daysSinceReturn = (DateTime.Now - lastBorrowing.ReturnDate.Value).Days;
-                var minDaysBetweenBorrows = reader.IsStaff
-                    ? config.MinDaysBetweenBorrows / 2
-                    : config.MinDaysBetweenBorrows;
+                var minDaysBetweenBorrows = reader.IsStaff ? config.MinDaysBetweenBorrows / 2 : config.MinDaysBetweenBorrows;
 
                 if (daysSinceReturn < minDaysBetweenBorrows)
                 {
@@ -316,10 +304,7 @@ namespace Service
                 }
             }
 
-            // Rule 6: Check max books per day
-            var todayBorrowings = this.borrowingRepository.GetBorrowingsByDateRange(
-                DateTime.Now.Date,
-                DateTime.Now);
+            var todayBorrowings = this.borrowingRepository.GetBorrowingsByDateRange(DateTime.Now.Date, DateTime.Now);
 
             var maxBooksPerDay = reader.IsStaff ? int.MaxValue : config.MaxBooksPerDay;
             if (todayBorrowings.Count() >= maxBooksPerDay)
