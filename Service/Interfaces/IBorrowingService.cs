@@ -69,8 +69,6 @@ namespace Service
         /// Gets overdue borrowings.
         /// </summary>
         /// <returns>list.</returns>
-        ///
-
         IEnumerable<Borrowing> GetOverdueBorrowings();
 
         /// <summary>

@@ -17,3 +17,7 @@
 2026-01-11 17:03:29,597 INFO  [1] TemaASSE_UscoiuDorin.Program - Created edition: Id=175, BookId=2883, Publisher=DEMO_PUBLISHER
 2026-01-11 17:03:29,597 INFO  [1] TemaASSE_UscoiuDorin.Program - Populate finished.
 2026-01-11 17:03:29,598 INFO  [1] TemaASSE_UscoiuDorin.Program - Application stopped.
+2026-01-11 17:04:50,795 INFO  [1] TemaASSE_UscoiuDorin.Program - Application started.
+2026-01-11 17:04:51,592 INFO  [1] TemaASSE_UscoiuDorin.Program - Application stopped.
+2026-01-11 17:12:01,264 INFO  [1] TemaASSE_UscoiuDorin.Program - Application started.
+2026-01-11 17:12:03,649 INFO  [1] TemaASSE_UscoiuDorin.Program - Application stopped.

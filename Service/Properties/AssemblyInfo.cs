@@ -1,5 +1,5 @@
-// <copyright file="AssemblyInfo.cs" company="PlaceholderCompany">
-// Copyright (c) PlaceholderCompany. All rights reserved.
+// <copyright file="AssemblyInfo.cs" company="Transilvania University of Brasov">
+// Uscoiu Dorin Petrut
 // </copyright>
 
 using System.Reflection;

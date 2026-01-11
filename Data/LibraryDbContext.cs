@@ -1,3 +1,7 @@
+// <copyright file="LibraryDbContext.cs" company="PlaceholderCompany">
+// Copyright (c) PlaceholderCompany. All rights reserved.
+// </copyright>
+
 namespace Data
 {
     using System.Data.Entity;
@@ -21,18 +25,39 @@ namespace Data
             this.Configuration.ProxyCreationEnabled = true;
         }
 
+        /// <summary>
+        /// <para>Gets or sets the Authors DbSet.</para>
+        /// </summary>
         public DbSet<Author> Authors { get; set; }
 
+        /// <summary>
+        /// <para>Gets or sets the Books DbSet.</para>
+        /// </summary>
         public DbSet<Book> Books { get; set; }
 
+        /// <summary>
+        /// <para>Gets or sets the Domains DbSet.</para>
+        /// </summary>
         public DbSet<BookDomain> Domains { get; set; }
 
+        /// <summary>
+        /// <para>Gets or sets the Editions DbSet.</para>
+        /// </summary>
         public DbSet<Edition> Editions { get; set; }
 
+        /// <summary>
+        /// <para>Gets or sets the Readers DbSet.</para>
+        /// </summary>
         public DbSet<Reader> Readers { get; set; }
 
+        /// <summary>
+        /// <para>Gets or sets the Borrowings DbSet.</para>
+        /// </summary>
         public DbSet<Borrowing> Borrowings { get; set; }
 
+        /// <summary>
+        /// <para>Gets or sets the LoanExtensions DbSet.</para>
+        /// </summary>
         public DbSet<LoanExtension> LoanExtensions { get; set; }
 
         /// <summary>

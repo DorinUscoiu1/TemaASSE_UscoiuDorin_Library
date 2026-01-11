@@ -1,4 +1,4 @@
-﻿// <copyright file="202601051710198_Initial.cs" company="PlaceholderCompany">
+// <copyright file="202601051710198_Initial.cs" company="PlaceholderCompany">
 // Copyright (c) PlaceholderCompany. All rights reserved.
 // </copyright>
 
@@ -7,6 +7,9 @@ namespace Data.Migrations
     using System;
     using System.Data.Entity.Migrations;
 
+    /// <summary>
+    /// .
+    /// </summary>
     public partial class Initial : DbMigration
     {
         /// <inheritdoc/>
@@ -122,7 +125,7 @@ namespace Data.Migrations
                 .ForeignKey("dbo.Author", t => t.AuthorId, cascadeDelete: true)
                 .Index(t => t.BookId)
                 .Index(t => t.AuthorId);
-            
+
             this.CreateTable(
                 "dbo.BookBookDomain",
                 c => new

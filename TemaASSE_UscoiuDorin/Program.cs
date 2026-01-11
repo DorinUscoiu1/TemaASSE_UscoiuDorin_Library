@@ -71,8 +71,6 @@ namespace TemaASSE_UscoiuDorin
 
             using (var context = new LibraryDbContext())
             {
-                // Helpful when debugging.
-
                 var config = new LibraryConfiguration
                 {
                     MinAvailablePercentage = 0,

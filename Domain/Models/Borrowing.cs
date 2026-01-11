@@ -29,7 +29,6 @@ namespace Domain.Models
         /// </summary>
         public Reader Reader { get; set; } = null;
 
-
         /// <summary>
         /// Gets or sets the ID of the reader who borrowed the book.
         /// </summary>

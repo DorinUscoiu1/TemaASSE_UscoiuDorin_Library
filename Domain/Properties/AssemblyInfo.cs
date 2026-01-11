@@ -1,4 +1,8 @@
-﻿using System.Reflection;
+// <copyright file="AssemblyInfo.cs" company="Transilvania University of Brasov">
+// Uscoiu Dorin Petrut
+// </copyright>
+
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 

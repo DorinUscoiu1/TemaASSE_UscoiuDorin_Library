@@ -1577,7 +1577,7 @@ namespace ServiceTests
                     readerIds.Add(createdReader.Id);
                     readerIds.Add(createdStaff.Id);
 
-                    services.BorrowingService.CreateBorrowings(createdReader.Id, new List<int> { createdBook.Id }, DateTime.Now.AddDays(-220), 14,createdStaff.Id);
+                    services.BorrowingService.CreateBorrowings(createdReader.Id, new List<int> { createdBook.Id }, DateTime.Now.AddDays(-220), 14, createdStaff.Id);
                     var borrowing = context.Borrowings.FirstOrDefault(b => b.BookId == createdBook.Id);
                     services.BorrowingService.ReturnBorrowing(borrowing.Id, DateTime.Now.AddDays(-210));
 
