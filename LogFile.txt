@@ -1,0 +1,3140 @@
+2026-01-07 09:51:59,219 INFO  [1] TemaASSE_UscoiuDorin.Program - Application started.
+2026-01-07 09:51:59,231 INFO  [1] TemaASSE_UscoiuDorin.Program - Application stopped.
+2026-01-07 09:54:08,145 INFO  [1] TemaASSE_UscoiuDorin.Program - Application started.
+2026-01-07 09:54:08,155 INFO  [1] TemaASSE_UscoiuDorin.Program - Application stopped.
+2026-01-07 10:05:44,014 INFO  [1] TemaASSE_UscoiuDorin.Program - Application started.
+2026-01-07 10:05:44,025 INFO  [1] TemaASSE_UscoiuDorin.Program - Application stopped.
+2026-01-07 10:16:26,992 INFO  [1] TemaASSE_UscoiuDorin.Program - Application started.
+2026-01-07 10:16:27,002 INFO  [1] TemaASSE_UscoiuDorin.Program - Application stopped.
+2026-01-07 10:18:31,295 INFO  [1] TemaASSE_UscoiuDorin.Program - Application started.
+2026-01-07 10:18:31,305 INFO  [1] TemaASSE_UscoiuDorin.Program - Application stopped.
+2026-01-07 11:17:49,021 INFO  [1] TemaASSE_UscoiuDorin.Program - Application started.
+2026-01-07 11:17:49,031 INFO  [1] TemaASSE_UscoiuDorin.Program - Application stopped.
+2026-01-07 11:19:38,922 INFO  [1] TemaASSE_UscoiuDorin.Program - Application started.
+2026-01-07 11:19:38,931 INFO  [1] TemaASSE_UscoiuDorin.Program - Application stopped.
+2026-01-07 11:22:39,552 INFO  [1] TemaASSE_UscoiuDorin.Program - Application started.
+2026-01-07 11:22:39,562 INFO  [1] TemaASSE_UscoiuDorin.Program - Application stopped.
+2026-01-07 11:26:51,279 INFO  [1] TemaASSE_UscoiuDorin.Program - Application started.
+2026-01-07 11:26:51,289 INFO  [1] TemaASSE_UscoiuDorin.Program - Application stopped.
+2026-01-07 11:29:45,183 INFO  [1] TemaASSE_UscoiuDorin.Program - Application started.
+2026-01-07 11:29:45,192 INFO  [1] TemaASSE_UscoiuDorin.Program - Application stopped.
+2026-01-07 11:34:16,257 INFO  [1] TemaASSE_UscoiuDorin.Program - Application started.
+2026-01-07 11:34:16,268 INFO  [1] TemaASSE_UscoiuDorin.Program - Application stopped.
+2026-01-07 11:37:27,308 INFO  [1] TemaASSE_UscoiuDorin.Program - Application started.
+2026-01-07 11:37:27,318 INFO  [1] TemaASSE_UscoiuDorin.Program - Application stopped.
+2026-01-07 11:42:36,211 INFO  [1] TemaASSE_UscoiuDorin.Program - Application started.
+2026-01-07 11:42:36,221 INFO  [1] TemaASSE_UscoiuDorin.Program - Application stopped.
+2026-01-07 11:53:40,610 INFO  [1] TemaASSE_UscoiuDorin.Program - Application started.
+2026-01-07 11:53:40,620 INFO  [1] TemaASSE_UscoiuDorin.Program - Application stopped.
+2026-01-07 12:04:15,595 INFO  [1] TemaASSE_UscoiuDorin.Program - Application started.
+2026-01-07 12:04:15,605 INFO  [1] TemaASSE_UscoiuDorin.Program - Application stopped.
+2026-01-07 16:07:22,538 INFO  [1] TemaASSE_UscoiuDorin.Program - Application started.
+2026-01-07 16:07:22,553 INFO  [1] TemaASSE_UscoiuDorin.Program - Application stopped.
+2026-01-07 16:07:33,882 INFO  [1] TemaASSE_UscoiuDorin.Program - Application started.
+2026-01-07 16:07:33,894 INFO  [1] TemaASSE_UscoiuDorin.Program - Application stopped.
+2026-01-07 16:28:49,370 INFO  [1] TemaASSE_UscoiuDorin.Program - Application started.
+2026-01-07 16:28:49,381 INFO  [1] TemaASSE_UscoiuDorin.Program - Application stopped.
+2026-01-07 16:40:51,248 INFO  [1] TemaASSE_UscoiuDorin.Program - Application started.
+2026-01-07 16:40:51,260 INFO  [1] TemaASSE_UscoiuDorin.Program - Application stopped.
+2026-01-07 16:45:30,852 INFO  [1] TemaASSE_UscoiuDorin.Program - Application started.
+2026-01-07 16:45:30,865 INFO  [1] TemaASSE_UscoiuDorin.Program - Application stopped.
+2026-01-07 17:02:23,735 INFO  [1] TemaASSE_UscoiuDorin.Program - Application started.
+2026-01-07 17:02:23,746 INFO  [1] TemaASSE_UscoiuDorin.Program - Application stopped.
+2026-01-07 17:03:52,142 INFO  [1] TemaASSE_UscoiuDorin.Program - Application started.
+2026-01-07 17:03:52,154 INFO  [1] TemaASSE_UscoiuDorin.Program - Application stopped.
+2026-01-07 17:04:24,484 INFO  [1] TemaASSE_UscoiuDorin.Program - Application started.
+2026-01-07 17:04:24,498 INFO  [1] TemaASSE_UscoiuDorin.Program - Application stopped.
+2026-01-08 19:10:33,971 INFO  [1] TemaASSE_UscoiuDorin.Program - Application started.
+2026-01-08 19:10:33,982 INFO  [1] TemaASSE_UscoiuDorin.Program - Application stopped.
+2026-01-09 11:22:22,279 INFO  [1] TemaASSE_UscoiuDorin.Program - Application started.
+2026-01-09 11:22:22,291 INFO  [1] TemaASSE_UscoiuDorin.Program - Application stopped.
+2026-01-09 12:49:27,592 INFO  [1] TemaASSE_UscoiuDorin.Program - Application started.
+2026-01-09 12:49:27,602 INFO  [1] TemaASSE_UscoiuDorin.Program - Application stopped.
+2026-01-09 15:05:21,470 INFO  [1] TemaASSE_UscoiuDorin.Program - Application started.
+2026-01-09 15:05:21,481 INFO  [1] TemaASSE_UscoiuDorin.Program - Application stopped.
+2026-01-09 15:20:10,701 INFO  [1] TemaASSE_UscoiuDorin.Program - Application started.
+2026-01-09 15:20:16,125 INFO  [1] TemaASSE_UscoiuDorin.Program - Populating demo rows...
+2026-01-09 15:20:18,014 INFO  [1] TemaASSE_UscoiuDorin.Program - Created domain: Id=1305, Name=DEMO_SCIENCE, ParentId=
+2026-01-09 15:20:18,060 INFO  [1] TemaASSE_UscoiuDorin.Program - Created domain: Id=1306, Name=DEMO_CS, ParentId=1305
+2026-01-09 15:20:18,086 INFO  [1] Service.ReaderService - CreateReader called.
+2026-01-09 15:20:18,128 INFO  [1] Service.ReaderService - CreateReader succeeded. readerId=964
+2026-01-09 15:20:18,129 INFO  [1] TemaASSE_UscoiuDorin.Program - Created reader: Id=964, Email=demo.staff@local, IsStaff=True
+2026-01-09 15:20:18,133 INFO  [1] Service.ReaderService - CreateReader called.
+2026-01-09 15:20:18,140 INFO  [1] Service.ReaderService - CreateReader succeeded. readerId=965
+2026-01-09 15:20:18,140 INFO  [1] TemaASSE_UscoiuDorin.Program - Created reader: Id=965, Email=demo.user@local, IsStaff=False
+2026-01-09 15:20:18,157 INFO  [1] Service.BookService - Creating book. Title=Demo Book, ISBN=DEMO-ISBN-0001
+2026-01-09 15:20:18,176 WARN  [1] Service.BookService - Book validation failed. Title=Demo Book, Errors=ISBN must be between 6 and 17 digits
+2026-01-09 15:20:18,202 ERROR [1] Service.BookService - Error creating book. Title=Demo Book, ISBN=DEMO-ISBN-0001
+FluentValidation.ValidationException: ISBN must be between 6 and 17 digits
+   at Service.BookService.CreateBook(Book book, List`1 domainIds) in D:\TMISS\TemaASSE_UscoiuDorin-master\Service\BookService.cs:line 251
+2026-01-09 15:20:18,229 FATAL [1] TemaASSE_UscoiuDorin.Program - Unhandled exception.
+FluentValidation.ValidationException: ISBN must be between 6 and 17 digits
+   at Service.BookService.CreateBook(Book book, List`1 domainIds) in D:\TMISS\TemaASSE_UscoiuDorin-master\Service\BookService.cs:line 311
+   at TemaASSE_UscoiuDorin.Program.EnsureBook(LibraryDbContext context, BookService bookService, String isbn, String title, List`1 domainIds) in D:\TMISS\TemaASSE_UscoiuDorin-master\TemaASSE_UscoiuDorin\Program.cs:line 275
+   at TemaASSE_UscoiuDorin.Program.Populate(LibraryDbContext context, BookService bookService, ReaderService readerService, EditionService editionService, BorrowingService borrowingService) in D:\TMISS\TemaASSE_UscoiuDorin-master\TemaASSE_UscoiuDorin\Program.cs:line 100
+   at TemaASSE_UscoiuDorin.Program.RunDemo() in D:\TMISS\TemaASSE_UscoiuDorin-master\TemaASSE_UscoiuDorin\Program.cs:line 78
+   at TemaASSE_UscoiuDorin.Program.Main(String[] args) in D:\TMISS\TemaASSE_UscoiuDorin-master\TemaASSE_UscoiuDorin\Program.cs:line 30
+2026-01-09 15:21:33,151 INFO  [1] TemaASSE_UscoiuDorin.Program - Application started.
+2026-01-09 15:21:34,814 INFO  [1] TemaASSE_UscoiuDorin.Program - Populating demo rows...
+2026-01-09 15:21:36,328 INFO  [1] Service.BookService - Creating book. Title=Demo Book, ISBN=345430001
+2026-01-09 15:21:36,378 WARN  [1] Service.BookService - Domain hierarchy conflict. BookTitle=Demo Book, DomainA=1305, DomainB=1306
+2026-01-09 15:21:36,393 ERROR [1] Service.BookService - Error creating book. Title=Demo Book, ISBN=345430001
+System.InvalidOperationException: O carte nu poate fi în acela?i timp într-un domeniu p?rinte ?i unul descendent.
+   at Service.BookService.CreateBook(Book book, List`1 domainIds) in D:\TMISS\TemaASSE_UscoiuDorin-master\Service\BookService.cs:line 298
+2026-01-09 15:21:36,401 FATAL [1] TemaASSE_UscoiuDorin.Program - Unhandled exception.
+System.InvalidOperationException: O carte nu poate fi în acela?i timp într-un domeniu p?rinte ?i unul descendent.
+   at Service.BookService.CreateBook(Book book, List`1 domainIds) in D:\TMISS\TemaASSE_UscoiuDorin-master\Service\BookService.cs:line 311
+   at TemaASSE_UscoiuDorin.Program.EnsureBook(LibraryDbContext context, BookService bookService, String isbn, String title, List`1 domainIds) in D:\TMISS\TemaASSE_UscoiuDorin-master\TemaASSE_UscoiuDorin\Program.cs:line 275
+   at TemaASSE_UscoiuDorin.Program.Populate(LibraryDbContext context, BookService bookService, ReaderService readerService, EditionService editionService, BorrowingService borrowingService) in D:\TMISS\TemaASSE_UscoiuDorin-master\TemaASSE_UscoiuDorin\Program.cs:line 100
+   at TemaASSE_UscoiuDorin.Program.RunDemo() in D:\TMISS\TemaASSE_UscoiuDorin-master\TemaASSE_UscoiuDorin\Program.cs:line 78
+   at TemaASSE_UscoiuDorin.Program.Main(String[] args) in D:\TMISS\TemaASSE_UscoiuDorin-master\TemaASSE_UscoiuDorin\Program.cs:line 30
+2026-01-09 15:22:44,430 INFO  [1] TemaASSE_UscoiuDorin.Program - Application started.
+2026-01-09 15:22:44,441 INFO  [1] TemaASSE_UscoiuDorin.Program - Application stopped.
+2026-01-09 15:29:59,468 INFO  [1] TemaASSE_UscoiuDorin.Program - Application started.
+2026-01-09 15:30:04,185 INFO  [1] TemaASSE_UscoiuDorin.Program - Populate started.
+2026-01-09 15:30:04,777 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:30:04 PM +02:00
+
+2026-01-09 15:30:04,779 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+SELECT Count(*)
+FROM INFORMATION_SCHEMA.TABLES AS t
+WHERE t.TABLE_SCHEMA + '.' + t.TABLE_NAME IN ('dbo.Author','dbo.Book','dbo.Borrowing','dbo.LoanExtension','dbo.Reader','dbo.BookDomain','dbo.Edition','dbo.BookAuthor','dbo.BookBookDomain')
+    OR t.TABLE_NAME = 'EdmMetadata'
+2026-01-09 15:30:04,779 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:04,780 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:30:04 PM +02:00
+
+2026-01-09 15:30:04,831 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 50 ms with result: 9
+
+2026-01-09 15:30:04,831 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:04,832 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:30:04 PM +02:00
+
+2026-01-09 15:30:04,964 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:30:04 PM +02:00
+
+2026-01-09 15:30:05,389 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT 
+    [GroupBy1].[A1] AS [C1]
+    FROM ( SELECT 
+        COUNT(1) AS [A1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [GroupBy1]
+2026-01-09 15:30:05,390 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:05,390 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: 'Data.Migrations.Configuration' (Type = String, Size = 4000)
+
+2026-01-09 15:30:05,391 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:30:05 PM +02:00
+
+2026-01-09 15:30:05,407 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 16 ms with result: SqlDataReader
+
+2026-01-09 15:30:05,408 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:05,411 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:30:05 PM +02:00
+
+2026-01-09 15:30:05,417 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:30:05 PM +02:00
+
+2026-01-09 15:30:05,448 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Project1].[C1] AS [C1], 
+    [Project1].[MigrationId] AS [MigrationId], 
+    [Project1].[Model] AS [Model], 
+    [Project1].[ProductVersion] AS [ProductVersion]
+    FROM ( SELECT 
+        [Extent1].[MigrationId] AS [MigrationId], 
+        [Extent1].[Model] AS [Model], 
+        [Extent1].[ProductVersion] AS [ProductVersion], 
+        1 AS [C1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [Project1]
+    ORDER BY [Project1].[MigrationId] DESC
+2026-01-09 15:30:05,449 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:05,450 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: 'Data.Migrations.Configuration' (Type = String, Size = 4000)
+
+2026-01-09 15:30:05,450 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:30:05 PM +02:00
+
+2026-01-09 15:30:05,459 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 9 ms with result: SqlDataReader
+
+2026-01-09 15:30:05,459 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:05,462 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:30:05 PM +02:00
+
+2026-01-09 15:30:05,479 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:30:05 PM +02:00
+
+2026-01-09 15:30:05,566 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[ParentDomainId] AS [ParentDomainId]
+    FROM [dbo].[BookDomain] AS [Extent1]
+    WHERE [Extent1].[Name] = @p__linq__0
+2026-01-09 15:30:05,567 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:05,567 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: 'DEMO_SCIENCE' (Type = String, Size = 4000)
+
+2026-01-09 15:30:05,568 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:30:05 PM +02:00
+
+2026-01-09 15:30:05,579 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 11 ms with result: SqlDataReader
+
+2026-01-09 15:30:05,579 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:05,606 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:30:05 PM +02:00
+
+2026-01-09 15:30:05,607 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:30:05 PM +02:00
+
+2026-01-09 15:30:05,608 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[ParentDomainId] AS [ParentDomainId]
+    FROM [dbo].[BookDomain] AS [Extent1]
+    WHERE [Extent1].[Name] = @p__linq__0
+2026-01-09 15:30:05,609 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:05,609 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: 'DEMO_CS' (Type = String, Size = 4000)
+
+2026-01-09 15:30:05,609 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:30:05 PM +02:00
+
+2026-01-09 15:30:05,615 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 5 ms with result: SqlDataReader
+
+2026-01-09 15:30:05,615 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:05,627 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:30:05 PM +02:00
+
+2026-01-09 15:30:05,628 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:30:05 PM +02:00
+
+2026-01-09 15:30:05,642 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[FirstName] AS [FirstName], 
+    [Extent1].[LastName] AS [LastName], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[PhoneNumber] AS [PhoneNumber], 
+    [Extent1].[Email] AS [Email], 
+    [Extent1].[RegistrationDate] AS [RegistrationDate], 
+    [Extent1].[IsStaff] AS [IsStaff]
+    FROM [dbo].[Reader] AS [Extent1]
+    WHERE ([Extent1].[Email] = @p__linq__0) OR (([Extent1].[Email] IS NULL) AND (@p__linq__0 IS NULL))
+2026-01-09 15:30:05,643 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:05,643 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: 'demo.staff@local' (Type = String, Size = 4000)
+
+2026-01-09 15:30:05,643 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:30:05 PM +02:00
+
+2026-01-09 15:30:05,650 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 7 ms with result: SqlDataReader
+
+2026-01-09 15:30:05,650 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:05,652 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:30:05 PM +02:00
+
+2026-01-09 15:30:05,652 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:30:05 PM +02:00
+
+2026-01-09 15:30:05,652 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[FirstName] AS [FirstName], 
+    [Extent1].[LastName] AS [LastName], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[PhoneNumber] AS [PhoneNumber], 
+    [Extent1].[Email] AS [Email], 
+    [Extent1].[RegistrationDate] AS [RegistrationDate], 
+    [Extent1].[IsStaff] AS [IsStaff]
+    FROM [dbo].[Reader] AS [Extent1]
+    WHERE ([Extent1].[Email] = @p__linq__0) OR (([Extent1].[Email] IS NULL) AND (@p__linq__0 IS NULL))
+2026-01-09 15:30:05,653 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:05,653 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: 'demo.user@local' (Type = String, Size = 4000)
+
+2026-01-09 15:30:05,653 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:30:05 PM +02:00
+
+2026-01-09 15:30:05,658 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 5 ms with result: SqlDataReader
+
+2026-01-09 15:30:05,658 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:05,658 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:30:05 PM +02:00
+
+2026-01-09 15:30:05,660 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:30:05 PM +02:00
+
+2026-01-09 15:30:05,664 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Title] AS [Title], 
+    [Extent1].[Description] AS [Description], 
+    [Extent1].[ISBN] AS [ISBN], 
+    [Extent1].[TotalCopies] AS [TotalCopies], 
+    [Extent1].[ReadingRoomOnlyCopies] AS [ReadingRoomOnlyCopies]
+    FROM [dbo].[Book] AS [Extent1]
+    WHERE ([Extent1].[ISBN] = @p__linq__0) OR (([Extent1].[ISBN] IS NULL) AND (@p__linq__0 IS NULL))
+2026-01-09 15:30:05,664 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:05,664 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: '23454320001' (Type = String, Size = 4000)
+
+2026-01-09 15:30:05,664 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:30:05 PM +02:00
+
+2026-01-09 15:30:05,673 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 8 ms with result: SqlDataReader
+
+2026-01-09 15:30:05,673 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:05,673 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:30:05 PM +02:00
+
+2026-01-09 15:30:05,675 INFO  [1] Service.BookService - Creating book. Title=Demo Book, ISBN=23454320001
+2026-01-09 15:30:05,703 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:30:05 PM +02:00
+
+2026-01-09 15:30:05,703 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Title] AS [Title], 
+    [Extent1].[Description] AS [Description], 
+    [Extent1].[ISBN] AS [ISBN], 
+    [Extent1].[TotalCopies] AS [TotalCopies], 
+    [Extent1].[ReadingRoomOnlyCopies] AS [ReadingRoomOnlyCopies]
+    FROM [dbo].[Book] AS [Extent1]
+    WHERE ([Extent1].[ISBN] = @p__linq__0) OR (([Extent1].[ISBN] IS NULL) AND (@p__linq__0 IS NULL))
+2026-01-09 15:30:05,703 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:05,703 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: '23454320001' (Type = String, Size = 4000)
+
+2026-01-09 15:30:05,703 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:30:05 PM +02:00
+
+2026-01-09 15:30:05,709 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 6 ms with result: SqlDataReader
+
+2026-01-09 15:30:05,709 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:05,709 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:30:05 PM +02:00
+
+2026-01-09 15:30:05,726 WARN  [1] Service.BookService - Domain hierarchy conflict. BookTitle=Demo Book, DomainA=1305, DomainB=1306
+2026-01-09 15:30:05,742 ERROR [1] Service.BookService - Error creating book. Title=Demo Book, ISBN=23454320001
+System.InvalidOperationException: O carte nu poate fi în acela?i timp într-un domeniu p?rinte ?i unul descendent.
+   at Service.BookService.CreateBook(Book book, List`1 domainIds) in D:\TMISS\TemaASSE_UscoiuDorin-master\Service\BookService.cs:line 298
+2026-01-09 15:30:05,751 FATAL [1] TemaASSE_UscoiuDorin.Program - Unhandled exception.
+System.InvalidOperationException: O carte nu poate fi în acela?i timp într-un domeniu p?rinte ?i unul descendent.
+   at Service.BookService.CreateBook(Book book, List`1 domainIds) in D:\TMISS\TemaASSE_UscoiuDorin-master\Service\BookService.cs:line 311
+   at TemaASSE_UscoiuDorin.Program.EnsureBook(LibraryDbContext context, BookService bookService, String isbn, String title, List`1 domainIds) in D:\TMISS\TemaASSE_UscoiuDorin-master\TemaASSE_UscoiuDorin\Program.cs:line 347
+   at TemaASSE_UscoiuDorin.Program.Populate(LibraryDbContext context, BookService bookService, ReaderService readerService, EditionService editionService) in D:\TMISS\TemaASSE_UscoiuDorin-master\TemaASSE_UscoiuDorin\Program.cs:line 141
+   at TemaASSE_UscoiuDorin.Program.RunInteractive() in D:\TMISS\TemaASSE_UscoiuDorin-master\TemaASSE_UscoiuDorin\Program.cs:line 94
+   at TemaASSE_UscoiuDorin.Program.Main(String[] args) in D:\TMISS\TemaASSE_UscoiuDorin-master\TemaASSE_UscoiuDorin\Program.cs:line 37
+2026-01-09 15:30:40,204 INFO  [1] TemaASSE_UscoiuDorin.Program - Application started.
+2026-01-09 15:30:42,912 INFO  [1] TemaASSE_UscoiuDorin.Program - Depopulate started.
+2026-01-09 15:30:43,520 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:30:43 PM +02:00
+
+2026-01-09 15:30:43,521 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+SELECT Count(*)
+FROM INFORMATION_SCHEMA.TABLES AS t
+WHERE t.TABLE_SCHEMA + '.' + t.TABLE_NAME IN ('dbo.Author','dbo.Book','dbo.Borrowing','dbo.LoanExtension','dbo.Reader','dbo.BookDomain','dbo.Edition','dbo.BookAuthor','dbo.BookBookDomain')
+    OR t.TABLE_NAME = 'EdmMetadata'
+2026-01-09 15:30:43,521 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:43,522 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:30:43 PM +02:00
+
+2026-01-09 15:30:43,588 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 65 ms with result: 9
+
+2026-01-09 15:30:43,589 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:43,589 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:30:43 PM +02:00
+
+2026-01-09 15:30:43,755 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:30:43 PM +02:00
+
+2026-01-09 15:30:44,205 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT 
+    [GroupBy1].[A1] AS [C1]
+    FROM ( SELECT 
+        COUNT(1) AS [A1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [GroupBy1]
+2026-01-09 15:30:44,206 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:44,207 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: 'Data.Migrations.Configuration' (Type = String, Size = 4000)
+
+2026-01-09 15:30:44,207 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:30:44 PM +02:00
+
+2026-01-09 15:30:44,225 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 17 ms with result: SqlDataReader
+
+2026-01-09 15:30:44,225 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:44,229 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:30:44 PM +02:00
+
+2026-01-09 15:30:44,235 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:30:44 PM +02:00
+
+2026-01-09 15:30:44,266 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Project1].[C1] AS [C1], 
+    [Project1].[MigrationId] AS [MigrationId], 
+    [Project1].[Model] AS [Model], 
+    [Project1].[ProductVersion] AS [ProductVersion]
+    FROM ( SELECT 
+        [Extent1].[MigrationId] AS [MigrationId], 
+        [Extent1].[Model] AS [Model], 
+        [Extent1].[ProductVersion] AS [ProductVersion], 
+        1 AS [C1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [Project1]
+    ORDER BY [Project1].[MigrationId] DESC
+2026-01-09 15:30:44,267 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:44,267 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: 'Data.Migrations.Configuration' (Type = String, Size = 4000)
+
+2026-01-09 15:30:44,267 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:30:44 PM +02:00
+
+2026-01-09 15:30:44,279 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 11 ms with result: SqlDataReader
+
+2026-01-09 15:30:44,279 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:44,282 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:30:44 PM +02:00
+
+2026-01-09 15:30:44,308 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:30:44 PM +02:00
+
+2026-01-09 15:30:44,423 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[ReaderId] AS [ReaderId], 
+    [Extent1].[StaffId] AS [StaffId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[BorrowingDate] AS [BorrowingDate], 
+    [Extent1].[DueDate] AS [DueDate], 
+    [Extent1].[ReturnDate] AS [ReturnDate], 
+    [Extent1].[IsActive] AS [IsActive], 
+    [Extent1].[TotalExtensionDays] AS [TotalExtensionDays], 
+    [Extent1].[LastExtensionDate] AS [LastExtensionDate], 
+    [Extent1].[InitialBorrowingDays] AS [InitialBorrowingDays]
+    FROM    [dbo].[Borrowing] AS [Extent1]
+    INNER JOIN [dbo].[Book] AS [Extent2] ON [Extent1].[BookId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Reader] AS [Extent3] ON [Extent1].[ReaderId] = [Extent3].[Id]
+    LEFT OUTER JOIN [dbo].[Reader] AS [Extent4] ON [Extent1].[StaffId] = [Extent4].[Id]
+    WHERE (N'23454320001' = [Extent2].[ISBN]) OR (N'demo.user@local' = [Extent3].[Email]) OR (N'demo.staff@local' = [Extent3].[Email]) OR (([Extent4].[Id] IS NOT NULL) AND ([Extent4].[Email] IN (N'demo.user@local',N'demo.staff@local')))
+2026-01-09 15:30:44,424 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:44,424 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:30:44 PM +02:00
+
+2026-01-09 15:30:44,454 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 30 ms with result: SqlDataReader
+
+2026-01-09 15:30:44,455 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:44,455 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:30:44 PM +02:00
+
+2026-01-09 15:30:44,455 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:30:44 PM +02:00
+
+2026-01-09 15:30:44,461 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[Publisher] AS [Publisher], 
+    [Extent1].[Year] AS [Year], 
+    [Extent1].[EditionNumber] AS [EditionNumber], 
+    [Extent1].[PageCount] AS [PageCount], 
+    [Extent1].[BookType] AS [BookType]
+    FROM  [dbo].[Edition] AS [Extent1]
+    INNER JOIN [dbo].[Book] AS [Extent2] ON [Extent1].[BookId] = [Extent2].[Id]
+    WHERE N'23454320001' = [Extent2].[ISBN]
+2026-01-09 15:30:44,461 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:44,461 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:30:44 PM +02:00
+
+2026-01-09 15:30:44,473 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 11 ms with result: SqlDataReader
+
+2026-01-09 15:30:44,473 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:44,473 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:30:44 PM +02:00
+
+2026-01-09 15:30:44,474 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:30:44 PM +02:00
+
+2026-01-09 15:30:44,479 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Title] AS [Title], 
+    [Extent1].[Description] AS [Description], 
+    [Extent1].[ISBN] AS [ISBN], 
+    [Extent1].[TotalCopies] AS [TotalCopies], 
+    [Extent1].[ReadingRoomOnlyCopies] AS [ReadingRoomOnlyCopies]
+    FROM [dbo].[Book] AS [Extent1]
+    WHERE N'23454320001' = [Extent1].[ISBN]
+2026-01-09 15:30:44,480 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:44,480 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:30:44 PM +02:00
+
+2026-01-09 15:30:44,487 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 7 ms with result: SqlDataReader
+
+2026-01-09 15:30:44,487 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:44,488 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:30:44 PM +02:00
+
+2026-01-09 15:30:44,489 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:30:44 PM +02:00
+
+2026-01-09 15:30:44,507 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[FirstName] AS [FirstName], 
+    [Extent1].[LastName] AS [LastName], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[PhoneNumber] AS [PhoneNumber], 
+    [Extent1].[Email] AS [Email], 
+    [Extent1].[RegistrationDate] AS [RegistrationDate], 
+    [Extent1].[IsStaff] AS [IsStaff]
+    FROM [dbo].[Reader] AS [Extent1]
+    WHERE [Extent1].[Email] IN (N'demo.user@local',N'demo.staff@local')
+2026-01-09 15:30:44,508 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:44,508 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:30:44 PM +02:00
+
+2026-01-09 15:30:44,516 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 8 ms with result: SqlDataReader
+
+2026-01-09 15:30:44,516 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:44,537 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:30:44 PM +02:00
+
+2026-01-09 15:30:44,567 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:30:44 PM +02:00
+
+2026-01-09 15:30:44,570 DEBUG [1] TemaASSE_UscoiuDorin.Program - Started transaction at 1/9/2026 3:30:44 PM +02:00
+
+2026-01-09 15:30:44,623 DEBUG [1] TemaASSE_UscoiuDorin.Program - DELETE [dbo].[Reader]
+WHERE ([Id] = @0)
+2026-01-09 15:30:44,624 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:44,625 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @0: '964' (Type = Int32)
+
+2026-01-09 15:30:44,625 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:30:44 PM +02:00
+
+2026-01-09 15:30:44,639 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 13 ms with result: 1
+
+2026-01-09 15:30:44,639 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:44,640 DEBUG [1] TemaASSE_UscoiuDorin.Program - DELETE [dbo].[Reader]
+WHERE ([Id] = @0)
+2026-01-09 15:30:44,640 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:44,640 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @0: '965' (Type = Int32)
+
+2026-01-09 15:30:44,640 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:30:44 PM +02:00
+
+2026-01-09 15:30:44,646 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 5 ms with result: 1
+
+2026-01-09 15:30:44,646 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:44,649 DEBUG [1] TemaASSE_UscoiuDorin.Program - Committed transaction at 1/9/2026 3:30:44 PM +02:00
+
+2026-01-09 15:30:44,650 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:30:44 PM +02:00
+
+2026-01-09 15:30:44,652 INFO  [1] TemaASSE_UscoiuDorin.Program - Deleted readers: 2
+2026-01-09 15:30:44,655 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:30:44 PM +02:00
+
+2026-01-09 15:30:44,662 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[ParentDomainId] AS [ParentDomainId]
+    FROM [dbo].[BookDomain] AS [Extent1]
+    WHERE [Extent1].[Name] IN (N'DEMO_CS',N'DEMO_SCIENCE')
+2026-01-09 15:30:44,662 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:44,662 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:30:44 PM +02:00
+
+2026-01-09 15:30:44,670 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 8 ms with result: SqlDataReader
+
+2026-01-09 15:30:44,671 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:44,684 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:30:44 PM +02:00
+
+2026-01-09 15:30:44,696 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:30:44 PM +02:00
+
+2026-01-09 15:30:44,696 DEBUG [1] TemaASSE_UscoiuDorin.Program - Started transaction at 1/9/2026 3:30:44 PM +02:00
+
+2026-01-09 15:30:44,702 DEBUG [1] TemaASSE_UscoiuDorin.Program - DELETE [dbo].[BookDomain]
+WHERE ([Id] = @0)
+2026-01-09 15:30:44,702 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:44,703 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @0: '1306' (Type = Int32)
+
+2026-01-09 15:30:44,703 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:30:44 PM +02:00
+
+2026-01-09 15:30:44,733 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 30 ms with result: 1
+
+2026-01-09 15:30:44,733 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:44,734 DEBUG [1] TemaASSE_UscoiuDorin.Program - DELETE [dbo].[BookDomain]
+WHERE ([Id] = @0)
+2026-01-09 15:30:44,734 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:44,734 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @0: '1305' (Type = Int32)
+
+2026-01-09 15:30:44,734 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:30:44 PM +02:00
+
+2026-01-09 15:30:44,738 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 3 ms with result: 1
+
+2026-01-09 15:30:44,738 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:44,739 DEBUG [1] TemaASSE_UscoiuDorin.Program - Committed transaction at 1/9/2026 3:30:44 PM +02:00
+
+2026-01-09 15:30:44,739 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:30:44 PM +02:00
+
+2026-01-09 15:30:44,739 INFO  [1] TemaASSE_UscoiuDorin.Program - Deleted domains: 2
+2026-01-09 15:30:44,739 INFO  [1] TemaASSE_UscoiuDorin.Program - Depopulate finished.
+2026-01-09 15:30:44,740 INFO  [1] TemaASSE_UscoiuDorin.Program - Application stopped.
+2026-01-09 15:30:51,581 INFO  [1] TemaASSE_UscoiuDorin.Program - Application started.
+2026-01-09 15:30:57,715 INFO  [1] TemaASSE_UscoiuDorin.Program - Populate started.
+2026-01-09 15:30:58,258 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:30:58 PM +02:00
+
+2026-01-09 15:30:58,259 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+SELECT Count(*)
+FROM INFORMATION_SCHEMA.TABLES AS t
+WHERE t.TABLE_SCHEMA + '.' + t.TABLE_NAME IN ('dbo.Author','dbo.Book','dbo.Borrowing','dbo.LoanExtension','dbo.Reader','dbo.BookDomain','dbo.Edition','dbo.BookAuthor','dbo.BookBookDomain')
+    OR t.TABLE_NAME = 'EdmMetadata'
+2026-01-09 15:30:58,259 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:58,259 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:30:58 PM +02:00
+
+2026-01-09 15:30:58,298 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 37 ms with result: 9
+
+2026-01-09 15:30:58,298 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:58,298 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:30:58 PM +02:00
+
+2026-01-09 15:30:58,436 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:30:58 PM +02:00
+
+2026-01-09 15:30:58,917 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT 
+    [GroupBy1].[A1] AS [C1]
+    FROM ( SELECT 
+        COUNT(1) AS [A1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [GroupBy1]
+2026-01-09 15:30:58,917 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:58,918 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: 'Data.Migrations.Configuration' (Type = String, Size = 4000)
+
+2026-01-09 15:30:58,918 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:30:58 PM +02:00
+
+2026-01-09 15:30:58,933 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 14 ms with result: SqlDataReader
+
+2026-01-09 15:30:58,933 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:58,937 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:30:58 PM +02:00
+
+2026-01-09 15:30:58,943 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:30:58 PM +02:00
+
+2026-01-09 15:30:58,972 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Project1].[C1] AS [C1], 
+    [Project1].[MigrationId] AS [MigrationId], 
+    [Project1].[Model] AS [Model], 
+    [Project1].[ProductVersion] AS [ProductVersion]
+    FROM ( SELECT 
+        [Extent1].[MigrationId] AS [MigrationId], 
+        [Extent1].[Model] AS [Model], 
+        [Extent1].[ProductVersion] AS [ProductVersion], 
+        1 AS [C1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [Project1]
+    ORDER BY [Project1].[MigrationId] DESC
+2026-01-09 15:30:58,973 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:58,973 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: 'Data.Migrations.Configuration' (Type = String, Size = 4000)
+
+2026-01-09 15:30:58,973 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:30:58 PM +02:00
+
+2026-01-09 15:30:58,985 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 12 ms with result: SqlDataReader
+
+2026-01-09 15:30:58,985 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:58,989 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:30:58 PM +02:00
+
+2026-01-09 15:30:59,015 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:30:59 PM +02:00
+
+2026-01-09 15:30:59,086 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[ParentDomainId] AS [ParentDomainId]
+    FROM [dbo].[BookDomain] AS [Extent1]
+    WHERE [Extent1].[Name] = @p__linq__0
+2026-01-09 15:30:59,087 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:59,087 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: 'DEMO_SCIENCE' (Type = String, Size = 4000)
+
+2026-01-09 15:30:59,088 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:30:59 PM +02:00
+
+2026-01-09 15:30:59,097 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 8 ms with result: SqlDataReader
+
+2026-01-09 15:30:59,097 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:59,097 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:30:59 PM +02:00
+
+2026-01-09 15:30:59,158 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:30:59 PM +02:00
+
+2026-01-09 15:30:59,162 DEBUG [1] TemaASSE_UscoiuDorin.Program - Started transaction at 1/9/2026 3:30:59 PM +02:00
+
+2026-01-09 15:30:59,221 DEBUG [1] TemaASSE_UscoiuDorin.Program - INSERT [dbo].[BookDomain]([Name], [ParentDomainId])
+VALUES (@0, NULL)
+SELECT [Id]
+FROM [dbo].[BookDomain]
+WHERE @@ROWCOUNT > 0 AND [Id] = scope_identity()
+2026-01-09 15:30:59,221 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:59,221 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @0: 'DEMO_SCIENCE' (Type = String, Size = 150)
+
+2026-01-09 15:30:59,222 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:30:59 PM +02:00
+
+2026-01-09 15:30:59,232 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 10 ms with result: SqlDataReader
+
+2026-01-09 15:30:59,233 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:59,243 DEBUG [1] TemaASSE_UscoiuDorin.Program - Committed transaction at 1/9/2026 3:30:59 PM +02:00
+
+2026-01-09 15:30:59,243 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:30:59 PM +02:00
+
+2026-01-09 15:30:59,251 INFO  [1] TemaASSE_UscoiuDorin.Program - Created domain: Id=1307, Name=DEMO_SCIENCE, ParentId=
+2026-01-09 15:30:59,253 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:30:59 PM +02:00
+
+2026-01-09 15:30:59,253 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[ParentDomainId] AS [ParentDomainId]
+    FROM [dbo].[BookDomain] AS [Extent1]
+    WHERE [Extent1].[Name] = @p__linq__0
+2026-01-09 15:30:59,254 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:59,254 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: 'DEMO_CS' (Type = String, Size = 4000)
+
+2026-01-09 15:30:59,255 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:30:59 PM +02:00
+
+2026-01-09 15:30:59,264 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 9 ms with result: SqlDataReader
+
+2026-01-09 15:30:59,265 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:59,265 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:30:59 PM +02:00
+
+2026-01-09 15:30:59,279 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:30:59 PM +02:00
+
+2026-01-09 15:30:59,279 DEBUG [1] TemaASSE_UscoiuDorin.Program - Started transaction at 1/9/2026 3:30:59 PM +02:00
+
+2026-01-09 15:30:59,283 DEBUG [1] TemaASSE_UscoiuDorin.Program - INSERT [dbo].[BookDomain]([Name], [ParentDomainId])
+VALUES (@0, @1)
+SELECT [Id]
+FROM [dbo].[BookDomain]
+WHERE @@ROWCOUNT > 0 AND [Id] = scope_identity()
+2026-01-09 15:30:59,284 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:59,284 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @0: 'DEMO_CS' (Type = String, Size = 150)
+
+2026-01-09 15:30:59,284 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @1: '1307' (Type = Int32)
+
+2026-01-09 15:30:59,284 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:30:59 PM +02:00
+
+2026-01-09 15:30:59,293 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 8 ms with result: SqlDataReader
+
+2026-01-09 15:30:59,293 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:59,294 DEBUG [1] TemaASSE_UscoiuDorin.Program - Committed transaction at 1/9/2026 3:30:59 PM +02:00
+
+2026-01-09 15:30:59,295 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:30:59 PM +02:00
+
+2026-01-09 15:30:59,298 INFO  [1] TemaASSE_UscoiuDorin.Program - Created domain: Id=1308, Name=DEMO_CS, ParentId=1307
+2026-01-09 15:30:59,299 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:30:59 PM +02:00
+
+2026-01-09 15:30:59,315 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[FirstName] AS [FirstName], 
+    [Extent1].[LastName] AS [LastName], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[PhoneNumber] AS [PhoneNumber], 
+    [Extent1].[Email] AS [Email], 
+    [Extent1].[RegistrationDate] AS [RegistrationDate], 
+    [Extent1].[IsStaff] AS [IsStaff]
+    FROM [dbo].[Reader] AS [Extent1]
+    WHERE ([Extent1].[Email] = @p__linq__0) OR (([Extent1].[Email] IS NULL) AND (@p__linq__0 IS NULL))
+2026-01-09 15:30:59,316 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:59,316 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: 'demo.staff@local' (Type = String, Size = 4000)
+
+2026-01-09 15:30:59,316 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:30:59 PM +02:00
+
+2026-01-09 15:30:59,323 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 6 ms with result: SqlDataReader
+
+2026-01-09 15:30:59,323 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:59,323 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:30:59 PM +02:00
+
+2026-01-09 15:30:59,324 INFO  [1] Service.ReaderService - CreateReader called.
+2026-01-09 15:30:59,344 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:30:59 PM +02:00
+
+2026-01-09 15:30:59,345 DEBUG [1] TemaASSE_UscoiuDorin.Program - Started transaction at 1/9/2026 3:30:59 PM +02:00
+
+2026-01-09 15:30:59,346 DEBUG [1] TemaASSE_UscoiuDorin.Program - INSERT [dbo].[Reader]([FirstName], [LastName], [Address], [PhoneNumber], [Email], [RegistrationDate], [IsStaff])
+VALUES (@0, @1, @2, @3, @4, @5, @6)
+SELECT [Id]
+FROM [dbo].[Reader]
+WHERE @@ROWCOUNT > 0 AND [Id] = scope_identity()
+2026-01-09 15:30:59,346 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:59,346 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @0: 'Demo' (Type = String, Size = 100)
+
+2026-01-09 15:30:59,346 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @1: 'Staff' (Type = String, Size = 100)
+
+2026-01-09 15:30:59,346 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @2: 'Demo Address' (Type = String, Size = 255)
+
+2026-01-09 15:30:59,346 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @3: '000' (Type = String, Size = 20)
+
+2026-01-09 15:30:59,347 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @4: 'demo.staff@local' (Type = String, Size = 150)
+
+2026-01-09 15:30:59,347 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @5: '1/9/2026 3:30:59 PM' (Type = DateTime2)
+
+2026-01-09 15:30:59,347 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @6: 'True' (Type = Boolean)
+
+2026-01-09 15:30:59,347 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:30:59 PM +02:00
+
+2026-01-09 15:30:59,367 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 19 ms with result: SqlDataReader
+
+2026-01-09 15:30:59,367 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:59,368 DEBUG [1] TemaASSE_UscoiuDorin.Program - Committed transaction at 1/9/2026 3:30:59 PM +02:00
+
+2026-01-09 15:30:59,368 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:30:59 PM +02:00
+
+2026-01-09 15:30:59,369 INFO  [1] Service.ReaderService - CreateReader succeeded. readerId=966
+2026-01-09 15:30:59,369 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:30:59 PM +02:00
+
+2026-01-09 15:30:59,369 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[FirstName] AS [FirstName], 
+    [Extent1].[LastName] AS [LastName], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[PhoneNumber] AS [PhoneNumber], 
+    [Extent1].[Email] AS [Email], 
+    [Extent1].[RegistrationDate] AS [RegistrationDate], 
+    [Extent1].[IsStaff] AS [IsStaff]
+    FROM [dbo].[Reader] AS [Extent1]
+    WHERE ([Extent1].[Email] = @p__linq__0) OR (([Extent1].[Email] IS NULL) AND (@p__linq__0 IS NULL))
+2026-01-09 15:30:59,370 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:59,370 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: 'demo.staff@local' (Type = String, Size = 4000)
+
+2026-01-09 15:30:59,370 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:30:59 PM +02:00
+
+2026-01-09 15:30:59,376 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 5 ms with result: SqlDataReader
+
+2026-01-09 15:30:59,376 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:59,377 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:30:59 PM +02:00
+
+2026-01-09 15:30:59,377 INFO  [1] TemaASSE_UscoiuDorin.Program - Created reader: Id=966, Email=demo.staff@local, IsStaff=True
+2026-01-09 15:30:59,378 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:30:59 PM +02:00
+
+2026-01-09 15:30:59,378 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[FirstName] AS [FirstName], 
+    [Extent1].[LastName] AS [LastName], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[PhoneNumber] AS [PhoneNumber], 
+    [Extent1].[Email] AS [Email], 
+    [Extent1].[RegistrationDate] AS [RegistrationDate], 
+    [Extent1].[IsStaff] AS [IsStaff]
+    FROM [dbo].[Reader] AS [Extent1]
+    WHERE ([Extent1].[Email] = @p__linq__0) OR (([Extent1].[Email] IS NULL) AND (@p__linq__0 IS NULL))
+2026-01-09 15:30:59,378 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:59,378 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: 'demo.user@local' (Type = String, Size = 4000)
+
+2026-01-09 15:30:59,378 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:30:59 PM +02:00
+
+2026-01-09 15:30:59,385 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 6 ms with result: SqlDataReader
+
+2026-01-09 15:30:59,385 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:59,385 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:30:59 PM +02:00
+
+2026-01-09 15:30:59,385 INFO  [1] Service.ReaderService - CreateReader called.
+2026-01-09 15:30:59,386 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:30:59 PM +02:00
+
+2026-01-09 15:30:59,387 DEBUG [1] TemaASSE_UscoiuDorin.Program - Started transaction at 1/9/2026 3:30:59 PM +02:00
+
+2026-01-09 15:30:59,387 DEBUG [1] TemaASSE_UscoiuDorin.Program - INSERT [dbo].[Reader]([FirstName], [LastName], [Address], [PhoneNumber], [Email], [RegistrationDate], [IsStaff])
+VALUES (@0, @1, @2, @3, @4, @5, @6)
+SELECT [Id]
+FROM [dbo].[Reader]
+WHERE @@ROWCOUNT > 0 AND [Id] = scope_identity()
+2026-01-09 15:30:59,387 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:59,387 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @0: 'Demo' (Type = String, Size = 100)
+
+2026-01-09 15:30:59,387 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @1: 'User' (Type = String, Size = 100)
+
+2026-01-09 15:30:59,388 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @2: 'Demo Address' (Type = String, Size = 255)
+
+2026-01-09 15:30:59,388 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @3: '000' (Type = String, Size = 20)
+
+2026-01-09 15:30:59,388 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @4: 'demo.user@local' (Type = String, Size = 150)
+
+2026-01-09 15:30:59,388 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @5: '1/9/2026 3:30:59 PM' (Type = DateTime2)
+
+2026-01-09 15:30:59,388 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @6: 'False' (Type = Boolean)
+
+2026-01-09 15:30:59,388 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:30:59 PM +02:00
+
+2026-01-09 15:30:59,398 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 10 ms with result: SqlDataReader
+
+2026-01-09 15:30:59,398 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:59,399 DEBUG [1] TemaASSE_UscoiuDorin.Program - Committed transaction at 1/9/2026 3:30:59 PM +02:00
+
+2026-01-09 15:30:59,399 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:30:59 PM +02:00
+
+2026-01-09 15:30:59,399 INFO  [1] Service.ReaderService - CreateReader succeeded. readerId=967
+2026-01-09 15:30:59,399 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:30:59 PM +02:00
+
+2026-01-09 15:30:59,400 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[FirstName] AS [FirstName], 
+    [Extent1].[LastName] AS [LastName], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[PhoneNumber] AS [PhoneNumber], 
+    [Extent1].[Email] AS [Email], 
+    [Extent1].[RegistrationDate] AS [RegistrationDate], 
+    [Extent1].[IsStaff] AS [IsStaff]
+    FROM [dbo].[Reader] AS [Extent1]
+    WHERE ([Extent1].[Email] = @p__linq__0) OR (([Extent1].[Email] IS NULL) AND (@p__linq__0 IS NULL))
+2026-01-09 15:30:59,400 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:59,400 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: 'demo.user@local' (Type = String, Size = 4000)
+
+2026-01-09 15:30:59,400 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:30:59 PM +02:00
+
+2026-01-09 15:30:59,406 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 4 ms with result: SqlDataReader
+
+2026-01-09 15:30:59,406 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:59,406 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:30:59 PM +02:00
+
+2026-01-09 15:30:59,406 INFO  [1] TemaASSE_UscoiuDorin.Program - Created reader: Id=967, Email=demo.user@local, IsStaff=False
+2026-01-09 15:30:59,408 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:30:59 PM +02:00
+
+2026-01-09 15:30:59,412 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Title] AS [Title], 
+    [Extent1].[Description] AS [Description], 
+    [Extent1].[ISBN] AS [ISBN], 
+    [Extent1].[TotalCopies] AS [TotalCopies], 
+    [Extent1].[ReadingRoomOnlyCopies] AS [ReadingRoomOnlyCopies]
+    FROM [dbo].[Book] AS [Extent1]
+    WHERE ([Extent1].[ISBN] = @p__linq__0) OR (([Extent1].[ISBN] IS NULL) AND (@p__linq__0 IS NULL))
+2026-01-09 15:30:59,413 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:59,413 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: '23454320001' (Type = String, Size = 4000)
+
+2026-01-09 15:30:59,413 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:30:59 PM +02:00
+
+2026-01-09 15:30:59,421 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 8 ms with result: SqlDataReader
+
+2026-01-09 15:30:59,421 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:59,421 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:30:59 PM +02:00
+
+2026-01-09 15:30:59,423 INFO  [1] Service.BookService - Creating book. Title=Demo Book, ISBN=23454320001
+2026-01-09 15:30:59,433 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:30:59 PM +02:00
+
+2026-01-09 15:30:59,434 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Title] AS [Title], 
+    [Extent1].[Description] AS [Description], 
+    [Extent1].[ISBN] AS [ISBN], 
+    [Extent1].[TotalCopies] AS [TotalCopies], 
+    [Extent1].[ReadingRoomOnlyCopies] AS [ReadingRoomOnlyCopies]
+    FROM [dbo].[Book] AS [Extent1]
+    WHERE ([Extent1].[ISBN] = @p__linq__0) OR (([Extent1].[ISBN] IS NULL) AND (@p__linq__0 IS NULL))
+2026-01-09 15:30:59,434 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:59,434 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: '23454320001' (Type = String, Size = 4000)
+
+2026-01-09 15:30:59,434 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:30:59 PM +02:00
+
+2026-01-09 15:30:59,443 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 8 ms with result: SqlDataReader
+
+2026-01-09 15:30:59,443 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:30:59,443 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:30:59 PM +02:00
+
+2026-01-09 15:30:59,448 WARN  [1] Service.BookService - Domain hierarchy conflict. BookTitle=Demo Book, DomainA=1307, DomainB=1308
+2026-01-09 15:30:59,468 ERROR [1] Service.BookService - Error creating book. Title=Demo Book, ISBN=23454320001
+System.InvalidOperationException: O carte nu poate fi în acela?i timp într-un domeniu p?rinte ?i unul descendent.
+   at Service.BookService.CreateBook(Book book, List`1 domainIds) in D:\TMISS\TemaASSE_UscoiuDorin-master\Service\BookService.cs:line 298
+2026-01-09 15:30:59,479 FATAL [1] TemaASSE_UscoiuDorin.Program - Unhandled exception.
+System.InvalidOperationException: O carte nu poate fi în acela?i timp într-un domeniu p?rinte ?i unul descendent.
+   at Service.BookService.CreateBook(Book book, List`1 domainIds) in D:\TMISS\TemaASSE_UscoiuDorin-master\Service\BookService.cs:line 311
+   at TemaASSE_UscoiuDorin.Program.EnsureBook(LibraryDbContext context, BookService bookService, String isbn, String title, List`1 domainIds) in D:\TMISS\TemaASSE_UscoiuDorin-master\TemaASSE_UscoiuDorin\Program.cs:line 347
+   at TemaASSE_UscoiuDorin.Program.Populate(LibraryDbContext context, BookService bookService, ReaderService readerService, EditionService editionService) in D:\TMISS\TemaASSE_UscoiuDorin-master\TemaASSE_UscoiuDorin\Program.cs:line 141
+   at TemaASSE_UscoiuDorin.Program.RunInteractive() in D:\TMISS\TemaASSE_UscoiuDorin-master\TemaASSE_UscoiuDorin\Program.cs:line 94
+   at TemaASSE_UscoiuDorin.Program.Main(String[] args) in D:\TMISS\TemaASSE_UscoiuDorin-master\TemaASSE_UscoiuDorin\Program.cs:line 37
+2026-01-09 15:34:01,699 INFO  [1] TemaASSE_UscoiuDorin.Program - Application started.
+2026-01-09 15:34:03,440 INFO  [1] TemaASSE_UscoiuDorin.Program - Populate started.
+2026-01-09 15:34:04,003 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:34:04 PM +02:00
+
+2026-01-09 15:34:04,004 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+SELECT Count(*)
+FROM INFORMATION_SCHEMA.TABLES AS t
+WHERE t.TABLE_SCHEMA + '.' + t.TABLE_NAME IN ('dbo.Author','dbo.Book','dbo.Borrowing','dbo.LoanExtension','dbo.Reader','dbo.BookDomain','dbo.Edition','dbo.BookAuthor','dbo.BookBookDomain')
+    OR t.TABLE_NAME = 'EdmMetadata'
+2026-01-09 15:34:04,004 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:34:04,004 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:34:04 PM +02:00
+
+2026-01-09 15:34:04,072 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 66 ms with result: 9
+
+2026-01-09 15:34:04,073 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:34:04,073 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:34:04 PM +02:00
+
+2026-01-09 15:34:04,213 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:34:04 PM +02:00
+
+2026-01-09 15:34:04,659 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT 
+    [GroupBy1].[A1] AS [C1]
+    FROM ( SELECT 
+        COUNT(1) AS [A1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [GroupBy1]
+2026-01-09 15:34:04,659 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:34:04,661 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: 'Data.Migrations.Configuration' (Type = String, Size = 4000)
+
+2026-01-09 15:34:04,661 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:34:04 PM +02:00
+
+2026-01-09 15:34:04,675 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 14 ms with result: SqlDataReader
+
+2026-01-09 15:34:04,675 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:34:04,678 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:34:04 PM +02:00
+
+2026-01-09 15:34:04,684 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:34:04 PM +02:00
+
+2026-01-09 15:34:04,722 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Project1].[C1] AS [C1], 
+    [Project1].[MigrationId] AS [MigrationId], 
+    [Project1].[Model] AS [Model], 
+    [Project1].[ProductVersion] AS [ProductVersion]
+    FROM ( SELECT 
+        [Extent1].[MigrationId] AS [MigrationId], 
+        [Extent1].[Model] AS [Model], 
+        [Extent1].[ProductVersion] AS [ProductVersion], 
+        1 AS [C1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [Project1]
+    ORDER BY [Project1].[MigrationId] DESC
+2026-01-09 15:34:04,722 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:34:04,722 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: 'Data.Migrations.Configuration' (Type = String, Size = 4000)
+
+2026-01-09 15:34:04,723 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:34:04 PM +02:00
+
+2026-01-09 15:34:04,739 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 15 ms with result: SqlDataReader
+
+2026-01-09 15:34:04,739 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:34:04,742 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:34:04 PM +02:00
+
+2026-01-09 15:34:04,779 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:34:04 PM +02:00
+
+2026-01-09 15:34:04,862 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[ParentDomainId] AS [ParentDomainId]
+    FROM [dbo].[BookDomain] AS [Extent1]
+    WHERE [Extent1].[Name] = @p__linq__0
+2026-01-09 15:34:04,863 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:34:04,863 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: 'DEMO_SCIENCE' (Type = String, Size = 4000)
+
+2026-01-09 15:34:04,863 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:34:04 PM +02:00
+
+2026-01-09 15:34:04,870 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 7 ms with result: SqlDataReader
+
+2026-01-09 15:34:04,870 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:34:04,897 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:34:04 PM +02:00
+
+2026-01-09 15:34:04,898 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:34:04 PM +02:00
+
+2026-01-09 15:34:04,898 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[ParentDomainId] AS [ParentDomainId]
+    FROM [dbo].[BookDomain] AS [Extent1]
+    WHERE [Extent1].[Name] = @p__linq__0
+2026-01-09 15:34:04,899 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:34:04,899 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: 'DEMO_CS' (Type = String, Size = 4000)
+
+2026-01-09 15:34:04,899 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:34:04 PM +02:00
+
+2026-01-09 15:34:04,906 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 6 ms with result: SqlDataReader
+
+2026-01-09 15:34:04,907 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:34:04,918 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:34:04 PM +02:00
+
+2026-01-09 15:34:04,920 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:34:04 PM +02:00
+
+2026-01-09 15:34:04,934 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[FirstName] AS [FirstName], 
+    [Extent1].[LastName] AS [LastName], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[PhoneNumber] AS [PhoneNumber], 
+    [Extent1].[Email] AS [Email], 
+    [Extent1].[RegistrationDate] AS [RegistrationDate], 
+    [Extent1].[IsStaff] AS [IsStaff]
+    FROM [dbo].[Reader] AS [Extent1]
+    WHERE ([Extent1].[Email] = @p__linq__0) OR (([Extent1].[Email] IS NULL) AND (@p__linq__0 IS NULL))
+2026-01-09 15:34:04,934 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:34:04,935 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: 'demo.staff@local' (Type = String, Size = 4000)
+
+2026-01-09 15:34:04,935 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:34:04 PM +02:00
+
+2026-01-09 15:34:04,941 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 6 ms with result: SqlDataReader
+
+2026-01-09 15:34:04,941 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:34:04,944 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:34:04 PM +02:00
+
+2026-01-09 15:34:04,944 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:34:04 PM +02:00
+
+2026-01-09 15:34:04,944 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[FirstName] AS [FirstName], 
+    [Extent1].[LastName] AS [LastName], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[PhoneNumber] AS [PhoneNumber], 
+    [Extent1].[Email] AS [Email], 
+    [Extent1].[RegistrationDate] AS [RegistrationDate], 
+    [Extent1].[IsStaff] AS [IsStaff]
+    FROM [dbo].[Reader] AS [Extent1]
+    WHERE ([Extent1].[Email] = @p__linq__0) OR (([Extent1].[Email] IS NULL) AND (@p__linq__0 IS NULL))
+2026-01-09 15:34:04,945 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:34:04,945 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: 'demo.user@local' (Type = String, Size = 4000)
+
+2026-01-09 15:34:04,945 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:34:04 PM +02:00
+
+2026-01-09 15:34:04,950 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 5 ms with result: SqlDataReader
+
+2026-01-09 15:34:04,950 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:34:04,951 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:34:04 PM +02:00
+
+2026-01-09 15:34:04,952 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:34:04 PM +02:00
+
+2026-01-09 15:34:04,957 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Title] AS [Title], 
+    [Extent1].[Description] AS [Description], 
+    [Extent1].[ISBN] AS [ISBN], 
+    [Extent1].[TotalCopies] AS [TotalCopies], 
+    [Extent1].[ReadingRoomOnlyCopies] AS [ReadingRoomOnlyCopies]
+    FROM [dbo].[Book] AS [Extent1]
+    WHERE ([Extent1].[ISBN] = @p__linq__0) OR (([Extent1].[ISBN] IS NULL) AND (@p__linq__0 IS NULL))
+2026-01-09 15:34:04,957 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:34:04,957 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: '23454320001' (Type = String, Size = 4000)
+
+2026-01-09 15:34:04,957 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:34:04 PM +02:00
+
+2026-01-09 15:34:04,964 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 6 ms with result: SqlDataReader
+
+2026-01-09 15:34:04,964 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:34:04,964 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:34:04 PM +02:00
+
+2026-01-09 15:34:04,966 INFO  [1] Service.BookService - Creating book. Title=Demo Book, ISBN=23454320001
+2026-01-09 15:34:04,991 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:34:04 PM +02:00
+
+2026-01-09 15:34:04,992 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Title] AS [Title], 
+    [Extent1].[Description] AS [Description], 
+    [Extent1].[ISBN] AS [ISBN], 
+    [Extent1].[TotalCopies] AS [TotalCopies], 
+    [Extent1].[ReadingRoomOnlyCopies] AS [ReadingRoomOnlyCopies]
+    FROM [dbo].[Book] AS [Extent1]
+    WHERE ([Extent1].[ISBN] = @p__linq__0) OR (([Extent1].[ISBN] IS NULL) AND (@p__linq__0 IS NULL))
+2026-01-09 15:34:04,992 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:34:04,992 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: '23454320001' (Type = String, Size = 4000)
+
+2026-01-09 15:34:04,992 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:34:04 PM +02:00
+
+2026-01-09 15:34:04,999 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 7 ms with result: SqlDataReader
+
+2026-01-09 15:34:04,999 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:34:05,000 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:34:05 PM +02:00
+
+2026-01-09 15:34:05,044 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:34:05 PM +02:00
+
+2026-01-09 15:34:05,046 DEBUG [1] TemaASSE_UscoiuDorin.Program - Started transaction at 1/9/2026 3:34:05 PM +02:00
+
+2026-01-09 15:34:05,111 DEBUG [1] TemaASSE_UscoiuDorin.Program - INSERT [dbo].[Author]([FirstName], [LastName])
+VALUES (@0, @1)
+SELECT [Id]
+FROM [dbo].[Author]
+WHERE @@ROWCOUNT > 0 AND [Id] = scope_identity()
+2026-01-09 15:34:05,111 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:34:05,111 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @0: 'Demo' (Type = String, Size = 100)
+
+2026-01-09 15:34:05,111 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @1: 'Author' (Type = String, Size = 100)
+
+2026-01-09 15:34:05,111 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:34:05 PM +02:00
+
+2026-01-09 15:34:05,127 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 16 ms with result: SqlDataReader
+
+2026-01-09 15:34:05,127 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:34:05,128 DEBUG [1] TemaASSE_UscoiuDorin.Program - INSERT [dbo].[Book]([Title], [Description], [ISBN], [TotalCopies], [ReadingRoomOnlyCopies])
+VALUES (@0, @1, @2, @3, @4)
+SELECT [Id]
+FROM [dbo].[Book]
+WHERE @@ROWCOUNT > 0 AND [Id] = scope_identity()
+2026-01-09 15:34:05,129 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:34:05,129 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @0: 'Demo Book' (Type = String, Size = 255)
+
+2026-01-09 15:34:05,129 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @1: 'Inserted by demo runner' (Type = String, Size = 1000)
+
+2026-01-09 15:34:05,129 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @2: '23454320001' (Type = String, Size = 20)
+
+2026-01-09 15:34:05,129 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @3: '5' (Type = Int32)
+
+2026-01-09 15:34:05,129 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @4: '0' (Type = Int32)
+
+2026-01-09 15:34:05,129 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:34:05 PM +02:00
+
+2026-01-09 15:34:05,139 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 9 ms with result: SqlDataReader
+
+2026-01-09 15:34:05,139 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:34:05,142 DEBUG [1] TemaASSE_UscoiuDorin.Program - INSERT [dbo].[BookAuthor]([BookId], [AuthorId])
+VALUES (@0, @1)
+
+2026-01-09 15:34:05,142 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @0: '2028' (Type = Int32)
+
+2026-01-09 15:34:05,142 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @1: '2148' (Type = Int32)
+
+2026-01-09 15:34:05,142 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:34:05 PM +02:00
+
+2026-01-09 15:34:05,155 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 11 ms with result: 1
+
+2026-01-09 15:34:05,155 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:34:05,155 DEBUG [1] TemaASSE_UscoiuDorin.Program - INSERT [dbo].[BookBookDomain]([BookId], [DomainId])
+VALUES (@0, @1)
+
+2026-01-09 15:34:05,156 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @0: '2028' (Type = Int32)
+
+2026-01-09 15:34:05,156 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @1: '1308' (Type = Int32)
+
+2026-01-09 15:34:05,156 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:34:05 PM +02:00
+
+2026-01-09 15:34:05,165 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 9 ms with result: 1
+
+2026-01-09 15:34:05,166 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:34:05,174 DEBUG [1] TemaASSE_UscoiuDorin.Program - Committed transaction at 1/9/2026 3:34:05 PM +02:00
+
+2026-01-09 15:34:05,175 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:34:05 PM +02:00
+
+2026-01-09 15:34:05,182 INFO  [1] Service.BookService - Book created successfully. Title=Demo Book, ISBN=23454320001
+2026-01-09 15:34:05,183 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:34:05 PM +02:00
+
+2026-01-09 15:34:05,183 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Title] AS [Title], 
+    [Extent1].[Description] AS [Description], 
+    [Extent1].[ISBN] AS [ISBN], 
+    [Extent1].[TotalCopies] AS [TotalCopies], 
+    [Extent1].[ReadingRoomOnlyCopies] AS [ReadingRoomOnlyCopies]
+    FROM [dbo].[Book] AS [Extent1]
+    WHERE ([Extent1].[ISBN] = @p__linq__0) OR (([Extent1].[ISBN] IS NULL) AND (@p__linq__0 IS NULL))
+2026-01-09 15:34:05,184 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:34:05,184 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: '23454320001' (Type = String, Size = 4000)
+
+2026-01-09 15:34:05,184 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:34:05 PM +02:00
+
+2026-01-09 15:34:05,189 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 5 ms with result: SqlDataReader
+
+2026-01-09 15:34:05,189 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:34:05,189 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:34:05 PM +02:00
+
+2026-01-09 15:34:05,190 INFO  [1] TemaASSE_UscoiuDorin.Program - Created book: Id=2028, ISBN=23454320001, Title=Demo Book
+2026-01-09 15:34:05,191 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:34:05 PM +02:00
+
+2026-01-09 15:34:05,197 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[Publisher] AS [Publisher], 
+    [Extent1].[Year] AS [Year], 
+    [Extent1].[EditionNumber] AS [EditionNumber], 
+    [Extent1].[PageCount] AS [PageCount], 
+    [Extent1].[BookType] AS [BookType]
+    FROM [dbo].[Edition] AS [Extent1]
+    WHERE ([Extent1].[BookId] = @p__linq__0) AND (N'DEMO_PUBLISHER' = [Extent1].[Publisher])
+2026-01-09 15:34:05,198 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:34:05,198 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: '2028' (Type = Int32, IsNullable = false)
+
+2026-01-09 15:34:05,198 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:34:05 PM +02:00
+
+2026-01-09 15:34:05,208 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 9 ms with result: SqlDataReader
+
+2026-01-09 15:34:05,208 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:34:05,208 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:34:05 PM +02:00
+
+2026-01-09 15:34:05,209 INFO  [1] Service.EditionService - CreateEdition called.
+2026-01-09 15:34:05,213 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:34:05 PM +02:00
+
+2026-01-09 15:34:05,214 DEBUG [1] TemaASSE_UscoiuDorin.Program - Started transaction at 1/9/2026 3:34:05 PM +02:00
+
+2026-01-09 15:34:05,219 DEBUG [1] TemaASSE_UscoiuDorin.Program - INSERT [dbo].[Edition]([BookId], [Publisher], [Year], [EditionNumber], [PageCount], [BookType])
+VALUES (@0, @1, @2, @3, @4, @5)
+SELECT [Id]
+FROM [dbo].[Edition]
+WHERE @@ROWCOUNT > 0 AND [Id] = scope_identity()
+2026-01-09 15:34:05,220 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:34:05,220 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @0: '2028' (Type = Int32)
+
+2026-01-09 15:34:05,220 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @1: 'DEMO_PUBLISHER' (Type = String, Size = 150)
+
+2026-01-09 15:34:05,220 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @2: '2026' (Type = Int32)
+
+2026-01-09 15:34:05,220 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @3: '1' (Type = Int32)
+
+2026-01-09 15:34:05,220 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @4: '250' (Type = Int32)
+
+2026-01-09 15:34:05,220 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @5: 'Paperback' (Type = String, Size = 50)
+
+2026-01-09 15:34:05,221 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:34:05 PM +02:00
+
+2026-01-09 15:34:05,232 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 10 ms with result: SqlDataReader
+
+2026-01-09 15:34:05,232 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:34:05,234 DEBUG [1] TemaASSE_UscoiuDorin.Program - Committed transaction at 1/9/2026 3:34:05 PM +02:00
+
+2026-01-09 15:34:05,234 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:34:05 PM +02:00
+
+2026-01-09 15:34:05,237 INFO  [1] Service.EditionService - CreateEdition succeeded. editionId=121
+2026-01-09 15:34:05,238 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:34:05 PM +02:00
+
+2026-01-09 15:34:05,238 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[Publisher] AS [Publisher], 
+    [Extent1].[Year] AS [Year], 
+    [Extent1].[EditionNumber] AS [EditionNumber], 
+    [Extent1].[PageCount] AS [PageCount], 
+    [Extent1].[BookType] AS [BookType]
+    FROM [dbo].[Edition] AS [Extent1]
+    WHERE ([Extent1].[BookId] = @p__linq__0) AND (N'DEMO_PUBLISHER' = [Extent1].[Publisher])
+2026-01-09 15:34:05,238 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:34:05,238 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: '2028' (Type = Int32, IsNullable = false)
+
+2026-01-09 15:34:05,238 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:34:05 PM +02:00
+
+2026-01-09 15:34:05,248 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 10 ms with result: SqlDataReader
+
+2026-01-09 15:34:05,248 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:34:05,249 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:34:05 PM +02:00
+
+2026-01-09 15:34:05,249 INFO  [1] TemaASSE_UscoiuDorin.Program - Created edition: Id=121, BookId=2028, Publisher=DEMO_PUBLISHER
+2026-01-09 15:34:05,249 INFO  [1] TemaASSE_UscoiuDorin.Program - Populate finished.
+2026-01-09 15:34:05,250 INFO  [1] TemaASSE_UscoiuDorin.Program - Application stopped.
+2026-01-09 15:34:51,026 INFO  [1] TemaASSE_UscoiuDorin.Program - Application started.
+2026-01-09 15:34:55,127 INFO  [1] TemaASSE_UscoiuDorin.Program - Populate started.
+2026-01-09 15:34:55,681 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:34:55 PM +02:00
+
+2026-01-09 15:34:55,682 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+SELECT Count(*)
+FROM INFORMATION_SCHEMA.TABLES AS t
+WHERE t.TABLE_SCHEMA + '.' + t.TABLE_NAME IN ('dbo.Author','dbo.Book','dbo.Borrowing','dbo.LoanExtension','dbo.Reader','dbo.BookDomain','dbo.Edition','dbo.BookAuthor','dbo.BookBookDomain')
+    OR t.TABLE_NAME = 'EdmMetadata'
+2026-01-09 15:34:55,682 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:34:55,683 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:34:55 PM +02:00
+
+2026-01-09 15:34:55,713 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 28 ms with result: 9
+
+2026-01-09 15:34:55,713 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:34:55,714 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:34:55 PM +02:00
+
+2026-01-09 15:34:55,867 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:34:55 PM +02:00
+
+2026-01-09 15:34:56,318 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT 
+    [GroupBy1].[A1] AS [C1]
+    FROM ( SELECT 
+        COUNT(1) AS [A1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [GroupBy1]
+2026-01-09 15:34:56,318 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:34:56,319 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: 'Data.Migrations.Configuration' (Type = String, Size = 4000)
+
+2026-01-09 15:34:56,319 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:34:56 PM +02:00
+
+2026-01-09 15:34:56,329 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 9 ms with result: SqlDataReader
+
+2026-01-09 15:34:56,329 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:34:56,332 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:34:56 PM +02:00
+
+2026-01-09 15:34:56,338 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:34:56 PM +02:00
+
+2026-01-09 15:34:56,372 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Project1].[C1] AS [C1], 
+    [Project1].[MigrationId] AS [MigrationId], 
+    [Project1].[Model] AS [Model], 
+    [Project1].[ProductVersion] AS [ProductVersion]
+    FROM ( SELECT 
+        [Extent1].[MigrationId] AS [MigrationId], 
+        [Extent1].[Model] AS [Model], 
+        [Extent1].[ProductVersion] AS [ProductVersion], 
+        1 AS [C1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [Project1]
+    ORDER BY [Project1].[MigrationId] DESC
+2026-01-09 15:34:56,372 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:34:56,372 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: 'Data.Migrations.Configuration' (Type = String, Size = 4000)
+
+2026-01-09 15:34:56,372 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:34:56 PM +02:00
+
+2026-01-09 15:34:56,379 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 7 ms with result: SqlDataReader
+
+2026-01-09 15:34:56,379 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:34:56,382 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:34:56 PM +02:00
+
+2026-01-09 15:34:56,407 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:34:56 PM +02:00
+
+2026-01-09 15:34:56,478 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[ParentDomainId] AS [ParentDomainId]
+    FROM [dbo].[BookDomain] AS [Extent1]
+    WHERE [Extent1].[Name] = @p__linq__0
+2026-01-09 15:34:56,479 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:34:56,479 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: 'DEMO_SCIENCE' (Type = String, Size = 4000)
+
+2026-01-09 15:34:56,479 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:34:56 PM +02:00
+
+2026-01-09 15:34:56,483 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 4 ms with result: SqlDataReader
+
+2026-01-09 15:34:56,484 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:34:56,511 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:34:56 PM +02:00
+
+2026-01-09 15:34:56,511 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:34:56 PM +02:00
+
+2026-01-09 15:34:56,511 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[ParentDomainId] AS [ParentDomainId]
+    FROM [dbo].[BookDomain] AS [Extent1]
+    WHERE [Extent1].[Name] = @p__linq__0
+2026-01-09 15:34:56,512 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:34:56,512 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: 'DEMO_CS' (Type = String, Size = 4000)
+
+2026-01-09 15:34:56,512 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:34:56 PM +02:00
+
+2026-01-09 15:34:56,517 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 5 ms with result: SqlDataReader
+
+2026-01-09 15:34:56,518 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:34:56,530 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:34:56 PM +02:00
+
+2026-01-09 15:34:56,532 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:34:56 PM +02:00
+
+2026-01-09 15:34:56,546 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[FirstName] AS [FirstName], 
+    [Extent1].[LastName] AS [LastName], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[PhoneNumber] AS [PhoneNumber], 
+    [Extent1].[Email] AS [Email], 
+    [Extent1].[RegistrationDate] AS [RegistrationDate], 
+    [Extent1].[IsStaff] AS [IsStaff]
+    FROM [dbo].[Reader] AS [Extent1]
+    WHERE ([Extent1].[Email] = @p__linq__0) OR (([Extent1].[Email] IS NULL) AND (@p__linq__0 IS NULL))
+2026-01-09 15:34:56,546 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:34:56,546 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: 'demo.staff@local' (Type = String, Size = 4000)
+
+2026-01-09 15:34:56,546 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:34:56 PM +02:00
+
+2026-01-09 15:34:56,552 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 5 ms with result: SqlDataReader
+
+2026-01-09 15:34:56,552 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:34:56,553 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:34:56 PM +02:00
+
+2026-01-09 15:34:56,554 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:34:56 PM +02:00
+
+2026-01-09 15:34:56,554 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[FirstName] AS [FirstName], 
+    [Extent1].[LastName] AS [LastName], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[PhoneNumber] AS [PhoneNumber], 
+    [Extent1].[Email] AS [Email], 
+    [Extent1].[RegistrationDate] AS [RegistrationDate], 
+    [Extent1].[IsStaff] AS [IsStaff]
+    FROM [dbo].[Reader] AS [Extent1]
+    WHERE ([Extent1].[Email] = @p__linq__0) OR (([Extent1].[Email] IS NULL) AND (@p__linq__0 IS NULL))
+2026-01-09 15:34:56,554 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:34:56,554 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: 'demo.user@local' (Type = String, Size = 4000)
+
+2026-01-09 15:34:56,554 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:34:56 PM +02:00
+
+2026-01-09 15:34:56,559 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 4 ms with result: SqlDataReader
+
+2026-01-09 15:34:56,559 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:34:56,559 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:34:56 PM +02:00
+
+2026-01-09 15:34:56,561 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:34:56 PM +02:00
+
+2026-01-09 15:34:56,564 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Title] AS [Title], 
+    [Extent1].[Description] AS [Description], 
+    [Extent1].[ISBN] AS [ISBN], 
+    [Extent1].[TotalCopies] AS [TotalCopies], 
+    [Extent1].[ReadingRoomOnlyCopies] AS [ReadingRoomOnlyCopies]
+    FROM [dbo].[Book] AS [Extent1]
+    WHERE ([Extent1].[ISBN] = @p__linq__0) OR (([Extent1].[ISBN] IS NULL) AND (@p__linq__0 IS NULL))
+2026-01-09 15:34:56,565 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:34:56,565 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: '23454320001' (Type = String, Size = 4000)
+
+2026-01-09 15:34:56,565 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:34:56 PM +02:00
+
+2026-01-09 15:34:56,570 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 4 ms with result: SqlDataReader
+
+2026-01-09 15:34:56,570 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:34:56,571 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:34:56 PM +02:00
+
+2026-01-09 15:34:56,573 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:34:56 PM +02:00
+
+2026-01-09 15:34:56,578 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[Publisher] AS [Publisher], 
+    [Extent1].[Year] AS [Year], 
+    [Extent1].[EditionNumber] AS [EditionNumber], 
+    [Extent1].[PageCount] AS [PageCount], 
+    [Extent1].[BookType] AS [BookType]
+    FROM [dbo].[Edition] AS [Extent1]
+    WHERE ([Extent1].[BookId] = @p__linq__0) AND (N'DEMO_PUBLISHER' = [Extent1].[Publisher])
+2026-01-09 15:34:56,579 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:34:56,579 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: '2028' (Type = Int32, IsNullable = false)
+
+2026-01-09 15:34:56,579 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:34:56 PM +02:00
+
+2026-01-09 15:34:56,584 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 4 ms with result: SqlDataReader
+
+2026-01-09 15:34:56,584 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:34:56,586 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:34:56 PM +02:00
+
+2026-01-09 15:34:56,586 INFO  [1] TemaASSE_UscoiuDorin.Program - Populate finished.
+2026-01-09 15:34:56,587 INFO  [1] TemaASSE_UscoiuDorin.Program - Application stopped.
+2026-01-09 15:35:40,189 INFO  [1] TemaASSE_UscoiuDorin.Program - Application started.
+2026-01-09 15:35:41,695 INFO  [1] TemaASSE_UscoiuDorin.Program - Populate started.
+2026-01-09 15:35:42,354 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:35:42 PM +02:00
+
+2026-01-09 15:35:42,355 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+SELECT Count(*)
+FROM INFORMATION_SCHEMA.TABLES AS t
+WHERE t.TABLE_SCHEMA + '.' + t.TABLE_NAME IN ('dbo.Author','dbo.Book','dbo.Borrowing','dbo.LoanExtension','dbo.Reader','dbo.BookDomain','dbo.Edition','dbo.BookAuthor','dbo.BookBookDomain')
+    OR t.TABLE_NAME = 'EdmMetadata'
+2026-01-09 15:35:42,355 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:35:42,355 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:35:42 PM +02:00
+
+2026-01-09 15:35:42,417 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 60 ms with result: 9
+
+2026-01-09 15:35:42,417 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:35:42,418 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:35:42 PM +02:00
+
+2026-01-09 15:35:42,554 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:35:42 PM +02:00
+
+2026-01-09 15:35:43,021 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT 
+    [GroupBy1].[A1] AS [C1]
+    FROM ( SELECT 
+        COUNT(1) AS [A1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [GroupBy1]
+2026-01-09 15:35:43,022 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:35:43,022 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: 'Data.Migrations.Configuration' (Type = String, Size = 4000)
+
+2026-01-09 15:35:43,022 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:35:43 PM +02:00
+
+2026-01-09 15:35:43,038 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 15 ms with result: SqlDataReader
+
+2026-01-09 15:35:43,038 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:35:43,042 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:35:43 PM +02:00
+
+2026-01-09 15:35:43,049 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:35:43 PM +02:00
+
+2026-01-09 15:35:43,080 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Project1].[C1] AS [C1], 
+    [Project1].[MigrationId] AS [MigrationId], 
+    [Project1].[Model] AS [Model], 
+    [Project1].[ProductVersion] AS [ProductVersion]
+    FROM ( SELECT 
+        [Extent1].[MigrationId] AS [MigrationId], 
+        [Extent1].[Model] AS [Model], 
+        [Extent1].[ProductVersion] AS [ProductVersion], 
+        1 AS [C1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [Project1]
+    ORDER BY [Project1].[MigrationId] DESC
+2026-01-09 15:35:43,081 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:35:43,081 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: 'Data.Migrations.Configuration' (Type = String, Size = 4000)
+
+2026-01-09 15:35:43,081 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:35:43 PM +02:00
+
+2026-01-09 15:35:43,092 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 9 ms with result: SqlDataReader
+
+2026-01-09 15:35:43,092 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:35:43,095 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:35:43 PM +02:00
+
+2026-01-09 15:35:43,122 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:35:43 PM +02:00
+
+2026-01-09 15:35:43,191 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[ParentDomainId] AS [ParentDomainId]
+    FROM [dbo].[BookDomain] AS [Extent1]
+    WHERE [Extent1].[Name] = @p__linq__0
+2026-01-09 15:35:43,191 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:35:43,192 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: 'DEMO_SCIENCE' (Type = String, Size = 4000)
+
+2026-01-09 15:35:43,192 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:35:43 PM +02:00
+
+2026-01-09 15:35:43,200 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 7 ms with result: SqlDataReader
+
+2026-01-09 15:35:43,200 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:35:43,229 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:35:43 PM +02:00
+
+2026-01-09 15:35:43,230 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:35:43 PM +02:00
+
+2026-01-09 15:35:43,230 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[ParentDomainId] AS [ParentDomainId]
+    FROM [dbo].[BookDomain] AS [Extent1]
+    WHERE [Extent1].[Name] = @p__linq__0
+2026-01-09 15:35:43,231 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:35:43,231 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: 'DEMO_CS' (Type = String, Size = 4000)
+
+2026-01-09 15:35:43,231 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:35:43 PM +02:00
+
+2026-01-09 15:35:43,236 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 4 ms with result: SqlDataReader
+
+2026-01-09 15:35:43,236 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:35:43,247 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:35:43 PM +02:00
+
+2026-01-09 15:35:43,250 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:35:43 PM +02:00
+
+2026-01-09 15:35:43,263 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[FirstName] AS [FirstName], 
+    [Extent1].[LastName] AS [LastName], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[PhoneNumber] AS [PhoneNumber], 
+    [Extent1].[Email] AS [Email], 
+    [Extent1].[RegistrationDate] AS [RegistrationDate], 
+    [Extent1].[IsStaff] AS [IsStaff]
+    FROM [dbo].[Reader] AS [Extent1]
+    WHERE ([Extent1].[Email] = @p__linq__0) OR (([Extent1].[Email] IS NULL) AND (@p__linq__0 IS NULL))
+2026-01-09 15:35:43,265 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:35:43,265 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: 'demo.staff@local' (Type = String, Size = 4000)
+
+2026-01-09 15:35:43,266 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:35:43 PM +02:00
+
+2026-01-09 15:35:43,273 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 7 ms with result: SqlDataReader
+
+2026-01-09 15:35:43,273 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:35:43,275 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:35:43 PM +02:00
+
+2026-01-09 15:35:43,275 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:35:43 PM +02:00
+
+2026-01-09 15:35:43,275 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[FirstName] AS [FirstName], 
+    [Extent1].[LastName] AS [LastName], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[PhoneNumber] AS [PhoneNumber], 
+    [Extent1].[Email] AS [Email], 
+    [Extent1].[RegistrationDate] AS [RegistrationDate], 
+    [Extent1].[IsStaff] AS [IsStaff]
+    FROM [dbo].[Reader] AS [Extent1]
+    WHERE ([Extent1].[Email] = @p__linq__0) OR (([Extent1].[Email] IS NULL) AND (@p__linq__0 IS NULL))
+2026-01-09 15:35:43,276 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:35:43,276 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: 'demo.user@local' (Type = String, Size = 4000)
+
+2026-01-09 15:35:43,276 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:35:43 PM +02:00
+
+2026-01-09 15:35:43,283 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 6 ms with result: SqlDataReader
+
+2026-01-09 15:35:43,283 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:35:43,284 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:35:43 PM +02:00
+
+2026-01-09 15:35:43,286 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:35:43 PM +02:00
+
+2026-01-09 15:35:43,290 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Title] AS [Title], 
+    [Extent1].[Description] AS [Description], 
+    [Extent1].[ISBN] AS [ISBN], 
+    [Extent1].[TotalCopies] AS [TotalCopies], 
+    [Extent1].[ReadingRoomOnlyCopies] AS [ReadingRoomOnlyCopies]
+    FROM [dbo].[Book] AS [Extent1]
+    WHERE ([Extent1].[ISBN] = @p__linq__0) OR (([Extent1].[ISBN] IS NULL) AND (@p__linq__0 IS NULL))
+2026-01-09 15:35:43,290 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:35:43,290 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: '23454320001' (Type = String, Size = 4000)
+
+2026-01-09 15:35:43,290 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:35:43 PM +02:00
+
+2026-01-09 15:35:43,298 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 7 ms with result: SqlDataReader
+
+2026-01-09 15:35:43,299 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:35:43,300 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:35:43 PM +02:00
+
+2026-01-09 15:35:43,301 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:35:43 PM +02:00
+
+2026-01-09 15:35:43,307 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[Publisher] AS [Publisher], 
+    [Extent1].[Year] AS [Year], 
+    [Extent1].[EditionNumber] AS [EditionNumber], 
+    [Extent1].[PageCount] AS [PageCount], 
+    [Extent1].[BookType] AS [BookType]
+    FROM [dbo].[Edition] AS [Extent1]
+    WHERE ([Extent1].[BookId] = @p__linq__0) AND (N'DEMO_PUBLISHER' = [Extent1].[Publisher])
+2026-01-09 15:35:43,307 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:35:43,307 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: '2028' (Type = Int32, IsNullable = false)
+
+2026-01-09 15:35:43,308 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:35:43 PM +02:00
+
+2026-01-09 15:35:43,317 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 9 ms with result: SqlDataReader
+
+2026-01-09 15:35:43,317 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:35:43,320 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:35:43 PM +02:00
+
+2026-01-09 15:35:43,320 INFO  [1] TemaASSE_UscoiuDorin.Program - Populate finished.
+2026-01-09 15:35:43,321 INFO  [1] TemaASSE_UscoiuDorin.Program - Application stopped.
+2026-01-09 15:38:22,567 INFO  [1] TemaASSE_UscoiuDorin.Program - Application started.
+2026-01-09 15:38:24,985 INFO  [1] TemaASSE_UscoiuDorin.Program - Depopulate started.
+2026-01-09 15:38:25,588 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:38:25 PM +02:00
+
+2026-01-09 15:38:25,589 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+SELECT Count(*)
+FROM INFORMATION_SCHEMA.TABLES AS t
+WHERE t.TABLE_SCHEMA + '.' + t.TABLE_NAME IN ('dbo.Author','dbo.Book','dbo.Borrowing','dbo.LoanExtension','dbo.Reader','dbo.BookDomain','dbo.Edition','dbo.BookAuthor','dbo.BookBookDomain')
+    OR t.TABLE_NAME = 'EdmMetadata'
+2026-01-09 15:38:25,590 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:38:25,590 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:38:25 PM +02:00
+
+2026-01-09 15:38:25,654 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 62 ms with result: 9
+
+2026-01-09 15:38:25,654 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:38:25,654 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:38:25 PM +02:00
+
+2026-01-09 15:38:25,789 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:38:25 PM +02:00
+
+2026-01-09 15:38:26,226 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT 
+    [GroupBy1].[A1] AS [C1]
+    FROM ( SELECT 
+        COUNT(1) AS [A1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [GroupBy1]
+2026-01-09 15:38:26,228 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:38:26,228 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: 'Data.Migrations.Configuration' (Type = String, Size = 4000)
+
+2026-01-09 15:38:26,229 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:38:26 PM +02:00
+
+2026-01-09 15:38:26,245 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 16 ms with result: SqlDataReader
+
+2026-01-09 15:38:26,245 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:38:26,250 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:38:26 PM +02:00
+
+2026-01-09 15:38:26,255 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:38:26 PM +02:00
+
+2026-01-09 15:38:26,286 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Project1].[C1] AS [C1], 
+    [Project1].[MigrationId] AS [MigrationId], 
+    [Project1].[Model] AS [Model], 
+    [Project1].[ProductVersion] AS [ProductVersion]
+    FROM ( SELECT 
+        [Extent1].[MigrationId] AS [MigrationId], 
+        [Extent1].[Model] AS [Model], 
+        [Extent1].[ProductVersion] AS [ProductVersion], 
+        1 AS [C1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [Project1]
+    ORDER BY [Project1].[MigrationId] DESC
+2026-01-09 15:38:26,287 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:38:26,287 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: 'Data.Migrations.Configuration' (Type = String, Size = 4000)
+
+2026-01-09 15:38:26,288 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:38:26 PM +02:00
+
+2026-01-09 15:38:26,296 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 8 ms with result: SqlDataReader
+
+2026-01-09 15:38:26,296 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:38:26,299 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:38:26 PM +02:00
+
+2026-01-09 15:38:26,324 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:38:26 PM +02:00
+
+2026-01-09 15:38:26,440 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[ReaderId] AS [ReaderId], 
+    [Extent1].[StaffId] AS [StaffId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[BorrowingDate] AS [BorrowingDate], 
+    [Extent1].[DueDate] AS [DueDate], 
+    [Extent1].[ReturnDate] AS [ReturnDate], 
+    [Extent1].[IsActive] AS [IsActive], 
+    [Extent1].[TotalExtensionDays] AS [TotalExtensionDays], 
+    [Extent1].[LastExtensionDate] AS [LastExtensionDate], 
+    [Extent1].[InitialBorrowingDays] AS [InitialBorrowingDays]
+    FROM    [dbo].[Borrowing] AS [Extent1]
+    INNER JOIN [dbo].[Book] AS [Extent2] ON [Extent1].[BookId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Reader] AS [Extent3] ON [Extent1].[ReaderId] = [Extent3].[Id]
+    LEFT OUTER JOIN [dbo].[Reader] AS [Extent4] ON [Extent1].[StaffId] = [Extent4].[Id]
+    WHERE (N'23454320001' = [Extent2].[ISBN]) OR (N'demo.user@local' = [Extent3].[Email]) OR (N'demo.staff@local' = [Extent3].[Email]) OR (([Extent4].[Id] IS NOT NULL) AND ([Extent4].[Email] IN (N'demo.user@local',N'demo.staff@local')))
+2026-01-09 15:38:26,441 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:38:26,441 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:38:26 PM +02:00
+
+2026-01-09 15:38:26,458 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 16 ms with result: SqlDataReader
+
+2026-01-09 15:38:26,458 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:38:26,458 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:38:26 PM +02:00
+
+2026-01-09 15:38:26,460 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:38:26 PM +02:00
+
+2026-01-09 15:38:26,465 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[Publisher] AS [Publisher], 
+    [Extent1].[Year] AS [Year], 
+    [Extent1].[EditionNumber] AS [EditionNumber], 
+    [Extent1].[PageCount] AS [PageCount], 
+    [Extent1].[BookType] AS [BookType]
+    FROM  [dbo].[Edition] AS [Extent1]
+    INNER JOIN [dbo].[Book] AS [Extent2] ON [Extent1].[BookId] = [Extent2].[Id]
+    WHERE N'23454320001' = [Extent2].[ISBN]
+2026-01-09 15:38:26,465 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:38:26,465 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:38:26 PM +02:00
+
+2026-01-09 15:38:26,477 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 11 ms with result: SqlDataReader
+
+2026-01-09 15:38:26,477 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:38:26,505 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:38:26 PM +02:00
+
+2026-01-09 15:38:26,534 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:38:26 PM +02:00
+
+2026-01-09 15:38:26,537 DEBUG [1] TemaASSE_UscoiuDorin.Program - Started transaction at 1/9/2026 3:38:26 PM +02:00
+
+2026-01-09 15:38:26,585 DEBUG [1] TemaASSE_UscoiuDorin.Program - DELETE [dbo].[Edition]
+WHERE ([Id] = @0)
+2026-01-09 15:38:26,585 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:38:26,586 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @0: '121' (Type = Int32)
+
+2026-01-09 15:38:26,586 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:38:26 PM +02:00
+
+2026-01-09 15:38:26,603 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 16 ms with result: 1
+
+2026-01-09 15:38:26,603 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:38:26,607 DEBUG [1] TemaASSE_UscoiuDorin.Program - Committed transaction at 1/9/2026 3:38:26 PM +02:00
+
+2026-01-09 15:38:26,607 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:38:26 PM +02:00
+
+2026-01-09 15:38:26,609 INFO  [1] TemaASSE_UscoiuDorin.Program - Deleted editions: 1
+2026-01-09 15:38:26,612 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:38:26 PM +02:00
+
+2026-01-09 15:38:26,616 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Title] AS [Title], 
+    [Extent1].[Description] AS [Description], 
+    [Extent1].[ISBN] AS [ISBN], 
+    [Extent1].[TotalCopies] AS [TotalCopies], 
+    [Extent1].[ReadingRoomOnlyCopies] AS [ReadingRoomOnlyCopies]
+    FROM [dbo].[Book] AS [Extent1]
+    WHERE N'23454320001' = [Extent1].[ISBN]
+2026-01-09 15:38:26,616 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:38:26,616 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:38:26 PM +02:00
+
+2026-01-09 15:38:26,624 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 6 ms with result: SqlDataReader
+
+2026-01-09 15:38:26,624 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:38:26,625 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:38:26 PM +02:00
+
+2026-01-09 15:38:26,629 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:38:26 PM +02:00
+
+2026-01-09 15:38:26,630 DEBUG [1] TemaASSE_UscoiuDorin.Program - Started transaction at 1/9/2026 3:38:26 PM +02:00
+
+2026-01-09 15:38:26,630 DEBUG [1] TemaASSE_UscoiuDorin.Program - DELETE [dbo].[Book]
+WHERE ([Id] = @0)
+2026-01-09 15:38:26,630 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:38:26,630 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @0: '2028' (Type = Int32)
+
+2026-01-09 15:38:26,630 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:38:26 PM +02:00
+
+2026-01-09 15:38:26,661 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 30 ms with result: 1
+
+2026-01-09 15:38:26,661 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:38:26,662 DEBUG [1] TemaASSE_UscoiuDorin.Program - Committed transaction at 1/9/2026 3:38:26 PM +02:00
+
+2026-01-09 15:38:26,663 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:38:26 PM +02:00
+
+2026-01-09 15:38:26,663 INFO  [1] TemaASSE_UscoiuDorin.Program - Deleted demo book.
+2026-01-09 15:38:26,664 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:38:26 PM +02:00
+
+2026-01-09 15:38:26,682 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[FirstName] AS [FirstName], 
+    [Extent1].[LastName] AS [LastName], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[PhoneNumber] AS [PhoneNumber], 
+    [Extent1].[Email] AS [Email], 
+    [Extent1].[RegistrationDate] AS [RegistrationDate], 
+    [Extent1].[IsStaff] AS [IsStaff]
+    FROM [dbo].[Reader] AS [Extent1]
+    WHERE [Extent1].[Email] IN (N'demo.user@local',N'demo.staff@local')
+2026-01-09 15:38:26,683 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:38:26,683 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:38:26 PM +02:00
+
+2026-01-09 15:38:26,691 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 8 ms with result: SqlDataReader
+
+2026-01-09 15:38:26,691 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:38:26,693 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:38:26 PM +02:00
+
+2026-01-09 15:38:26,694 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:38:26 PM +02:00
+
+2026-01-09 15:38:26,695 DEBUG [1] TemaASSE_UscoiuDorin.Program - Started transaction at 1/9/2026 3:38:26 PM +02:00
+
+2026-01-09 15:38:26,695 DEBUG [1] TemaASSE_UscoiuDorin.Program - DELETE [dbo].[Reader]
+WHERE ([Id] = @0)
+2026-01-09 15:38:26,697 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:38:26,697 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @0: '966' (Type = Int32)
+
+2026-01-09 15:38:26,697 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:38:26 PM +02:00
+
+2026-01-09 15:38:26,707 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 10 ms with result: 1
+
+2026-01-09 15:38:26,707 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:38:26,707 DEBUG [1] TemaASSE_UscoiuDorin.Program - DELETE [dbo].[Reader]
+WHERE ([Id] = @0)
+2026-01-09 15:38:26,707 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:38:26,707 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @0: '967' (Type = Int32)
+
+2026-01-09 15:38:26,707 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:38:26 PM +02:00
+
+2026-01-09 15:38:26,712 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 3 ms with result: 1
+
+2026-01-09 15:38:26,712 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:38:26,713 DEBUG [1] TemaASSE_UscoiuDorin.Program - Committed transaction at 1/9/2026 3:38:26 PM +02:00
+
+2026-01-09 15:38:26,713 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:38:26 PM +02:00
+
+2026-01-09 15:38:26,713 INFO  [1] TemaASSE_UscoiuDorin.Program - Deleted readers: 2
+2026-01-09 15:38:26,714 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:38:26 PM +02:00
+
+2026-01-09 15:38:26,721 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[ParentDomainId] AS [ParentDomainId]
+    FROM [dbo].[BookDomain] AS [Extent1]
+    WHERE [Extent1].[Name] IN (N'DEMO_CS',N'DEMO_SCIENCE')
+2026-01-09 15:38:26,721 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:38:26,721 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:38:26 PM +02:00
+
+2026-01-09 15:38:26,729 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 7 ms with result: SqlDataReader
+
+2026-01-09 15:38:26,729 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:38:26,740 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:38:26 PM +02:00
+
+2026-01-09 15:38:26,749 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:38:26 PM +02:00
+
+2026-01-09 15:38:26,750 DEBUG [1] TemaASSE_UscoiuDorin.Program - Started transaction at 1/9/2026 3:38:26 PM +02:00
+
+2026-01-09 15:38:26,752 DEBUG [1] TemaASSE_UscoiuDorin.Program - DELETE [dbo].[BookDomain]
+WHERE ([Id] = @0)
+2026-01-09 15:38:26,752 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:38:26,752 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @0: '1308' (Type = Int32)
+
+2026-01-09 15:38:26,752 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:38:26 PM +02:00
+
+2026-01-09 15:38:26,763 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 10 ms with result: 1
+
+2026-01-09 15:38:26,763 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:38:26,763 DEBUG [1] TemaASSE_UscoiuDorin.Program - DELETE [dbo].[BookDomain]
+WHERE ([Id] = @0)
+2026-01-09 15:38:26,763 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:38:26,763 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @0: '1307' (Type = Int32)
+
+2026-01-09 15:38:26,763 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:38:26 PM +02:00
+
+2026-01-09 15:38:26,768 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 4 ms with result: 1
+
+2026-01-09 15:38:26,769 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:38:26,769 DEBUG [1] TemaASSE_UscoiuDorin.Program - Committed transaction at 1/9/2026 3:38:26 PM +02:00
+
+2026-01-09 15:38:26,769 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:38:26 PM +02:00
+
+2026-01-09 15:38:26,769 INFO  [1] TemaASSE_UscoiuDorin.Program - Deleted domains: 2
+2026-01-09 15:38:26,769 INFO  [1] TemaASSE_UscoiuDorin.Program - Depopulate finished.
+2026-01-09 15:38:26,770 INFO  [1] TemaASSE_UscoiuDorin.Program - Application stopped.
+2026-01-09 15:40:00,472 INFO  [1] TemaASSE_UscoiuDorin.Program - Application started.
+2026-01-09 15:40:02,561 INFO  [1] TemaASSE_UscoiuDorin.Program - Populate started.
+2026-01-09 15:40:03,107 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:40:03 PM +02:00
+
+2026-01-09 15:40:03,108 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+SELECT Count(*)
+FROM INFORMATION_SCHEMA.TABLES AS t
+WHERE t.TABLE_SCHEMA + '.' + t.TABLE_NAME IN ('dbo.Author','dbo.Book','dbo.Borrowing','dbo.LoanExtension','dbo.Reader','dbo.BookDomain','dbo.Edition','dbo.BookAuthor','dbo.BookBookDomain')
+    OR t.TABLE_NAME = 'EdmMetadata'
+2026-01-09 15:40:03,108 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:40:03,108 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:40:03 PM +02:00
+
+2026-01-09 15:40:03,122 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 12 ms with result: 9
+
+2026-01-09 15:40:03,122 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:40:03,123 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:40:03 PM +02:00
+
+2026-01-09 15:40:03,292 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:40:03 PM +02:00
+
+2026-01-09 15:40:03,792 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT 
+    [GroupBy1].[A1] AS [C1]
+    FROM ( SELECT 
+        COUNT(1) AS [A1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [GroupBy1]
+2026-01-09 15:40:03,792 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:40:03,793 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: 'Data.Migrations.Configuration' (Type = String, Size = 4000)
+
+2026-01-09 15:40:03,793 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:40:03 PM +02:00
+
+2026-01-09 15:40:03,808 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 14 ms with result: SqlDataReader
+
+2026-01-09 15:40:03,809 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:40:03,812 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:40:03 PM +02:00
+
+2026-01-09 15:40:03,819 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:40:03 PM +02:00
+
+2026-01-09 15:40:03,851 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Project1].[C1] AS [C1], 
+    [Project1].[MigrationId] AS [MigrationId], 
+    [Project1].[Model] AS [Model], 
+    [Project1].[ProductVersion] AS [ProductVersion]
+    FROM ( SELECT 
+        [Extent1].[MigrationId] AS [MigrationId], 
+        [Extent1].[Model] AS [Model], 
+        [Extent1].[ProductVersion] AS [ProductVersion], 
+        1 AS [C1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [Project1]
+    ORDER BY [Project1].[MigrationId] DESC
+2026-01-09 15:40:03,852 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:40:03,852 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: 'Data.Migrations.Configuration' (Type = String, Size = 4000)
+
+2026-01-09 15:40:03,852 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:40:03 PM +02:00
+
+2026-01-09 15:40:03,860 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 7 ms with result: SqlDataReader
+
+2026-01-09 15:40:03,860 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:40:03,863 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:40:03 PM +02:00
+
+2026-01-09 15:40:03,888 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:40:03 PM +02:00
+
+2026-01-09 15:40:03,959 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[ParentDomainId] AS [ParentDomainId]
+    FROM [dbo].[BookDomain] AS [Extent1]
+    WHERE [Extent1].[Name] = @p__linq__0
+2026-01-09 15:40:03,960 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:40:03,960 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: 'DEMO_SCIENCE' (Type = String, Size = 4000)
+
+2026-01-09 15:40:03,960 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:40:03 PM +02:00
+
+2026-01-09 15:40:03,966 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 4 ms with result: SqlDataReader
+
+2026-01-09 15:40:03,966 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:40:03,967 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:40:03 PM +02:00
+
+2026-01-09 15:40:04,024 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,027 DEBUG [1] TemaASSE_UscoiuDorin.Program - Started transaction at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,081 DEBUG [1] TemaASSE_UscoiuDorin.Program - INSERT [dbo].[BookDomain]([Name], [ParentDomainId])
+VALUES (@0, NULL)
+SELECT [Id]
+FROM [dbo].[BookDomain]
+WHERE @@ROWCOUNT > 0 AND [Id] = scope_identity()
+2026-01-09 15:40:04,081 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:40:04,081 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @0: 'DEMO_SCIENCE' (Type = String, Size = 150)
+
+2026-01-09 15:40:04,081 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,089 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 7 ms with result: SqlDataReader
+
+2026-01-09 15:40:04,089 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:40:04,099 DEBUG [1] TemaASSE_UscoiuDorin.Program - Committed transaction at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,099 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,107 INFO  [1] TemaASSE_UscoiuDorin.Program - Created domain: Id=1441, Name=DEMO_SCIENCE, ParentId=
+2026-01-09 15:40:04,109 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,110 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[ParentDomainId] AS [ParentDomainId]
+    FROM [dbo].[BookDomain] AS [Extent1]
+    WHERE [Extent1].[Name] = @p__linq__0
+2026-01-09 15:40:04,110 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:40:04,110 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: 'DEMO_CS' (Type = String, Size = 4000)
+
+2026-01-09 15:40:04,110 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,114 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 4 ms with result: SqlDataReader
+
+2026-01-09 15:40:04,114 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:40:04,114 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,127 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,127 DEBUG [1] TemaASSE_UscoiuDorin.Program - Started transaction at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,131 DEBUG [1] TemaASSE_UscoiuDorin.Program - INSERT [dbo].[BookDomain]([Name], [ParentDomainId])
+VALUES (@0, @1)
+SELECT [Id]
+FROM [dbo].[BookDomain]
+WHERE @@ROWCOUNT > 0 AND [Id] = scope_identity()
+2026-01-09 15:40:04,132 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:40:04,132 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @0: 'DEMO_CS' (Type = String, Size = 150)
+
+2026-01-09 15:40:04,132 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @1: '1441' (Type = Int32)
+
+2026-01-09 15:40:04,132 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,136 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 3 ms with result: SqlDataReader
+
+2026-01-09 15:40:04,136 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:40:04,138 DEBUG [1] TemaASSE_UscoiuDorin.Program - Committed transaction at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,138 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,142 INFO  [1] TemaASSE_UscoiuDorin.Program - Created domain: Id=1442, Name=DEMO_CS, ParentId=1441
+2026-01-09 15:40:04,144 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,157 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[FirstName] AS [FirstName], 
+    [Extent1].[LastName] AS [LastName], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[PhoneNumber] AS [PhoneNumber], 
+    [Extent1].[Email] AS [Email], 
+    [Extent1].[RegistrationDate] AS [RegistrationDate], 
+    [Extent1].[IsStaff] AS [IsStaff]
+    FROM [dbo].[Reader] AS [Extent1]
+    WHERE ([Extent1].[Email] = @p__linq__0) OR (([Extent1].[Email] IS NULL) AND (@p__linq__0 IS NULL))
+2026-01-09 15:40:04,159 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:40:04,159 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: 'demo.staff@local' (Type = String, Size = 4000)
+
+2026-01-09 15:40:04,159 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,164 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 5 ms with result: SqlDataReader
+
+2026-01-09 15:40:04,165 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:40:04,165 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,166 INFO  [1] Service.ReaderService - CreateReader called.
+2026-01-09 15:40:04,187 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,187 DEBUG [1] TemaASSE_UscoiuDorin.Program - Started transaction at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,188 DEBUG [1] TemaASSE_UscoiuDorin.Program - INSERT [dbo].[Reader]([FirstName], [LastName], [Address], [PhoneNumber], [Email], [RegistrationDate], [IsStaff])
+VALUES (@0, @1, @2, @3, @4, @5, @6)
+SELECT [Id]
+FROM [dbo].[Reader]
+WHERE @@ROWCOUNT > 0 AND [Id] = scope_identity()
+2026-01-09 15:40:04,188 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:40:04,188 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @0: 'Demo' (Type = String, Size = 100)
+
+2026-01-09 15:40:04,188 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @1: 'Staff' (Type = String, Size = 100)
+
+2026-01-09 15:40:04,188 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @2: 'Demo Address' (Type = String, Size = 255)
+
+2026-01-09 15:40:04,188 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @3: '000' (Type = String, Size = 20)
+
+2026-01-09 15:40:04,188 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @4: 'demo.staff@local' (Type = String, Size = 150)
+
+2026-01-09 15:40:04,188 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @5: '1/9/2026 3:40:04 PM' (Type = DateTime2)
+
+2026-01-09 15:40:04,188 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @6: 'True' (Type = Boolean)
+
+2026-01-09 15:40:04,188 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,194 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 5 ms with result: SqlDataReader
+
+2026-01-09 15:40:04,195 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:40:04,197 DEBUG [1] TemaASSE_UscoiuDorin.Program - Committed transaction at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,197 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,197 INFO  [1] Service.ReaderService - CreateReader succeeded. readerId=1079
+2026-01-09 15:40:04,197 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,198 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[FirstName] AS [FirstName], 
+    [Extent1].[LastName] AS [LastName], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[PhoneNumber] AS [PhoneNumber], 
+    [Extent1].[Email] AS [Email], 
+    [Extent1].[RegistrationDate] AS [RegistrationDate], 
+    [Extent1].[IsStaff] AS [IsStaff]
+    FROM [dbo].[Reader] AS [Extent1]
+    WHERE ([Extent1].[Email] = @p__linq__0) OR (([Extent1].[Email] IS NULL) AND (@p__linq__0 IS NULL))
+2026-01-09 15:40:04,198 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:40:04,198 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: 'demo.staff@local' (Type = String, Size = 4000)
+
+2026-01-09 15:40:04,198 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,202 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 4 ms with result: SqlDataReader
+
+2026-01-09 15:40:04,202 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:40:04,203 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,203 INFO  [1] TemaASSE_UscoiuDorin.Program - Created reader: Id=1079, Email=demo.staff@local, IsStaff=True
+2026-01-09 15:40:04,204 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,204 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[FirstName] AS [FirstName], 
+    [Extent1].[LastName] AS [LastName], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[PhoneNumber] AS [PhoneNumber], 
+    [Extent1].[Email] AS [Email], 
+    [Extent1].[RegistrationDate] AS [RegistrationDate], 
+    [Extent1].[IsStaff] AS [IsStaff]
+    FROM [dbo].[Reader] AS [Extent1]
+    WHERE ([Extent1].[Email] = @p__linq__0) OR (([Extent1].[Email] IS NULL) AND (@p__linq__0 IS NULL))
+2026-01-09 15:40:04,204 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:40:04,204 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: 'demo.user@local' (Type = String, Size = 4000)
+
+2026-01-09 15:40:04,204 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,208 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 4 ms with result: SqlDataReader
+
+2026-01-09 15:40:04,209 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:40:04,209 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,209 INFO  [1] Service.ReaderService - CreateReader called.
+2026-01-09 15:40:04,209 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,210 DEBUG [1] TemaASSE_UscoiuDorin.Program - Started transaction at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,210 DEBUG [1] TemaASSE_UscoiuDorin.Program - INSERT [dbo].[Reader]([FirstName], [LastName], [Address], [PhoneNumber], [Email], [RegistrationDate], [IsStaff])
+VALUES (@0, @1, @2, @3, @4, @5, @6)
+SELECT [Id]
+FROM [dbo].[Reader]
+WHERE @@ROWCOUNT > 0 AND [Id] = scope_identity()
+2026-01-09 15:40:04,210 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:40:04,210 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @0: 'Demo' (Type = String, Size = 100)
+
+2026-01-09 15:40:04,210 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @1: 'User' (Type = String, Size = 100)
+
+2026-01-09 15:40:04,210 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @2: 'Demo Address' (Type = String, Size = 255)
+
+2026-01-09 15:40:04,210 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @3: '000' (Type = String, Size = 20)
+
+2026-01-09 15:40:04,210 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @4: 'demo.user@local' (Type = String, Size = 150)
+
+2026-01-09 15:40:04,211 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @5: '1/9/2026 3:40:04 PM' (Type = DateTime2)
+
+2026-01-09 15:40:04,211 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @6: 'False' (Type = Boolean)
+
+2026-01-09 15:40:04,211 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,214 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 3 ms with result: SqlDataReader
+
+2026-01-09 15:40:04,215 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:40:04,215 DEBUG [1] TemaASSE_UscoiuDorin.Program - Committed transaction at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,215 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,215 INFO  [1] Service.ReaderService - CreateReader succeeded. readerId=1080
+2026-01-09 15:40:04,216 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,216 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[FirstName] AS [FirstName], 
+    [Extent1].[LastName] AS [LastName], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[PhoneNumber] AS [PhoneNumber], 
+    [Extent1].[Email] AS [Email], 
+    [Extent1].[RegistrationDate] AS [RegistrationDate], 
+    [Extent1].[IsStaff] AS [IsStaff]
+    FROM [dbo].[Reader] AS [Extent1]
+    WHERE ([Extent1].[Email] = @p__linq__0) OR (([Extent1].[Email] IS NULL) AND (@p__linq__0 IS NULL))
+2026-01-09 15:40:04,216 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:40:04,216 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: 'demo.user@local' (Type = String, Size = 4000)
+
+2026-01-09 15:40:04,216 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,221 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 4 ms with result: SqlDataReader
+
+2026-01-09 15:40:04,221 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:40:04,221 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,221 INFO  [1] TemaASSE_UscoiuDorin.Program - Created reader: Id=1080, Email=demo.user@local, IsStaff=False
+2026-01-09 15:40:04,223 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,227 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Title] AS [Title], 
+    [Extent1].[Description] AS [Description], 
+    [Extent1].[ISBN] AS [ISBN], 
+    [Extent1].[TotalCopies] AS [TotalCopies], 
+    [Extent1].[ReadingRoomOnlyCopies] AS [ReadingRoomOnlyCopies]
+    FROM [dbo].[Book] AS [Extent1]
+    WHERE ([Extent1].[ISBN] = @p__linq__0) OR (([Extent1].[ISBN] IS NULL) AND (@p__linq__0 IS NULL))
+2026-01-09 15:40:04,228 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:40:04,228 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: '23454320001' (Type = String, Size = 4000)
+
+2026-01-09 15:40:04,228 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,233 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 5 ms with result: SqlDataReader
+
+2026-01-09 15:40:04,234 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:40:04,234 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,236 INFO  [1] Service.BookService - Creating book. Title=Demo Book, ISBN=23454320001
+2026-01-09 15:40:04,246 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,246 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Title] AS [Title], 
+    [Extent1].[Description] AS [Description], 
+    [Extent1].[ISBN] AS [ISBN], 
+    [Extent1].[TotalCopies] AS [TotalCopies], 
+    [Extent1].[ReadingRoomOnlyCopies] AS [ReadingRoomOnlyCopies]
+    FROM [dbo].[Book] AS [Extent1]
+    WHERE ([Extent1].[ISBN] = @p__linq__0) OR (([Extent1].[ISBN] IS NULL) AND (@p__linq__0 IS NULL))
+2026-01-09 15:40:04,246 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:40:04,247 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: '23454320001' (Type = String, Size = 4000)
+
+2026-01-09 15:40:04,247 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,255 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 7 ms with result: SqlDataReader
+
+2026-01-09 15:40:04,255 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:40:04,255 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,266 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,266 DEBUG [1] TemaASSE_UscoiuDorin.Program - Started transaction at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,274 DEBUG [1] TemaASSE_UscoiuDorin.Program - INSERT [dbo].[Author]([FirstName], [LastName])
+VALUES (@0, @1)
+SELECT [Id]
+FROM [dbo].[Author]
+WHERE @@ROWCOUNT > 0 AND [Id] = scope_identity()
+2026-01-09 15:40:04,274 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:40:04,274 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @0: 'Demo' (Type = String, Size = 100)
+
+2026-01-09 15:40:04,274 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @1: 'Author' (Type = String, Size = 100)
+
+2026-01-09 15:40:04,274 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,278 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 4 ms with result: SqlDataReader
+
+2026-01-09 15:40:04,278 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:40:04,279 DEBUG [1] TemaASSE_UscoiuDorin.Program - INSERT [dbo].[Book]([Title], [Description], [ISBN], [TotalCopies], [ReadingRoomOnlyCopies])
+VALUES (@0, @1, @2, @3, @4)
+SELECT [Id]
+FROM [dbo].[Book]
+WHERE @@ROWCOUNT > 0 AND [Id] = scope_identity()
+2026-01-09 15:40:04,279 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:40:04,279 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @0: 'Demo Book' (Type = String, Size = 255)
+
+2026-01-09 15:40:04,279 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @1: 'Inserted by demo runner' (Type = String, Size = 1000)
+
+2026-01-09 15:40:04,279 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @2: '23454320001' (Type = String, Size = 20)
+
+2026-01-09 15:40:04,279 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @3: '5' (Type = Int32)
+
+2026-01-09 15:40:04,279 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @4: '0' (Type = Int32)
+
+2026-01-09 15:40:04,279 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,284 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 4 ms with result: SqlDataReader
+
+2026-01-09 15:40:04,284 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:40:04,286 DEBUG [1] TemaASSE_UscoiuDorin.Program - INSERT [dbo].[BookAuthor]([BookId], [AuthorId])
+VALUES (@0, @1)
+
+2026-01-09 15:40:04,287 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @0: '2242' (Type = Int32)
+
+2026-01-09 15:40:04,287 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @1: '2374' (Type = Int32)
+
+2026-01-09 15:40:04,287 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,293 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 5 ms with result: 1
+
+2026-01-09 15:40:04,294 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:40:04,294 DEBUG [1] TemaASSE_UscoiuDorin.Program - INSERT [dbo].[BookBookDomain]([BookId], [DomainId])
+VALUES (@0, @1)
+
+2026-01-09 15:40:04,294 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @0: '2242' (Type = Int32)
+
+2026-01-09 15:40:04,294 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @1: '1442' (Type = Int32)
+
+2026-01-09 15:40:04,294 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,300 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 4 ms with result: 1
+
+2026-01-09 15:40:04,300 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:40:04,302 DEBUG [1] TemaASSE_UscoiuDorin.Program - Committed transaction at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,302 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,303 INFO  [1] Service.BookService - Book created successfully. Title=Demo Book, ISBN=23454320001
+2026-01-09 15:40:04,303 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,304 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Title] AS [Title], 
+    [Extent1].[Description] AS [Description], 
+    [Extent1].[ISBN] AS [ISBN], 
+    [Extent1].[TotalCopies] AS [TotalCopies], 
+    [Extent1].[ReadingRoomOnlyCopies] AS [ReadingRoomOnlyCopies]
+    FROM [dbo].[Book] AS [Extent1]
+    WHERE ([Extent1].[ISBN] = @p__linq__0) OR (([Extent1].[ISBN] IS NULL) AND (@p__linq__0 IS NULL))
+2026-01-09 15:40:04,304 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:40:04,304 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: '23454320001' (Type = String, Size = 4000)
+
+2026-01-09 15:40:04,304 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,308 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 4 ms with result: SqlDataReader
+
+2026-01-09 15:40:04,308 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:40:04,308 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,309 INFO  [1] TemaASSE_UscoiuDorin.Program - Created book: Id=2242, ISBN=23454320001, Title=Demo Book
+2026-01-09 15:40:04,310 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,316 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[Publisher] AS [Publisher], 
+    [Extent1].[Year] AS [Year], 
+    [Extent1].[EditionNumber] AS [EditionNumber], 
+    [Extent1].[PageCount] AS [PageCount], 
+    [Extent1].[BookType] AS [BookType]
+    FROM [dbo].[Edition] AS [Extent1]
+    WHERE ([Extent1].[BookId] = @p__linq__0) AND (N'DEMO_PUBLISHER' = [Extent1].[Publisher])
+2026-01-09 15:40:04,316 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:40:04,316 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: '2242' (Type = Int32, IsNullable = false)
+
+2026-01-09 15:40:04,316 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,327 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 10 ms with result: SqlDataReader
+
+2026-01-09 15:40:04,327 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:40:04,328 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,328 INFO  [1] Service.EditionService - CreateEdition called.
+2026-01-09 15:40:04,332 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,332 DEBUG [1] TemaASSE_UscoiuDorin.Program - Started transaction at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,333 DEBUG [1] TemaASSE_UscoiuDorin.Program - INSERT [dbo].[Edition]([BookId], [Publisher], [Year], [EditionNumber], [PageCount], [BookType])
+VALUES (@0, @1, @2, @3, @4, @5)
+SELECT [Id]
+FROM [dbo].[Edition]
+WHERE @@ROWCOUNT > 0 AND [Id] = scope_identity()
+2026-01-09 15:40:04,333 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:40:04,333 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @0: '2242' (Type = Int32)
+
+2026-01-09 15:40:04,333 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @1: 'DEMO_PUBLISHER' (Type = String, Size = 150)
+
+2026-01-09 15:40:04,334 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @2: '2026' (Type = Int32)
+
+2026-01-09 15:40:04,334 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @3: '1' (Type = Int32)
+
+2026-01-09 15:40:04,334 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @4: '250' (Type = Int32)
+
+2026-01-09 15:40:04,334 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @5: 'Paperback' (Type = String, Size = 50)
+
+2026-01-09 15:40:04,334 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,339 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 5 ms with result: SqlDataReader
+
+2026-01-09 15:40:04,340 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:40:04,341 DEBUG [1] TemaASSE_UscoiuDorin.Program - Committed transaction at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,341 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,341 INFO  [1] Service.EditionService - CreateEdition succeeded. editionId=134
+2026-01-09 15:40:04,342 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,342 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[Publisher] AS [Publisher], 
+    [Extent1].[Year] AS [Year], 
+    [Extent1].[EditionNumber] AS [EditionNumber], 
+    [Extent1].[PageCount] AS [PageCount], 
+    [Extent1].[BookType] AS [BookType]
+    FROM [dbo].[Edition] AS [Extent1]
+    WHERE ([Extent1].[BookId] = @p__linq__0) AND (N'DEMO_PUBLISHER' = [Extent1].[Publisher])
+2026-01-09 15:40:04,342 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:40:04,342 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: '2242' (Type = Int32, IsNullable = false)
+
+2026-01-09 15:40:04,342 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,349 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 7 ms with result: SqlDataReader
+
+2026-01-09 15:40:04,350 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:40:04,350 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:40:04 PM +02:00
+
+2026-01-09 15:40:04,350 INFO  [1] TemaASSE_UscoiuDorin.Program - Created edition: Id=134, BookId=2242, Publisher=DEMO_PUBLISHER
+2026-01-09 15:40:04,350 INFO  [1] TemaASSE_UscoiuDorin.Program - Populate finished.
+2026-01-09 15:40:04,351 INFO  [1] TemaASSE_UscoiuDorin.Program - Application stopped.
+2026-01-09 15:41:33,088 INFO  [1] TemaASSE_UscoiuDorin.Program - Application started.
+2026-01-09 15:41:38,398 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:41:38 PM +02:00
+
+2026-01-09 15:41:38,399 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+SELECT Count(*)
+FROM INFORMATION_SCHEMA.TABLES AS t
+WHERE t.TABLE_SCHEMA + '.' + t.TABLE_NAME IN ('dbo.Author','dbo.Book','dbo.Borrowing','dbo.LoanExtension','dbo.Reader','dbo.BookDomain','dbo.Edition','dbo.BookAuthor','dbo.BookBookDomain')
+    OR t.TABLE_NAME = 'EdmMetadata'
+2026-01-09 15:41:38,399 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:41:38,400 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:41:38 PM +02:00
+
+2026-01-09 15:41:38,448 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 46 ms with result: 9
+
+2026-01-09 15:41:38,448 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:41:38,448 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:41:38 PM +02:00
+
+2026-01-09 15:41:38,585 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:41:38 PM +02:00
+
+2026-01-09 15:41:39,015 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT 
+    [GroupBy1].[A1] AS [C1]
+    FROM ( SELECT 
+        COUNT(1) AS [A1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [GroupBy1]
+2026-01-09 15:41:39,016 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:41:39,016 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: 'Data.Migrations.Configuration' (Type = String, Size = 4000)
+
+2026-01-09 15:41:39,017 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:41:39 PM +02:00
+
+2026-01-09 15:41:39,086 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 69 ms with result: SqlDataReader
+
+2026-01-09 15:41:39,086 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:41:39,092 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:41:39 PM +02:00
+
+2026-01-09 15:41:39,098 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:41:39 PM +02:00
+
+2026-01-09 15:41:39,128 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Project1].[C1] AS [C1], 
+    [Project1].[MigrationId] AS [MigrationId], 
+    [Project1].[Model] AS [Model], 
+    [Project1].[ProductVersion] AS [ProductVersion]
+    FROM ( SELECT 
+        [Extent1].[MigrationId] AS [MigrationId], 
+        [Extent1].[Model] AS [Model], 
+        [Extent1].[ProductVersion] AS [ProductVersion], 
+        1 AS [C1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [Project1]
+    ORDER BY [Project1].[MigrationId] DESC
+2026-01-09 15:41:39,129 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:41:39,129 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: 'Data.Migrations.Configuration' (Type = String, Size = 4000)
+
+2026-01-09 15:41:39,129 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:41:39 PM +02:00
+
+2026-01-09 15:41:39,138 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 9 ms with result: SqlDataReader
+
+2026-01-09 15:41:39,138 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:41:39,141 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:41:39 PM +02:00
+
+2026-01-09 15:41:39,166 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:41:39 PM +02:00
+
+2026-01-09 15:41:39,240 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[FirstName] AS [FirstName], 
+    [Extent1].[LastName] AS [LastName], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[PhoneNumber] AS [PhoneNumber], 
+    [Extent1].[Email] AS [Email], 
+    [Extent1].[RegistrationDate] AS [RegistrationDate], 
+    [Extent1].[IsStaff] AS [IsStaff]
+    FROM [dbo].[Reader] AS [Extent1]
+    WHERE N'demo.staff@local' = [Extent1].[Email]
+2026-01-09 15:41:39,240 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:41:39,240 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:41:39 PM +02:00
+
+2026-01-09 15:41:39,247 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 6 ms with result: SqlDataReader
+
+2026-01-09 15:41:39,247 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:41:39,265 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:41:39 PM +02:00
+
+2026-01-09 15:41:39,266 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:41:39 PM +02:00
+
+2026-01-09 15:41:39,267 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[FirstName] AS [FirstName], 
+    [Extent1].[LastName] AS [LastName], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[PhoneNumber] AS [PhoneNumber], 
+    [Extent1].[Email] AS [Email], 
+    [Extent1].[RegistrationDate] AS [RegistrationDate], 
+    [Extent1].[IsStaff] AS [IsStaff]
+    FROM [dbo].[Reader] AS [Extent1]
+    WHERE N'demo.user@local' = [Extent1].[Email]
+2026-01-09 15:41:39,268 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:41:39,268 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:41:39 PM +02:00
+
+2026-01-09 15:41:39,274 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 6 ms with result: SqlDataReader
+
+2026-01-09 15:41:39,274 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:41:39,274 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:41:39 PM +02:00
+
+2026-01-09 15:41:39,275 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:41:39 PM +02:00
+
+2026-01-09 15:41:39,279 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Title] AS [Title], 
+    [Extent1].[Description] AS [Description], 
+    [Extent1].[ISBN] AS [ISBN], 
+    [Extent1].[TotalCopies] AS [TotalCopies], 
+    [Extent1].[ReadingRoomOnlyCopies] AS [ReadingRoomOnlyCopies]
+    FROM [dbo].[Book] AS [Extent1]
+    WHERE N'23454320001' = [Extent1].[ISBN]
+2026-01-09 15:41:39,279 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:41:39,279 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:41:39 PM +02:00
+
+2026-01-09 15:41:39,284 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 5 ms with result: SqlDataReader
+
+2026-01-09 15:41:39,285 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:41:39,286 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:41:39 PM +02:00
+
+2026-01-09 15:41:39,290 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:41:39 PM +02:00
+
+2026-01-09 15:41:39,309 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT 
+    CASE WHEN ( EXISTS (SELECT 
+        1 AS [C1]
+        FROM [dbo].[Borrowing] AS [Extent1]
+        WHERE ([Extent1].[ReaderId] = @p__linq__0) AND ([Extent1].[BookId] = @p__linq__1) AND ([Extent1].[IsActive] = 1)
+    )) THEN cast(1 as bit) ELSE cast(0 as bit) END AS [C1]
+    FROM  ( SELECT 1 AS X ) AS [SingleRowTable1]
+2026-01-09 15:41:39,309 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:41:39,310 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: '1080' (Type = Int32, IsNullable = false)
+
+2026-01-09 15:41:39,310 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__1: '2242' (Type = Int32, IsNullable = false)
+
+2026-01-09 15:41:39,310 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:41:39 PM +02:00
+
+2026-01-09 15:41:39,321 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 10 ms with result: SqlDataReader
+
+2026-01-09 15:41:39,321 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:41:39,323 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:41:39 PM +02:00
+
+2026-01-09 15:41:39,324 INFO  [1] Service.BorrowingService - BorrowBook called. readerId=1080, bookId=2242, borrowingDays=14, staffId=1079
+2026-01-09 15:41:39,350 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:41:39 PM +02:00
+
+2026-01-09 15:41:39,356 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[ReaderId] AS [ReaderId], 
+    [Extent1].[StaffId] AS [StaffId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[BorrowingDate] AS [BorrowingDate], 
+    [Extent1].[DueDate] AS [DueDate], 
+    [Extent1].[ReturnDate] AS [ReturnDate], 
+    [Extent1].[IsActive] AS [IsActive], 
+    [Extent1].[TotalExtensionDays] AS [TotalExtensionDays], 
+    [Extent1].[LastExtensionDate] AS [LastExtensionDate], 
+    [Extent1].[InitialBorrowingDays] AS [InitialBorrowingDays]
+    FROM [dbo].[Borrowing] AS [Extent1]
+    WHERE ([Extent1].[BorrowingDate] >= @p__linq__0) AND ([Extent1].[BorrowingDate] <= @p__linq__1)
+2026-01-09 15:41:39,356 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:41:39,356 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: '1/9/2026 12:00:00 AM' (Type = DateTime2, IsNullable = false)
+
+2026-01-09 15:41:39,356 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__1: '1/9/2026 3:41:39 PM' (Type = DateTime2, IsNullable = false)
+
+2026-01-09 15:41:39,356 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:41:39 PM +02:00
+
+2026-01-09 15:41:39,366 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 9 ms with result: SqlDataReader
+
+2026-01-09 15:41:39,366 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:41:39,366 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:41:39 PM +02:00
+
+2026-01-09 15:41:39,369 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:41:39 PM +02:00
+
+2026-01-09 15:41:39,370 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[ReaderId] AS [ReaderId], 
+    [Extent1].[StaffId] AS [StaffId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[BorrowingDate] AS [BorrowingDate], 
+    [Extent1].[DueDate] AS [DueDate], 
+    [Extent1].[ReturnDate] AS [ReturnDate], 
+    [Extent1].[IsActive] AS [IsActive], 
+    [Extent1].[TotalExtensionDays] AS [TotalExtensionDays], 
+    [Extent1].[LastExtensionDate] AS [LastExtensionDate], 
+    [Extent1].[InitialBorrowingDays] AS [InitialBorrowingDays]
+    FROM [dbo].[Borrowing] AS [Extent1]
+    WHERE ([Extent1].[ReaderId] = @p__linq__0) AND ([Extent1].[IsActive] = 1)
+2026-01-09 15:41:39,371 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:41:39,371 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: '1080' (Type = Int32, IsNullable = false)
+
+2026-01-09 15:41:39,371 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:41:39 PM +02:00
+
+2026-01-09 15:41:39,377 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 6 ms with result: SqlDataReader
+
+2026-01-09 15:41:39,377 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:41:39,378 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:41:39 PM +02:00
+
+2026-01-09 15:41:39,378 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:41:39 PM +02:00
+
+2026-01-09 15:41:39,379 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[ReaderId] AS [ReaderId], 
+    [Extent1].[StaffId] AS [StaffId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[BorrowingDate] AS [BorrowingDate], 
+    [Extent1].[DueDate] AS [DueDate], 
+    [Extent1].[ReturnDate] AS [ReturnDate], 
+    [Extent1].[IsActive] AS [IsActive], 
+    [Extent1].[TotalExtensionDays] AS [TotalExtensionDays], 
+    [Extent1].[LastExtensionDate] AS [LastExtensionDate], 
+    [Extent1].[InitialBorrowingDays] AS [InitialBorrowingDays]
+    FROM [dbo].[Borrowing] AS [Extent1]
+    WHERE ([Extent1].[BorrowingDate] >= @p__linq__0) AND ([Extent1].[BorrowingDate] <= @p__linq__1)
+2026-01-09 15:41:39,379 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:41:39,379 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: '7/9/2025 3:41:39 PM' (Type = DateTime2, IsNullable = false)
+
+2026-01-09 15:41:39,379 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__1: '1/9/2026 3:41:39 PM' (Type = DateTime2, IsNullable = false)
+
+2026-01-09 15:41:39,379 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:41:39 PM +02:00
+
+2026-01-09 15:41:39,384 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 4 ms with result: SqlDataReader
+
+2026-01-09 15:41:39,384 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:41:39,384 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:41:39 PM +02:00
+
+2026-01-09 15:41:39,385 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:41:39 PM +02:00
+
+2026-01-09 15:41:39,385 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[ReaderId] AS [ReaderId], 
+    [Extent1].[StaffId] AS [StaffId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[BorrowingDate] AS [BorrowingDate], 
+    [Extent1].[DueDate] AS [DueDate], 
+    [Extent1].[ReturnDate] AS [ReturnDate], 
+    [Extent1].[IsActive] AS [IsActive], 
+    [Extent1].[TotalExtensionDays] AS [TotalExtensionDays], 
+    [Extent1].[LastExtensionDate] AS [LastExtensionDate], 
+    [Extent1].[InitialBorrowingDays] AS [InitialBorrowingDays]
+    FROM [dbo].[Borrowing] AS [Extent1]
+    WHERE [Extent1].[BookId] = @p__linq__0
+2026-01-09 15:41:39,386 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:41:39,386 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: '2242' (Type = Int32, IsNullable = false)
+
+2026-01-09 15:41:39,386 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:41:39 PM +02:00
+
+2026-01-09 15:41:39,392 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 6 ms with result: SqlDataReader
+
+2026-01-09 15:41:39,393 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:41:39,393 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:41:39 PM +02:00
+
+2026-01-09 15:41:39,394 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:41:39 PM +02:00
+
+2026-01-09 15:41:39,394 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[ReaderId] AS [ReaderId], 
+    [Extent1].[StaffId] AS [StaffId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[BorrowingDate] AS [BorrowingDate], 
+    [Extent1].[DueDate] AS [DueDate], 
+    [Extent1].[ReturnDate] AS [ReturnDate], 
+    [Extent1].[IsActive] AS [IsActive], 
+    [Extent1].[TotalExtensionDays] AS [TotalExtensionDays], 
+    [Extent1].[LastExtensionDate] AS [LastExtensionDate], 
+    [Extent1].[InitialBorrowingDays] AS [InitialBorrowingDays]
+    FROM [dbo].[Borrowing] AS [Extent1]
+    WHERE ([Extent1].[BorrowingDate] >= @p__linq__0) AND ([Extent1].[BorrowingDate] <= @p__linq__1)
+2026-01-09 15:41:39,394 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:41:39,394 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: '1/9/2026 12:00:00 AM' (Type = DateTime2, IsNullable = false)
+
+2026-01-09 15:41:39,394 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__1: '1/9/2026 3:41:39 PM' (Type = DateTime2, IsNullable = false)
+
+2026-01-09 15:41:39,394 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:41:39 PM +02:00
+
+2026-01-09 15:41:39,399 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 4 ms with result: SqlDataReader
+
+2026-01-09 15:41:39,399 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:41:39,399 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:41:39 PM +02:00
+
+2026-01-09 15:41:39,435 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:41:39 PM +02:00
+
+2026-01-09 15:41:39,438 DEBUG [1] TemaASSE_UscoiuDorin.Program - Started transaction at 1/9/2026 3:41:39 PM +02:00
+
+2026-01-09 15:41:39,494 DEBUG [1] TemaASSE_UscoiuDorin.Program - INSERT [dbo].[Borrowing]([ReaderId], [StaffId], [BookId], [BorrowingDate], [DueDate], [ReturnDate], [IsActive], [TotalExtensionDays], [LastExtensionDate], [InitialBorrowingDays])
+VALUES (@0, @1, @2, @3, @4, NULL, @5, @6, NULL, @7)
+SELECT [Id]
+FROM [dbo].[Borrowing]
+WHERE @@ROWCOUNT > 0 AND [Id] = scope_identity()
+2026-01-09 15:41:39,495 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:41:39,495 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @0: '1080' (Type = Int32)
+
+2026-01-09 15:41:39,495 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @1: '1079' (Type = Int32)
+
+2026-01-09 15:41:39,495 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @2: '2242' (Type = Int32)
+
+2026-01-09 15:41:39,495 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @3: '1/9/2026 3:41:39 PM' (Type = DateTime2)
+
+2026-01-09 15:41:39,495 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @4: '1/23/2026 3:41:39 PM' (Type = DateTime2)
+
+2026-01-09 15:41:39,495 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @5: 'True' (Type = Boolean)
+
+2026-01-09 15:41:39,496 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @6: '0' (Type = Int32)
+
+2026-01-09 15:41:39,497 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @7: '14' (Type = Int32)
+
+2026-01-09 15:41:39,497 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:41:39 PM +02:00
+
+2026-01-09 15:41:39,507 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 10 ms with result: SqlDataReader
+
+2026-01-09 15:41:39,507 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:41:39,517 DEBUG [1] TemaASSE_UscoiuDorin.Program - Committed transaction at 1/9/2026 3:41:39 PM +02:00
+
+2026-01-09 15:41:39,517 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:41:39 PM +02:00
+
+2026-01-09 15:41:39,527 INFO  [1] Service.BorrowingService - BorrowBook succeeded. borrowingId=690
+2026-01-09 15:41:39,527 INFO  [1] TemaASSE_UscoiuDorin.Program - Borrowed demo book.
+2026-01-09 15:41:39,528 INFO  [1] TemaASSE_UscoiuDorin.Program - Application stopped.
+2026-01-09 15:42:37,207 INFO  [1] TemaASSE_UscoiuDorin.Program - Application started.
+2026-01-09 15:42:41,107 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:42:41 PM +02:00
+
+2026-01-09 15:42:41,108 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+SELECT Count(*)
+FROM INFORMATION_SCHEMA.TABLES AS t
+WHERE t.TABLE_SCHEMA + '.' + t.TABLE_NAME IN ('dbo.Author','dbo.Book','dbo.Borrowing','dbo.LoanExtension','dbo.Reader','dbo.BookDomain','dbo.Edition','dbo.BookAuthor','dbo.BookBookDomain')
+    OR t.TABLE_NAME = 'EdmMetadata'
+2026-01-09 15:42:41,108 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:42:41,109 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:42:41 PM +02:00
+
+2026-01-09 15:42:41,153 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 43 ms with result: 9
+
+2026-01-09 15:42:41,153 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:42:41,153 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:42:41 PM +02:00
+
+2026-01-09 15:42:41,288 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:42:41 PM +02:00
+
+2026-01-09 15:42:41,756 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT 
+    [GroupBy1].[A1] AS [C1]
+    FROM ( SELECT 
+        COUNT(1) AS [A1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [GroupBy1]
+2026-01-09 15:42:41,756 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:42:41,757 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: 'Data.Migrations.Configuration' (Type = String, Size = 4000)
+
+2026-01-09 15:42:41,757 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:42:41 PM +02:00
+
+2026-01-09 15:42:41,770 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 12 ms with result: SqlDataReader
+
+2026-01-09 15:42:41,771 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:42:41,774 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:42:41 PM +02:00
+
+2026-01-09 15:42:41,781 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:42:41 PM +02:00
+
+2026-01-09 15:42:41,817 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Project1].[C1] AS [C1], 
+    [Project1].[MigrationId] AS [MigrationId], 
+    [Project1].[Model] AS [Model], 
+    [Project1].[ProductVersion] AS [ProductVersion]
+    FROM ( SELECT 
+        [Extent1].[MigrationId] AS [MigrationId], 
+        [Extent1].[Model] AS [Model], 
+        [Extent1].[ProductVersion] AS [ProductVersion], 
+        1 AS [C1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [Project1]
+    ORDER BY [Project1].[MigrationId] DESC
+2026-01-09 15:42:41,817 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:42:41,818 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: 'Data.Migrations.Configuration' (Type = String, Size = 4000)
+
+2026-01-09 15:42:41,818 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:42:41 PM +02:00
+
+2026-01-09 15:42:41,831 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 13 ms with result: SqlDataReader
+
+2026-01-09 15:42:41,831 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:42:41,835 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:42:41 PM +02:00
+
+2026-01-09 15:42:41,880 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:42:41 PM +02:00
+
+2026-01-09 15:42:41,961 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[FirstName] AS [FirstName], 
+    [Extent1].[LastName] AS [LastName], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[PhoneNumber] AS [PhoneNumber], 
+    [Extent1].[Email] AS [Email], 
+    [Extent1].[RegistrationDate] AS [RegistrationDate], 
+    [Extent1].[IsStaff] AS [IsStaff]
+    FROM [dbo].[Reader] AS [Extent1]
+    WHERE N'demo.user@local' = [Extent1].[Email]
+2026-01-09 15:42:41,962 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:42:41,962 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:42:41 PM +02:00
+
+2026-01-09 15:42:41,970 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 7 ms with result: SqlDataReader
+
+2026-01-09 15:42:41,971 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:42:41,988 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:42:41 PM +02:00
+
+2026-01-09 15:42:41,989 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:42:41 PM +02:00
+
+2026-01-09 15:42:41,993 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Title] AS [Title], 
+    [Extent1].[Description] AS [Description], 
+    [Extent1].[ISBN] AS [ISBN], 
+    [Extent1].[TotalCopies] AS [TotalCopies], 
+    [Extent1].[ReadingRoomOnlyCopies] AS [ReadingRoomOnlyCopies]
+    FROM [dbo].[Book] AS [Extent1]
+    WHERE N'23454320001' = [Extent1].[ISBN]
+2026-01-09 15:42:41,993 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:42:41,993 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:42:41 PM +02:00
+
+2026-01-09 15:42:42,002 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 8 ms with result: SqlDataReader
+
+2026-01-09 15:42:42,002 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:42:42,003 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:42:42 PM +02:00
+
+2026-01-09 15:42:42,005 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:42:42 PM +02:00
+
+2026-01-09 15:42:42,016 DEBUG [1] TemaASSE_UscoiuDorin.Program - SELECT TOP (1) 
+    [Project1].[Id] AS [Id], 
+    [Project1].[ReaderId] AS [ReaderId], 
+    [Project1].[StaffId] AS [StaffId], 
+    [Project1].[BookId] AS [BookId], 
+    [Project1].[BorrowingDate] AS [BorrowingDate], 
+    [Project1].[DueDate] AS [DueDate], 
+    [Project1].[ReturnDate] AS [ReturnDate], 
+    [Project1].[IsActive] AS [IsActive], 
+    [Project1].[TotalExtensionDays] AS [TotalExtensionDays], 
+    [Project1].[LastExtensionDate] AS [LastExtensionDate], 
+    [Project1].[InitialBorrowingDays] AS [InitialBorrowingDays]
+    FROM ( SELECT 
+        [Extent1].[Id] AS [Id], 
+        [Extent1].[ReaderId] AS [ReaderId], 
+        [Extent1].[StaffId] AS [StaffId], 
+        [Extent1].[BookId] AS [BookId], 
+        [Extent1].[BorrowingDate] AS [BorrowingDate], 
+        [Extent1].[DueDate] AS [DueDate], 
+        [Extent1].[ReturnDate] AS [ReturnDate], 
+        [Extent1].[IsActive] AS [IsActive], 
+        [Extent1].[TotalExtensionDays] AS [TotalExtensionDays], 
+        [Extent1].[LastExtensionDate] AS [LastExtensionDate], 
+        [Extent1].[InitialBorrowingDays] AS [InitialBorrowingDays]
+        FROM [dbo].[Borrowing] AS [Extent1]
+        WHERE ([Extent1].[ReaderId] = @p__linq__0) AND ([Extent1].[BookId] = @p__linq__1) AND ([Extent1].[IsActive] = 1)
+    )  AS [Project1]
+    ORDER BY [Project1].[BorrowingDate] DESC
+2026-01-09 15:42:42,017 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:42:42,017 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__0: '1080' (Type = Int32, IsNullable = false)
+
+2026-01-09 15:42:42,017 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- p__linq__1: '2242' (Type = Int32, IsNullable = false)
+
+2026-01-09 15:42:42,017 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:42:42 PM +02:00
+
+2026-01-09 15:42:42,028 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 10 ms with result: SqlDataReader
+
+2026-01-09 15:42:42,028 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:42:42,052 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:42:42 PM +02:00
+
+2026-01-09 15:42:42,082 DEBUG [1] TemaASSE_UscoiuDorin.Program - Opened connection at 1/9/2026 3:42:42 PM +02:00
+
+2026-01-09 15:42:42,084 DEBUG [1] TemaASSE_UscoiuDorin.Program - Started transaction at 1/9/2026 3:42:42 PM +02:00
+
+2026-01-09 15:42:42,138 DEBUG [1] TemaASSE_UscoiuDorin.Program - UPDATE [dbo].[Borrowing]
+SET [ReturnDate] = @0, [IsActive] = @1
+WHERE ([Id] = @2)
+
+2026-01-09 15:42:42,139 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @0: '1/9/2026 3:42:42 PM' (Type = DateTime2)
+
+2026-01-09 15:42:42,139 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @1: 'False' (Type = Boolean)
+
+2026-01-09 15:42:42,139 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- @2: '690' (Type = Int32)
+
+2026-01-09 15:42:42,139 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Executing at 1/9/2026 3:42:42 PM +02:00
+
+2026-01-09 15:42:42,152 DEBUG [1] TemaASSE_UscoiuDorin.Program - -- Completed in 12 ms with result: 1
+
+2026-01-09 15:42:42,152 DEBUG [1] TemaASSE_UscoiuDorin.Program - 
+
+2026-01-09 15:42:42,156 DEBUG [1] TemaASSE_UscoiuDorin.Program - Committed transaction at 1/9/2026 3:42:42 PM +02:00
+
+2026-01-09 15:42:42,156 DEBUG [1] TemaASSE_UscoiuDorin.Program - Closed connection at 1/9/2026 3:42:42 PM +02:00
+
+2026-01-09 15:42:42,160 INFO  [1] Service.BorrowingService - ReturnBorrowing succeeded. BorrowingId=690, ReturnDate=01/09/2026 15:42:42
+2026-01-09 15:42:42,161 INFO  [1] TemaASSE_UscoiuDorin.Program - Returned borrowingId=690
+2026-01-09 15:42:42,162 INFO  [1] TemaASSE_UscoiuDorin.Program - Application stopped.
+2026-01-09 17:55:34,594 INFO  [1] TemaASSE_UscoiuDorin.Program - Application started.
+2026-01-09 17:55:36,889 INFO  [1] TemaASSE_UscoiuDorin.Program - Application stopped.
