@@ -106,6 +106,26 @@ namespace ServiceTests
         /// Test.
         /// </summary>
         [TestMethod]
+        [ExpectedException(typeof(ValidationException))]
+        public void CreateEdition_WithInvalidModel()
+        {
+            var edition = new Edition
+            {
+                BookId = 1,
+                Publisher = string.Empty,
+                Year = 0,
+                EditionNumber = 0,
+                PageCount = 0,
+                BookType = string.Empty,
+            };
+            this.mockBookRepository.Stub(x => x.GetById(1)).Return(new Book { Id = 1, Title = "Dummy" });
+            this.editionService.CreateEdition(edition);
+        }
+
+        /// <summary>
+        /// Test.
+        /// </summary>
+        [TestMethod]
         [ExpectedException(typeof(InvalidOperationException))]
         public void CreateEdition_WithInvalidBookId()
         {

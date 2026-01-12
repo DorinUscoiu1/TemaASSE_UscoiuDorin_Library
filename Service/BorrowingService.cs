@@ -24,6 +24,8 @@ namespace Service
         private readonly IReader readerRepository;
         private readonly LibraryConfiguration configRepository;
 
+        private readonly IBookDomain bookDomainRepository;
+
         /// <summary>
         /// Initializes a new instance of the <see cref="BorrowingService"/> class.
         /// </summary>
@@ -31,16 +33,21 @@ namespace Service
         /// <param name="bookRepository">The book repository.</param>
         /// <param name="readerRepository">The reader repository.</param>
         /// <param name="configRepository">The library configuration repository.</param>
+        /// <param name="bookDomainRepository">The book domain repository.</param>
         public BorrowingService(
             IBorrowing borrowingRepository,
             IBook bookRepository,
             IReader readerRepository,
-            LibraryConfiguration configRepository)
+            LibraryConfiguration configRepository,
+            IBookDomain bookDomainRepository)
         {
             this.borrowingRepository = borrowingRepository ?? throw new ArgumentNullException(nameof(borrowingRepository));
             this.bookRepository = bookRepository ?? throw new ArgumentNullException(nameof(bookRepository));
             this.readerRepository = readerRepository ?? throw new ArgumentNullException(nameof(readerRepository));
             this.configRepository = configRepository ?? throw new ArgumentNullException(nameof(configRepository));
+
+            this.bookDomainRepository = bookDomainRepository ?? throw new ArgumentNullException(nameof(bookDomainRepository));
+            this.bookDomainRepository = bookDomainRepository;
         }
 
         /// <summary>
@@ -278,15 +285,45 @@ namespace Service
             }
 
             var domainLimitMonths = config.DomainLimitMonths;
-            var lastMonthBorrowings = this.borrowingRepository.GetBorrowingsByDateRange(DateTime.Now.AddMonths(-domainLimitMonths), DateTime.Now);
+            var lastMonthBorrowings = this.borrowingRepository.GetBorrowingsByDateRange(DateTime.Now.AddMonths(-domainLimitMonths), DateTime.Now) ?? Enumerable.Empty<Borrowing>();
 
-            foreach (var domain in book.Domains)
+            // New: domain limits apply cumulatively across the domain tree.
+            // For each ancestor in the candidate book's domain chain, compute the set of descendant domains
+            // and count borrowings inside that subtree. If any ancestor subtree count reaches the limit,
+            // borrowing is blocked.
+            var processedAncestorIds = new HashSet<int>();
+            foreach (var domain in book.Domains ?? Enumerable.Empty<BookDomain>())
             {
-                var domainBooksCount = lastMonthBorrowings.Count(b => b.Book != null && b.Book.Domains.Any(d => d.Id == domain.Id));
-                var maxDomainBooks = reader.IsStaff ? config.MaxBooksPerDomain * 2 : config.MaxBooksPerDomain;
-                if (domainBooksCount >= maxDomainBooks)
+                // load current domain from repository to be safe
+                var current = this.bookDomainRepository.GetById(domain.Id);
+                if (current == null)
                 {
-                    return false;
+                    continue;
+                }
+
+                // traverse up the ancestor chain and evaluate each ancestor once
+                var ancestor = current;
+                while (ancestor != null)
+                {
+                    if (!processedAncestorIds.Add(ancestor.Id))
+                    {
+                        // already evaluated this ancestor
+                        ancestor = ancestor.ParentDomainId.HasValue ? this.bookDomainRepository.GetById(ancestor.ParentDomainId.Value) : null;
+                        continue;
+                    }
+
+                    // collect descendant ids including the ancestor itself
+                    var descendantIds = new List<int> { ancestor.Id };
+                    this.GetDescendantDomainIds(ancestor.Id, descendantIds);
+
+                    var domainBooksCount = lastMonthBorrowings.Count(b => b.Book != null && b.Book.Domains.Any(d => descendantIds.Contains(d.Id)));
+                    var maxDomainBooks = reader.IsStaff ? config.MaxBooksPerDomain * 2 : config.MaxBooksPerDomain;
+                    if (domainBooksCount >= maxDomainBooks)
+                    {
+                        return false;
+                    }
+
+                    ancestor = ancestor.ParentDomainId.HasValue ? this.bookDomainRepository.GetById(ancestor.ParentDomainId.Value) : null;
                 }
             }
 
@@ -313,6 +350,22 @@ namespace Service
             }
 
             return true;
+        }
+
+        /// <summary>
+        /// Gets all descendant domain IDs recursively.
+        /// </summary>
+        private void GetDescendantDomainIds(int parentDomainId, List<int> result)
+        {
+            var subdomains = this.bookDomainRepository.GetSubdomains(parentDomainId);
+            foreach (var subdomain in subdomains)
+            {
+                if (!result.Contains(subdomain.Id))
+                {
+                    result.Add(subdomain.Id);
+                    this.GetDescendantDomainIds(subdomain.Id, result);
+                }
+            }
         }
 
         /// <summary>

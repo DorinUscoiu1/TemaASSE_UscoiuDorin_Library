@@ -90,11 +90,12 @@ namespace TemaASSE_UscoiuDorin
                 var readerRepository = new ReaderDataService(context);
                 var borrowingRepository = new BorrowingDataService(context);
                 var editionRepository = new EditionDataService(context);
+                var bookDomainRepository = new BookDomainDataService(context);
 
                 var bookService = new BookService(bookRepository, domainRepository, config);
                 var readerService = new ReaderService(readerRepository);
                 var editionService = new EditionService(editionRepository, bookRepository);
-                var borrowingService = new BorrowingService(borrowingRepository, bookRepository, readerRepository, config);
+                var borrowingService = new BorrowingService(borrowingRepository, bookRepository, readerRepository, config, bookDomainRepository);
 
                 if (string.Equals(input, "1", StringComparison.Ordinal))
                 {

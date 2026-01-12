@@ -65,10 +65,11 @@ namespace ServiceTests
             services.ReaderService = new ReaderService(services.ReaderRepo);
             services.DomainService = new BookDomainService(services.DomainRepo);
             services.BookService = new BookService(services.BookRepo, services.DomainRepo, services.Config);
-            services.BorrowingService = new BorrowingService(services.BorrowingRepo, services.BookRepo, services.ReaderRepo, services.Config);
+            services.BorrowingService = new BorrowingService(services.BorrowingRepo, services.BookRepo, services.ReaderRepo, services.Config, services.DomainRepo);
 
             return services;
         }
+
 
         /// <summary>
         /// Helper method to completely clean up all test data.
@@ -1302,6 +1303,320 @@ namespace ServiceTests
         }
 
         /// <summary>
+        /// When the new extension would push the sum of extensions in the last 3 months
+        /// above LIM (MaxExtensionDays) the operation must be refused.
+        /// </summary>
+        [TestMethod]
+        [ExpectedException(typeof(InvalidOperationException))]
+        public void ExtendBorrowing_ExceedingLIM_IsRefused()
+        {
+            var bookIds = new List<int>();
+            var readerIds = new List<int>();
+            var domainIds = new List<int>();
+
+            using (var context = new LibraryDbContext())
+            {
+                try
+                {
+                    var services = this.CreateIntegrationServices(context);
+
+                    // Arrange small LIM
+                    services.Config.MaxExtensionDays = 10;
+
+                    var domain = new BookDomain { Name = "LimExceed_" + Guid.NewGuid().ToString().Substring(0, 5) };
+                    context.Domains.Add(domain);
+                    context.SaveChanges();
+                    domainIds.Add(domain.Id);
+
+                    var book = new Book
+                    {
+                        Title = "LIM Test Book",
+                        ISBN = "232222222111111",
+                        TotalCopies = 5,
+                        ReadingRoomOnlyCopies = 0,
+                        Authors = new List<Author> { new Author { FirstName = "A", LastName = "One" } },
+                    };
+                    services.BookService.CreateBook(book, new List<int> { domain.Id });
+                    context.SaveChanges();
+
+                    var createdBook = context.Books.First(b => b.ISBN == book.ISBN);
+                    bookIds.Add(createdBook.Id);
+
+                    var reader = new Reader
+                    {
+                        FirstName = "Lim",
+                        LastName = "Reader",
+                        Email = "lim.reader." + Guid.NewGuid().ToString("N").Substring(0, 8) + "@test.com",
+                        IsStaff = false,
+                        RegistrationDate = DateTime.Now,
+                    };
+
+                    var staff = new Reader
+                    {
+                        FirstName = "Lim",
+                        LastName = "Staff",
+                        Email = "lim.staff." + Guid.NewGuid().ToString("N").Substring(0, 8) + "@test.com",
+                        IsStaff = true,
+                        RegistrationDate = DateTime.Now,
+                    };
+
+                    services.ReaderRepo.Add(reader);
+                    services.ReaderRepo.Add(staff);
+                    context.SaveChanges();
+
+                    var createdReader = context.Readers.First(r => r.Email == reader.Email);
+                    var createdStaff = context.Readers.First(r => r.Email == staff.Email);
+                    readerIds.Add(createdReader.Id);
+                    readerIds.Add(createdStaff.Id);
+
+                    // Create a borrowing within last 3 months and mark it as having previous extensions
+                    var borrowDate = DateTime.Now.AddDays(-20);
+                    services.BorrowingService.CreateBorrowings(createdReader.Id, new List<int> { createdBook.Id }, borrowDate, 14, createdStaff.Id);
+
+                    var borrowing = services.BorrowingRepo.GetBorrowingsByBook(createdBook.Id)
+                        .Where(b => b.ReaderId == createdReader.Id)
+                        .OrderByDescending(b => b.BorrowingDate)
+                        .FirstOrDefault();
+
+                    Assert.IsNotNull(borrowing);
+
+                    // Simulate existing extension days on that borrowing (persisted)
+                    borrowing.TotalExtensionDays = 8;
+                    borrowing.LastExtensionDate = DateTime.Now.AddDays(-10);
+                    services.BorrowingRepo.Update(borrowing);
+
+                    // Now attempt to extend by 3 -> 8 + 3 > LIM (10) => should throw
+                    services.BorrowingService.ExtendBorrowing(borrowing.Id, 3, DateTime.Now);
+                }
+                finally
+                {
+                    this.CompleteCleanup(context, bookIds, readerIds, domainIds);
+                }
+            }
+        }
+
+        /// <summary>
+        /// Multiple previous extensions (from different borrowings) inside the last 3 months
+        /// must be accumulated. If their sum plus the new extension exceeds LIM the request is refused.
+        /// </summary>
+        [TestMethod]
+        [ExpectedException(typeof(InvalidOperationException))]
+        public void ExtendBorrowing_CumulativeRecentExtensions_Refused()
+        {
+            var bookIds = new List<int>();
+            var readerIds = new List<int>();
+            var domainIds = new List<int>();
+
+            using (var context = new LibraryDbContext())
+            {
+                try
+                {
+                    var services = this.CreateIntegrationServices(context);
+
+                    services.Config.MaxExtensionDays = 10;
+
+                    var domain = new BookDomain { Name = "CumulLim_" + Guid.NewGuid().ToString().Substring(0, 5) };
+                    context.Domains.Add(domain);
+                    context.SaveChanges();
+                    domainIds.Add(domain.Id);
+
+                    // Create three distinct books; two will simulate previous extensions
+                    for (int i = 0; i < 3; i++)
+                    {
+                        var b = new Book
+                        {
+                            Title = $"Cumul Book {i}",
+                            ISBN = "34323432323232" + i.ToString(),
+                            TotalCopies = 5,
+                            ReadingRoomOnlyCopies = 0,
+                            Authors = new List<Author> { new Author { FirstName = "X", LastName = "Y" } },
+                        };
+                        services.BookService.CreateBook(b, new List<int> { domain.Id });
+                        context.SaveChanges();
+                        var created = context.Books.First(bb => bb.ISBN == b.ISBN);
+                        bookIds.Add(created.Id);
+                    }
+
+                    var reader = new Reader
+                    {
+                        FirstName = "Cumul",
+                        LastName = "Reader",
+                        Email = "cumul.reader." + Guid.NewGuid().ToString("N").Substring(0, 8) + "@test.com",
+                        IsStaff = false,
+                        RegistrationDate = DateTime.Now,
+                    };
+
+                    var staff = new Reader
+                    {
+                        FirstName = "Cumul",
+                        LastName = "Staff",
+                        Email = "cumul.staff." + Guid.NewGuid().ToString("N").Substring(0, 8) + "@test.com",
+                        IsStaff = true,
+                        RegistrationDate = DateTime.Now,
+                    };
+
+                    services.ReaderRepo.Add(reader);
+                    services.ReaderRepo.Add(staff);
+                    context.SaveChanges();
+
+                    var createdReader = context.Readers.First(r => r.Email == reader.Email);
+                    var createdStaff = context.Readers.First(r => r.Email == staff.Email);
+                    readerIds.Add(createdReader.Id);
+                    readerIds.Add(createdStaff.Id);
+
+                    // Borrow two books recently and set their TotalExtensionDays so sum = 11 (6 + 5)
+                    var recentDate = DateTime.Now.AddDays(-30);
+                    services.BorrowingService.CreateBorrowings(createdReader.Id, new List<int> { bookIds[0] }, recentDate, 14, createdStaff.Id);
+                    services.BorrowingService.CreateBorrowings(createdReader.Id, new List<int> { bookIds[1] }, recentDate, 14, createdStaff.Id);
+
+                    var b0 = services.BorrowingRepo.GetBorrowingsByBook(bookIds[0])
+                        .Where(b => b.ReaderId == createdReader.Id)
+                        .OrderByDescending(b => b.BorrowingDate)
+                        .First();
+                    var b1 = services.BorrowingRepo.GetBorrowingsByBook(bookIds[1])
+                        .Where(b => b.ReaderId == createdReader.Id)
+                        .OrderByDescending(b => b.BorrowingDate)
+                        .First();
+
+                    b0.TotalExtensionDays = 6;
+                    b0.LastExtensionDate = DateTime.Now.AddDays(-20);
+                    services.BorrowingRepo.Update(b0);
+
+                    b1.TotalExtensionDays = 5;
+                    b1.LastExtensionDate = DateTime.Now.AddDays(-10);
+                    services.BorrowingRepo.Update(b1);
+
+                    // Now try to extend the third book by 1 -> 6 + 5 + 1 = 12 > LIM (10) -> should throw
+                    services.BorrowingService.CreateBorrowings(createdReader.Id, new List<int> { bookIds[2] }, recentDate, 14, createdStaff.Id);
+                    var b2 = services.BorrowingRepo.GetBorrowingsByBook(bookIds[2])
+                        .Where(b => b.ReaderId == createdReader.Id)
+                        .OrderByDescending(b => b.BorrowingDate)
+                        .First();
+
+                    services.BorrowingService.ExtendBorrowing(b2.Id, 1, DateTime.Now);
+                }
+                finally
+                {
+                    this.CompleteCleanup(context, bookIds, readerIds, domainIds);
+                }
+            }
+        }
+
+        /// <summary>
+        /// Extensions older than 3 months must NOT be counted when checking the 3-month LIM.
+        /// This test ensures old extensions (>3 months) are ignored and a new extension is allowed
+        /// as long as recent extensions remain within the LIM.
+        /// </summary>
+        [TestMethod]
+        public void ExtendBorrowing_OldExtensionsIgnored_AllowsExtension()
+        {
+            var bookIds = new List<int>();
+            var readerIds = new List<int>();
+            var domainIds = new List<int>();
+
+            using (var context = new LibraryDbContext())
+            {
+                try
+                {
+                    var services = this.CreateIntegrationServices(context);
+
+                    services.Config.MaxExtensionDays = 10;
+
+                    var domain = new BookDomain { Name = "OldExtIgnored_" + Guid.NewGuid().ToString().Substring(0, 5) };
+                    context.Domains.Add(domain);
+                    context.SaveChanges();
+                    domainIds.Add(domain.Id);
+
+                    // Two books: one with old extension, one to extend now
+                    var bookOld = new Book
+                    {
+                        Title = "Old Ext Book",
+                        ISBN = "1234567734654345",
+                        TotalCopies = 5,
+                        ReadingRoomOnlyCopies = 0,
+                        Authors = new List<Author> { new Author { FirstName = "O", LastName = "L" } },
+                    };
+                    var bookNow = new Book
+                    {
+                        Title = "New Ext Book",
+                        ISBN = "3432903432343234",
+                        TotalCopies = 5,
+                        ReadingRoomOnlyCopies = 0,
+                        Authors = new List<Author> { new Author { FirstName = "N", LastName = "E" } },
+                    };
+                    services.BookService.CreateBook(bookOld, new List<int> { domain.Id });
+                    services.BookService.CreateBook(bookNow, new List<int> { domain.Id });
+                    context.SaveChanges();
+
+                    var createdOld = context.Books.First(b => b.ISBN == bookOld.ISBN);
+                    var createdNow = context.Books.First(b => b.ISBN == bookNow.ISBN);
+                    bookIds.Add(createdOld.Id);
+                    bookIds.Add(createdNow.Id);
+
+                    var reader = new Reader
+                    {
+                        FirstName = "Old",
+                        LastName = "Reader",
+                        Email = "old.reader." + Guid.NewGuid().ToString("N").Substring(0, 8) + "@test.com",
+                        IsStaff = false,
+                        RegistrationDate = DateTime.Now,
+                    };
+
+                    var staff = new Reader
+                    {
+                        FirstName = "Old",
+                        LastName = "Staff",
+                        Email = "old.staff." + Guid.NewGuid().ToString("N").Substring(0, 8) + "@test.com",
+                        IsStaff = true,
+                        RegistrationDate = DateTime.Now,
+                    };
+
+                    services.ReaderRepo.Add(reader);
+                    services.ReaderRepo.Add(staff);
+                    context.SaveChanges();
+
+                    var createdReader = context.Readers.First(r => r.Email == reader.Email);
+                    var createdStaff = context.Readers.First(r => r.Email == staff.Email);
+                    readerIds.Add(createdReader.Id);
+                    readerIds.Add(createdStaff.Id);
+
+                    // Borrow old book more than 3 months ago and mark it with extensions (should be ignored)
+                    var oldBorrowDate = DateTime.Now.AddMonths(-4);
+                    services.BorrowingService.CreateBorrowings(createdReader.Id, new List<int> { createdOld.Id }, oldBorrowDate, 14, createdStaff.Id);
+
+                    var oldBorrowing = services.BorrowingRepo.GetBorrowingsByBook(createdOld.Id)
+                        .Where(b => b.ReaderId == createdReader.Id)
+                        .OrderByDescending(b => b.BorrowingDate)
+                        .First();
+
+                    oldBorrowing.TotalExtensionDays = 10; // large but old
+                    oldBorrowing.LastExtensionDate = DateTime.Now.AddMonths(-4).AddDays(10);
+                    services.BorrowingRepo.Update(oldBorrowing);
+
+                    // Borrow new book recently and try to extend by LIM (should be allowed because old does not count)
+                    var recentBorrowDate = DateTime.Now.AddDays(-20);
+                    services.BorrowingService.CreateBorrowings(createdReader.Id, new List<int> { createdNow.Id }, recentBorrowDate, 14, createdStaff.Id);
+
+                    var recentBorrowing = services.BorrowingRepo.GetBorrowingsByBook(createdNow.Id)
+                        .Where(b => b.ReaderId == createdReader.Id)
+                        .OrderByDescending(b => b.BorrowingDate)
+                        .First();
+
+                    // This extension equals LIM and should be allowed (no exception)
+                    services.BorrowingService.ExtendBorrowing(recentBorrowing.Id, services.Config.MaxExtensionDays, DateTime.Now);
+
+                    var updated = services.BorrowingRepo.GetById(recentBorrowing.Id);
+                    Assert.AreEqual(services.Config.MaxExtensionDays, updated.TotalExtensionDays);
+                    Assert.IsNotNull(updated.LastExtensionDate);
+                }
+                finally
+                {
+                    this.CompleteCleanup(context, bookIds, readerIds, domainIds);
+                }
+            }
+        }
+
+        /// <summary>
         /// Test.
         /// </summary>
         [TestMethod]
@@ -1509,6 +1824,145 @@ namespace ServiceTests
         /// Test.
         /// </summary>
         [TestMethod]
+        public void CanBorrowBook_DomainLimitAppliesAcrossHierarchy()
+        {
+            var bookIds = new List<int>();
+            var readerIds = new List<int>();
+            var domainIds = new List<int>();
+
+            using (var context = new LibraryDbContext())
+            {
+                try
+                {
+                    var services = this.CreateIntegrationServices(context);
+
+                    // Configure a small domain limit to exercise the rule
+                    services.Config.MaxBooksPerDomain = 2;
+                    services.Config.DomainLimitMonths = 12;
+
+                    // Parent domain and two subdomains
+                    var parent = new BookDomain { Name = "Parent_" + Guid.NewGuid().ToString().Substring(0, 5) };
+                    context.Domains.Add(parent);
+                    context.SaveChanges();
+
+                    var sub1 = new BookDomain { Name = "SubA_" + Guid.NewGuid().ToString().Substring(0, 5), ParentDomainId = parent.Id };
+                    var sub2 = new BookDomain { Name = "SubB_" + Guid.NewGuid().ToString().Substring(0, 5), ParentDomainId = parent.Id };
+                    context.Domains.Add(sub1);
+                    context.Domains.Add(sub2);
+                    context.SaveChanges();
+
+                    var createdParent = context.Domains.FirstOrDefault(d => d.Name == parent.Name);
+                    var createdSub1 = context.Domains.FirstOrDefault(d => d.Name == sub1.Name);
+                    var createdSub2 = context.Domains.FirstOrDefault(d => d.Name == sub2.Name);
+                    Assert.IsNotNull(createdParent);
+                    Assert.IsNotNull(createdSub1);
+                    Assert.IsNotNull(createdSub2);
+                    domainIds.Add(createdParent.Id);
+                    domainIds.Add(createdSub1.Id);
+                    domainIds.Add(createdSub2.Id);
+
+                    // Create two books in sub1 and one book in sub2
+                    var bookAIsbn = "87654323456432";
+                    var bookA = new Book
+                    {
+                        Title = "Hierarchy Book A",
+                        ISBN = bookAIsbn,
+                        TotalCopies = 5,
+                        ReadingRoomOnlyCopies = 0,
+                        Authors = new List<Author> { new Author { FirstName = "A", LastName = "One" } },
+                    };
+                    services.BookService.CreateBook(bookA, new List<int> { createdSub1.Id });
+
+                    var bookBIsbn = "2345676543456";
+                    var bookB = new Book
+                    {
+                        Title = "Hierarchy Book B",
+                        ISBN = bookBIsbn,
+                        TotalCopies = 5,
+                        ReadingRoomOnlyCopies = 0,
+                        Authors = new List<Author> { new Author { FirstName = "B", LastName = "Two" } },
+                    };
+                    services.BookService.CreateBook(bookB, new List<int> { createdSub1.Id });
+
+                    var bookCIsbn = "345411345434";
+                    var bookC = new Book
+                    {
+                        Title = "Hierarchy Book C",
+                        ISBN = bookCIsbn,
+                        TotalCopies = 5,
+                        ReadingRoomOnlyCopies = 0,
+                        Authors = new List<Author> { new Author { FirstName = "C", LastName = "Three" } },
+                    };
+                    services.BookService.CreateBook(bookC, new List<int> { createdSub2.Id });
+
+                    context.SaveChanges();
+
+                    var createdBookA = context.Books.FirstOrDefault(b => b.ISBN == bookAIsbn);
+                    var createdBookB = context.Books.FirstOrDefault(b => b.ISBN == bookBIsbn);
+                    var createdBookC = context.Books.FirstOrDefault(b => b.ISBN == bookCIsbn);
+                    Assert.IsNotNull(createdBookA);
+                    Assert.IsNotNull(createdBookB);
+                    Assert.IsNotNull(createdBookC);
+                    bookIds.Add(createdBookA.Id);
+                    bookIds.Add(createdBookB.Id);
+                    bookIds.Add(createdBookC.Id);
+
+                    // Create reader and staff
+                    var readerEmail = "hier.reader." + Guid.NewGuid().ToString("N").Substring(0, 8) + "@test.com";
+                    var staffEmail = "hier.staff." + Guid.NewGuid().ToString("N").Substring(0, 8) + "@test.com";
+
+                    var reader = new Reader
+                    {
+                        FirstName = "Hier",
+                        LastName = "Reader",
+                        Email = readerEmail,
+                        Address = "Addr",
+                        IsStaff = false,
+                        RegistrationDate = DateTime.Now,
+                    };
+
+                    var staff = new Reader
+                    {
+                        FirstName = "Hier",
+                        LastName = "Staff",
+                        Email = staffEmail,
+                        Address = "Addr",
+                        IsStaff = true,
+                        RegistrationDate = DateTime.Now,
+                    };
+
+                    services.ReaderRepo.Add(reader);
+                    services.ReaderRepo.Add(staff);
+                    context.SaveChanges();
+
+                    var createdReader = context.Readers.FirstOrDefault(r => r.Email == readerEmail);
+                    var createdStaff = context.Readers.FirstOrDefault(r => r.Email == staffEmail);
+                    Assert.IsNotNull(createdReader);
+                    Assert.IsNotNull(createdStaff);
+                    readerIds.Add(createdReader.Id);
+                    readerIds.Add(createdStaff.Id);
+
+                    // Borrow two books from sub1 (these should count toward the parent's domain limit)
+                    var borrowDate = DateTime.Now.AddDays(-10);
+                    services.BorrowingService.CreateBorrowings(createdReader.Id, new List<int> { createdBookA.Id }, borrowDate, 14, createdStaff.Id);
+                    services.BorrowingService.CreateBorrowings(createdReader.Id, new List<int> { createdBookB.Id }, borrowDate, 14, createdStaff.Id);
+
+                    // Now trying to borrow a book from sub2 (same parent domain) should be blocked
+                    var canBorrow = services.BorrowingService.CanBorrowBook(createdReader.Id, createdBookC.Id);
+
+                    Assert.IsFalse(canBorrow, "Domain limit should be applied cumulatively across the domain hierarchy.");
+                }
+                finally
+                {
+                    this.CompleteCleanup(context, bookIds, readerIds, domainIds);
+                }
+            }
+        }
+
+        /// <summary>
+        /// Test.
+        /// </summary>
+        [TestMethod]
         [ExpectedException(typeof(InvalidOperationException))]
         public void ExtendBorrowing_WithInvalidBorrowingIdn()
         {
@@ -1582,6 +2036,273 @@ namespace ServiceTests
                     services.BorrowingService.ReturnBorrowing(borrowing.Id, DateTime.Now.AddDays(-210));
 
                     services.BorrowingService.ExtendBorrowing(borrowing.Id, 5, DateTime.Now);
+                }
+                finally
+                {
+                    this.CompleteCleanup(context, bookIds, readerIds, domainIds);
+                }
+            }
+        }
+
+        /// <summary>
+        /// Test.
+        /// </summary>
+        [TestMethod]
+        public void CanBorrowBook_NonStaffBlockedDuringDelta()
+        {
+            var bookIds = new List<int>();
+            var readerIds = new List<int>();
+            var domainIds = new List<int>();
+
+            using (var context = new LibraryDbContext())
+            {
+                try
+                {
+                    var services = this.CreateIntegrationServices(context);
+                    var delta = services.Config.MinDaysBetweenBorrows;
+
+                    var domain = new BookDomain { Name = "DeltaNonStaff_" + Guid.NewGuid().ToString().Substring(0, 5) };
+                    context.Domains.Add(domain);
+                    context.SaveChanges();
+                    domainIds.Add(domain.Id);
+
+                    var book = new Book
+                    {
+                        Title = "Delta Block Book",
+                        ISBN = "94949291395",
+                        TotalCopies = 3,
+                        ReadingRoomOnlyCopies = 0,
+                        Authors = new List<Author> { new Author { FirstName = "A", LastName = "B" } },
+                    };
+                    services.BookService.CreateBook(book, new List<int> { domain.Id });
+                    context.SaveChanges();
+
+                    var createdBook = context.Books.First(b => b.ISBN == book.ISBN);
+                    bookIds.Add(createdBook.Id);
+
+                    var reader = new Reader
+                    {
+                        FirstName = "Delta",
+                        LastName = "Reader",
+                        Email = "delta.ns." + Guid.NewGuid().ToString("N").Substring(0, 8) + "@test.com",
+                        IsStaff = false,
+                        RegistrationDate = DateTime.Now,
+                    };
+
+                    var staff = new Reader
+                    {
+                        FirstName = "Delta",
+                        LastName = "Staff",
+                        Email = "delta.staff." + Guid.NewGuid().ToString("N").Substring(0, 8) + "@test.com",
+                        IsStaff = true,
+                        RegistrationDate = DateTime.Now,
+                    };
+
+                    services.ReaderRepo.Add(reader);
+                    services.ReaderRepo.Add(staff);
+                    context.SaveChanges();
+
+                    var createdReader = context.Readers.First(r => r.Email == reader.Email);
+                    var createdStaff = context.Readers.First(r => r.Email == staff.Email);
+                    readerIds.Add(createdReader.Id);
+                    readerIds.Add(createdStaff.Id);
+
+                    // Borrow and return recently (less than DELTA days ago)
+                    var borrowDate = DateTime.Now.AddDays(-30);
+                    services.BorrowingService.CreateBorrowings(createdReader.Id, new List<int> { createdBook.Id }, borrowDate, 7, createdStaff.Id);
+
+                    var borrowing = services.BorrowingRepo.GetBorrowingsByBook(createdBook.Id)
+                        .Where(b => b.ReaderId == createdReader.Id)
+                        .OrderByDescending(b => b.BorrowingDate)
+                        .First();
+
+                    // Returned (daysSinceReturn = delta - 1) -> should be blocked
+                    var returnDate = DateTime.Now.AddDays(-(delta - 1));
+                    services.BorrowingService.ReturnBorrowing(borrowing.Id, returnDate);
+
+                    var canBorrow = services.BorrowingService.CanBorrowBook(createdReader.Id, createdBook.Id);
+                    Assert.IsFalse(canBorrow, "Non-staff reader should be blocked from re-borrowing inside DELTA.");
+                }
+                finally
+                {
+                    this.CompleteCleanup(context, bookIds, readerIds, domainIds);
+                }
+            }
+        }
+
+        /// <summary>
+        /// Test.
+        /// </summary>
+        [TestMethod]
+        public void CanBorrowBook_AtExactDelta_Allowed()
+        {
+            var bookIds = new List<int>();
+            var readerIds = new List<int>();
+            var domainIds = new List<int>();
+
+            using (var context = new LibraryDbContext())
+            {
+                try
+                {
+                    var services = this.CreateIntegrationServices(context);
+                    var delta = services.Config.MinDaysBetweenBorrows;
+
+                    var domain = new BookDomain { Name = "DeltaExact_" + Guid.NewGuid().ToString().Substring(0, 5) };
+                    context.Domains.Add(domain);
+                    context.SaveChanges();
+                    domainIds.Add(domain.Id);
+
+                    var book = new Book
+                    {
+                        Title = "Delta Exact Book",
+                        ISBN = "43432121222222",
+                        TotalCopies = 3,
+                        ReadingRoomOnlyCopies = 0,
+                        Authors = new List<Author> { new Author { FirstName = "E", LastName = "X" } },
+                    };
+                    services.BookService.CreateBook(book, new List<int> { domain.Id });
+                    context.SaveChanges();
+
+                    var createdBook = context.Books.First(b => b.ISBN == book.ISBN);
+                    bookIds.Add(createdBook.Id);
+
+                    var reader = new Reader
+                    {
+                        FirstName = "Delta",
+                        LastName = "Exact",
+                        Email = "delta.exact." + Guid.NewGuid().ToString("N").Substring(0, 8) + "@test.com",
+                        IsStaff = false,
+                        RegistrationDate = DateTime.Now,
+                    };
+
+                    var staff = new Reader
+                    {
+                        FirstName = "Delta",
+                        LastName = "Staff",
+                        Email = "delta.exact.staff." + Guid.NewGuid().ToString("N").Substring(0, 8) + "@test.com",
+                        IsStaff = true,
+                        RegistrationDate = DateTime.Now,
+                    };
+
+                    services.ReaderRepo.Add(reader);
+                    services.ReaderRepo.Add(staff);
+                    context.SaveChanges();
+
+                    var createdReader = context.Readers.First(r => r.Email == reader.Email);
+                    var createdStaff = context.Readers.First(r => r.Email == staff.Email);
+                    readerIds.Add(createdReader.Id);
+                    readerIds.Add(createdStaff.Id);
+
+                    // Borrow and return exactly DELTA days ago
+                    var borrowDate = DateTime.Now.AddDays(-30);
+                    services.BorrowingService.CreateBorrowings(createdReader.Id, new List<int> { createdBook.Id }, borrowDate, 7, createdStaff.Id);
+
+                    var borrowing = services.BorrowingRepo.GetBorrowingsByBook(createdBook.Id)
+                        .Where(b => b.ReaderId == createdReader.Id)
+                        .OrderByDescending(b => b.BorrowingDate)
+                        .First();
+
+                    var returnDate = DateTime.Now.AddDays(-delta); // exactly DELTA days ago
+                    services.BorrowingService.ReturnBorrowing(borrowing.Id, returnDate);
+
+                    var canBorrow = services.BorrowingService.CanBorrowBook(createdReader.Id, createdBook.Id);
+                    Assert.IsTrue(canBorrow, "Reader should be allowed to re-borrow when days since return == DELTA.");
+                }
+                finally
+                {
+                    this.CompleteCleanup(context, bookIds, readerIds, domainIds);
+                }
+            }
+        }
+
+        /// <summary>
+        /// Test.
+        /// </summary>
+        [TestMethod]
+        public void CanBorrowBook_WithMultipleHistoricalBorrowings_LastReturnControls()
+        {
+            var bookIds = new List<int>();
+            var readerIds = new List<int>();
+            var domainIds = new List<int>();
+
+            using (var context = new LibraryDbContext())
+            {
+                try
+                {
+                    var services = this.CreateIntegrationServices(context);
+                    var delta = services.Config.MinDaysBetweenBorrows;
+
+                    var domain = new BookDomain { Name = "DeltaMulti_" + Guid.NewGuid().ToString().Substring(0, 5) };
+                    context.Domains.Add(domain);
+                    context.SaveChanges();
+                    domainIds.Add(domain.Id);
+
+                    var book = new Book
+                    {
+                        Title = "Delta Multi Book",
+                        ISBN = "12328486835566",
+                        TotalCopies = 3,
+                        ReadingRoomOnlyCopies = 0,
+                        Authors = new List<Author> { new Author { FirstName = "M", LastName = "U" } },
+                    };
+                    services.BookService.CreateBook(book, new List<int> { domain.Id });
+                    context.SaveChanges();
+
+                    var createdBook = context.Books.First(b => b.ISBN == book.ISBN);
+                    bookIds.Add(createdBook.Id);
+
+                    var reader = new Reader
+                    {
+                        FirstName = "Multi",
+                        LastName = "Reader",
+                        Email = "multi.reader." + Guid.NewGuid().ToString("N").Substring(0, 8) + "@test.com",
+                        IsStaff = false,
+                        RegistrationDate = DateTime.Now,
+                    };
+
+                    var staff = new Reader
+                    {
+                        FirstName = "Multi",
+                        LastName = "Staff",
+                        Email = "multi.staff." + Guid.NewGuid().ToString("N").Substring(0, 8) + "@test.com",
+                        IsStaff = true,
+                        RegistrationDate = DateTime.Now,
+                    };
+
+                    services.ReaderRepo.Add(reader);
+                    services.ReaderRepo.Add(staff);
+                    context.SaveChanges();
+
+                    var createdReader = context.Readers.First(r => r.Email == reader.Email);
+                    var createdStaff = context.Readers.First(r => r.Email == staff.Email);
+                    readerIds.Add(createdReader.Id);
+                    readerIds.Add(createdStaff.Id);
+
+                    // First historical borrow (older) - returned long ago
+                    var borrowDate1 = DateTime.Now.AddDays(-60);
+                    services.BorrowingService.CreateBorrowings(createdReader.Id, new List<int> { createdBook.Id }, borrowDate1, 7, createdStaff.Id);
+
+                    var b1 = services.BorrowingRepo.GetBorrowingsByBook(createdBook.Id)
+                        .Where(b => b.ReaderId == createdReader.Id)
+                        .OrderBy(b => b.BorrowingDate)
+                        .First();
+
+                    services.BorrowingService.ReturnBorrowing(b1.Id, DateTime.Now.AddDays(-50));
+
+                    // Second historical borrow (more recent) - returned recently (inside DELTA)
+                    var borrowDate2 = DateTime.Now.AddDays(-10);
+                    services.BorrowingService.CreateBorrowings(createdReader.Id, new List<int> { createdBook.Id }, borrowDate2, 7, createdStaff.Id);
+
+                    var b2 = services.BorrowingRepo.GetBorrowingsByBook(createdBook.Id)
+                        .Where(b => b.ReaderId == createdReader.Id)
+                        .OrderByDescending(b => b.BorrowingDate)
+                        .First();
+
+                    // Return occurred delta-2 days ago -> should block reborrow
+                    services.BorrowingService.ReturnBorrowing(b2.Id, DateTime.Now.AddDays(-(delta - 2)));
+
+                    var canBorrow = services.BorrowingService.CanBorrowBook(createdReader.Id, createdBook.Id);
+                    Assert.IsFalse(canBorrow, "Most recent historical borrowing return should control DELTA logic.");
                 }
                 finally
                 {

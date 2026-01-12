@@ -26,6 +26,7 @@ namespace ServiceTests
         private IReader mockReaderRepository;
         private LibraryConfiguration mockConfigRepository;
         private BorrowingService borrowingService;
+        private IBookDomain mockBookDomainRepository;
 
         /// <summary>
         /// Initializes test fixtures before each test with mocked dependencies.
@@ -37,8 +38,9 @@ namespace ServiceTests
             this.mockBookRepository = MockRepository.GenerateStub<IBook>();
             this.mockReaderRepository = MockRepository.GenerateStub<IReader>();
             this.mockConfigRepository = new LibraryConfiguration();
+            this.mockBookDomainRepository = MockRepository.GenerateStub<IBookDomain>();
 
-            this.borrowingService = new BorrowingService(this.mockBorrowingRepository, this.mockBookRepository, this.mockReaderRepository, this.mockConfigRepository);
+            this.borrowingService = new BorrowingService(this.mockBorrowingRepository, this.mockBookRepository, this.mockReaderRepository, this.mockConfigRepository, this.mockBookDomainRepository);
         }
 
         /// <summary>
