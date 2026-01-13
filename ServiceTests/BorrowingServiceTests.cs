@@ -349,8 +349,7 @@ namespace ServiceTests
             this.mockReaderRepository.Stub(x => x.GetById(1)).Return(reader);
             this.mockReaderRepository.Stub(x => x.GetById(2)).Return(staff);
 
-            this.mockBorrowingRepository.Stub(x => x.GetBorrowingsByDateRange(Arg<DateTime>.Is.Anything, Arg<DateTime>.Is.Anything))
-                .Return(new List<Borrowing>());
+            this.mockBorrowingRepository.Stub(x => x.GetBorrowingsByDateRange(Arg<DateTime>.Is.Anything, Arg<DateTime>.Is.Anything)).Return(new List<Borrowing>());
 
             var todayBorrowings = Enumerable.Range(1, this.mockConfigRepository.MaxBooksPerDay).Select(i => new Borrowing { Id = i, ReaderId = 1, BorrowingDate = borrowDate }).ToList();
             this.mockBorrowingRepository.Stub(x => x.GetBorrowingsByDateRange(borrowDate.Date, borrowDate)).Return(todayBorrowings);
@@ -881,9 +880,7 @@ namespace ServiceTests
 
             this.mockBorrowingRepository.Stub(x => x.GetBorrowingsByDateRange(borrowDate.Date, borrowDate))
                 .Return(new List<Borrowing>());
-            this.mockBorrowingRepository.Stub(x => x.GetBorrowingsByDateRange(
-                    Arg<DateTime>.Is.Anything,
-                    Arg<DateTime>.Is.Anything))
+            this.mockBorrowingRepository.Stub(x => x.GetBorrowingsByDateRange(Arg<DateTime>.Is.Anything, Arg<DateTime>.Is.Anything))
                 .Return(new List<Borrowing>());
 
             this.SetupCanBorrowBookAlwaysTrue(readerId: reader.Id, isStaff: reader.IsStaff);
@@ -919,9 +916,7 @@ namespace ServiceTests
             var borrowDate = DateTime.Now.AddDays(-5);
             this.mockBorrowingRepository.Stub(x => x.GetBorrowingsByDateRange(borrowDate.Date, borrowDate))
                 .Return(new List<Borrowing>());
-            this.mockBorrowingRepository.Stub(x => x.GetBorrowingsByDateRange(
-                    Arg<DateTime>.Is.Anything,
-                    Arg<DateTime>.Is.Anything))
+            this.mockBorrowingRepository.Stub(x => x.GetBorrowingsByDateRange(Arg<DateTime>.Is.Anything, Arg<DateTime>.Is.Anything))
                 .Return(new List<Borrowing>());
 
             this.SetupCanBorrowBookAlwaysTrue(readerId: reader.Id, isStaff: reader.IsStaff);
@@ -1188,11 +1183,9 @@ namespace ServiceTests
             this.mockReaderRepository.Stub(x => x.GetById(1)).Return(reader);
             this.mockBookRepository.Stub(x => x.GetById(10)).Return(book);
 
-            this.mockBorrowingRepository.Stub(x => x.GetBorrowingsByDateRange(Arg<DateTime>.Is.Anything, Arg<DateTime>.Is.Anything))
-                .Return(new List<Borrowing>());
+            this.mockBorrowingRepository.Stub(x => x.GetBorrowingsByDateRange(Arg<DateTime>.Is.Anything, Arg<DateTime>.Is.Anything)).Return(new List<Borrowing>());
 
-            this.mockBorrowingRepository.Stub(x => x.Update(Arg<Borrowing>.Is.Anything))
-                .Throw(new Exception("DB down"));
+            this.mockBorrowingRepository.Stub(x => x.Update(Arg<Borrowing>.Is.Anything)).Throw(new Exception("DB down"));
 
             try
             {

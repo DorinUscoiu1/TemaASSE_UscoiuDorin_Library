@@ -379,8 +379,7 @@ namespace ServiceTests
                 var domain = new BookDomain { Name = "GetById Test Domain" };
                 realService.CreateDomain(domain);
 
-                var insertedDomain = context.Domains
-                    .FirstOrDefault(d => d.Name == "GetById Test Domain");
+                var insertedDomain = context.Domains.FirstOrDefault(d => d.Name == "GetById Test Domain");
                 Assert.IsNotNull(insertedDomain);
                 int domainId = insertedDomain.Id;
                 var retrievedDomain = realService.GetDomainById(domainId);

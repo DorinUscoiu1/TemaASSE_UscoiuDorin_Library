@@ -70,7 +70,7 @@ namespace Data
 
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
 
-            // ==================== AUTHOR ====================
+            // Author
             modelBuilder.Entity<Author>()
                 .HasKey(a => a.Id);
 
@@ -84,7 +84,7 @@ namespace Data
                 .IsRequired()
                 .HasMaxLength(100);
 
-            // ==================== BOOKDOMAIN ====================
+            // BookDomain
             modelBuilder.Entity<BookDomain>()
                 .HasKey(d => d.Id);
 
@@ -109,7 +109,7 @@ namespace Data
                     m.MapRightKey("DomainId");
                 });
 
-            // ==================== BOOK ====================
+            // Book
             modelBuilder.Entity<Book>()
                 .HasKey(b => b.Id);
 
@@ -148,7 +148,7 @@ namespace Data
                 .HasForeignKey(br => br.BookId)
                 .WillCascadeOnDelete(false);
 
-            // ==================== EDITION ====================
+            // Edition
             modelBuilder.Entity<Edition>()
                 .HasKey(e => e.Id);
 
@@ -174,7 +174,7 @@ namespace Data
                 .Property(e => e.PageCount)
                 .IsRequired();
 
-            // ==================== READER ====================
+            // Reader
             modelBuilder.Entity<Reader>()
                 .HasKey(r => r.Id);
 
@@ -217,14 +217,13 @@ namespace Data
                 .WillCascadeOnDelete(false);
 
             // Reader -> Borrowing (as staff who gave the borrowing)
-            // NOTE: This should be optional. Prefer making Borrowing.StaffId nullable (int?).
             modelBuilder.Entity<Reader>()
                 .HasMany(r => r.BorrowingGiven)
                 .WithOptional(br => br.Staff)
                 .HasForeignKey(br => br.StaffId)
                 .WillCascadeOnDelete(false);
 
-            // ==================== BORROWING ====================
+            // Borrowing
             modelBuilder.Entity<Borrowing>()
                 .HasKey(b => b.Id);
 
@@ -267,7 +266,7 @@ namespace Data
                 .HasForeignKey(le => le.BorrowingId)
                 .WillCascadeOnDelete(true);
 
-            // ==================== LOANEXTENSION ====================
+            // LoanExtension
             modelBuilder.Entity<LoanExtension>()
                 .HasKey(le => le.Id);
 

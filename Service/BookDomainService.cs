@@ -77,7 +77,6 @@ namespace Service
                 throw new ArgumentNullException(nameof(domain));
             }
 
-            // Normalize input: trim and handle null safely
             domain.Name = domain.Name?.Trim();
 
             if (string.IsNullOrEmpty(domain.Name))

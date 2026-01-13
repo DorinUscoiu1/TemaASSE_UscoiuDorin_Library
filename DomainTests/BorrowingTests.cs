@@ -52,7 +52,6 @@ namespace DomainTests
         [TestMethod]
         public void Borrowing_ExtensionTracking_UpdatesCorrectly()
         {
-            // Arrange
             this.borrowing.Id = 1;
             this.borrowing.DueDate = DateTime.Now.AddDays(14);
             this.borrowing.TotalExtensionDays = 0;
@@ -74,7 +73,6 @@ namespace DomainTests
         [TestMethod]
         public void Borrowing_Overdue_IsIdentifiedCorrectly()
         {
-            // Arrange
             this.borrowing.Id = 1;
             this.borrowing.BorrowingDate = DateTime.Now.AddDays(-20);
             this.borrowing.DueDate = DateTime.Now.AddDays(-5);

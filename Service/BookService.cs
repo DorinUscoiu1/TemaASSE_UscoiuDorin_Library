@@ -86,11 +86,9 @@ namespace Service
                 return Enumerable.Empty<Book>();
             }
 
-            // Get all descendant domains
             var domainIds = new List<int> { domainId };
             this.GetDescendantDomainIds(domainId, domainIds);
 
-            // Return books from domain and all descendants
             var booksInDomain = this.bookRepository.GetBooksByDomain(domainId);
             var booksInDescendants = domainIds
                 .Skip(1)
@@ -123,12 +121,10 @@ namespace Service
                 return Enumerable.Empty<Book>();
             }
 
-            // Get all descendant domain IDs
             var descendantIds = new List<int>();
             this.GetDescendantDomainIds(domainId, descendantIds);
             descendantIds.Add(domainId);
 
-            // Get all books in domain and subdomains
             var allBooks = new List<Book>();
             foreach (var id in descendantIds)
             {
@@ -282,7 +278,6 @@ namespace Service
                     domains.Add(dom);
                 }
 
-                // 5. Validare ierarhie: Fără strămoș și descendent în același timp
                 for (int i = 0; i < domains.Count; i++)
                 {
                     for (int j = i + 1; j < domains.Count; j++)
@@ -319,7 +314,6 @@ namespace Service
                 throw new ArgumentNullException(nameof(book));
             }
 
-            // Validate using FluentValidation
             var validationResult = this.bookValidator.Validate(book);
             if (!validationResult.IsValid)
             {

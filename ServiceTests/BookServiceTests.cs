@@ -508,7 +508,6 @@ namespace ServiceTests
         [TestMethod]
         public void CreateBook_WithMultipleDomains()
         {
-            // Arrange
             using (var context = new LibraryDbContext())
             {
                 var realRepository = new BookDataService(context);
@@ -557,7 +556,6 @@ namespace ServiceTests
         [TestMethod]
         public void CreateBook_WithAuthors()
         {
-            // Arrange
             using (var context = new LibraryDbContext())
             {
                 var realRepository = new BookDataService(context);
@@ -581,12 +579,9 @@ namespace ServiceTests
                     Authors = new List<Author> { author1, author2 },
                 };
 
-                // Act
                 realService.CreateBook(book, new List<int> { createdDomain.Id });
 
-                // Assert
-                var retrievedBook = context.Books
-                    .FirstOrDefault(b => b.ISBN == "00011001");
+                var retrievedBook = context.Books.FirstOrDefault(b => b.ISBN == "00011001");
 
                 Assert.IsNotNull(retrievedBook);
                 Assert.AreEqual(2, retrievedBook.Authors.Count, "Book should have 2 authors");

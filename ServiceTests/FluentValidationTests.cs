@@ -12,7 +12,7 @@ namespace ServiceTests
     using Microsoft.VisualStudio.TestTools.UnitTesting;
 
     /// <summary>
-    /// Fluent validation tests using ShouldHaveValidationErrorFor and ShouldNotHaveValidationErrorFor.
+    /// Fluent validation tests.
     /// </summary>
     [TestClass]
     public class FluentValidationTests
@@ -371,6 +371,200 @@ namespace ServiceTests
             };
             var result = validator.TestValidate(edition);
             result.ShouldNotHaveValidationErrorFor(e => e.Publisher);
+        }
+
+        /// <summary>
+        /// Test.
+        /// </summary>
+        [TestMethod]
+        public void BookValidator_EmptyTitle_ShouldHaveValidationErrorFor()
+        {
+            var validator = new BookValidator();
+            var book = new Book
+            {
+                Title = string.Empty,
+                ISBN = "1234567",
+                TotalCopies = 1,
+                ReadingRoomOnlyCopies = 0,
+                Authors = new List<Author> { new Author { FirstName = "A", LastName = "B" } },
+            };
+            var result = validator.TestValidate(book);
+            result.ShouldHaveValidationErrorFor(b => b.Title);
+        }
+
+        /// <summary>
+        /// Test.
+        /// </summary>
+        [TestMethod]
+        public void BookValidator_TitleTooLong_ShouldHaveValidationErrorFor()
+        {
+            var validator = new BookValidator();
+            var longTitle = new string('A', 201);
+            var book = new Book
+            {
+                Title = longTitle,
+                ISBN = "1234567",
+                TotalCopies = 1,
+                ReadingRoomOnlyCopies = 0,
+                Authors = new List<Author> { new Author { FirstName = "A", LastName = "B" } },
+            };
+            var result = validator.TestValidate(book);
+            result.ShouldHaveValidationErrorFor(b => b.Title);
+        }
+
+        /// <summary>
+        /// Test.
+        /// </summary>
+        [TestMethod]
+        public void BookValidator_TotalCopiesZero_ShouldHaveValidationErrorFor()
+        {
+            var validator = new BookValidator();
+            var book = new Book
+            {
+                Title = "T",
+                ISBN = "1234567",
+                TotalCopies = 0,
+                ReadingRoomOnlyCopies = 0,
+                Authors = new List<Author> { new Author { FirstName = "A", LastName = "B" } },
+            };
+            var result = validator.TestValidate(book);
+            result.ShouldHaveValidationErrorFor(b => b.TotalCopies);
+        }
+
+        /// <summary>
+        /// Test.
+        /// </summary>
+        [TestMethod]
+        public void BookValidator_AuthorsEmpty_ShouldHaveValidationErrorFor()
+        {
+            var validator = new BookValidator();
+            var book = new Book
+            {
+                Title = "T",
+                ISBN = "1234567",
+                TotalCopies = 1,
+                ReadingRoomOnlyCopies = 0,
+                Authors = new List<Author>(),
+            };
+            var result = validator.TestValidate(book);
+            result.ShouldHaveValidationErrorFor(b => b.Authors);
+        }
+
+        /// <summary>
+        /// Test.
+        /// </summary>
+        [TestMethod]
+        public void BookValidator_ValidISBN_ShouldNotHaveValidationErrorFor()
+        {
+            var validator = new BookValidator();
+            var book = new Book
+            {
+                Title = "Valid",
+                ISBN = "1234567890",
+                TotalCopies = 1,
+                ReadingRoomOnlyCopies = 0,
+                Authors = new List<Author> { new Author { FirstName = "A", LastName = "B" } },
+            };
+            var result = validator.TestValidate(book);
+            result.ShouldNotHaveValidationErrorFor(b => b.ISBN);
+        }
+
+        /// <summary>
+        /// Test.
+        /// </summary>
+        [TestMethod]
+        public void ReaderValidator_NoContactMethods_ShouldHaveValidationErrorForModel()
+        {
+            var validator = new ReaderValidator();
+            var reader = new Reader
+            {
+                FirstName = "NoContact",
+                LastName = "User",
+                Address = "Addr",
+                Email = null,
+                PhoneNumber = null,
+            };
+            var result = validator.TestValidate(reader);
+            Assert.IsFalse(result.IsValid);
+            Assert.IsTrue(result.Errors.Count > 0 && result.Errors[0].ErrorMessage.Contains("At least one contact method"));
+        }
+
+        /// <summary>
+        /// Test.
+        /// </summary>
+        [TestMethod]
+        public void ReaderValidator_InvalidPhone_ShouldHaveValidationErrorFor()
+        {
+            var validator = new ReaderValidator();
+            var reader = new Reader
+            {
+                FirstName = "P",
+                LastName = "User",
+                Address = "Addr",
+                Email = string.Empty,
+                PhoneNumber = "not-a-phone",
+            };
+            var result = validator.TestValidate(reader);
+            result.ShouldHaveValidationErrorFor(r => r.PhoneNumber);
+        }
+
+        /// <summary>
+        /// Test.
+        /// </summary>
+        [TestMethod]
+        public void ReaderValidator_ValidPhone_ShouldNotHaveValidationErrorFor()
+        {
+            var validator = new ReaderValidator();
+            var reader = new Reader
+            {
+                FirstName = "P",
+                LastName = "User",
+                Address = "Addr",
+                Email = string.Empty,
+                PhoneNumber = "+1 (555) 123-4567",
+            };
+            var result = validator.TestValidate(reader);
+            result.ShouldNotHaveValidationErrorFor(r => r.PhoneNumber);
+        }
+
+        /// <summary>
+        /// Test.
+        /// </summary>
+        [TestMethod]
+        public void EditionValidator_BookIdZero_ShouldHaveValidationErrorFor()
+        {
+            var validator = new EditionValidator();
+            var edition = new Edition
+            {
+                BookId = 0,
+                Publisher = "P",
+                Year = 2020,
+                EditionNumber = 1,
+                PageCount = 100,
+                BookType = "T",
+            };
+            var result = validator.TestValidate(edition);
+            result.ShouldHaveValidationErrorFor(e => e.BookId);
+        }
+
+        /// <summary>
+        /// Test.
+        /// </summary>
+        [TestMethod]
+        public void EditionValidator_EmptyBookType_ShouldHaveValidationErrorFor()
+        {
+            var validator = new EditionValidator();
+            var edition = new Edition
+            {
+                BookId = 1,
+                Publisher = "P",
+                Year = 2020,
+                EditionNumber = 1,
+                PageCount = 100,
+                BookType = string.Empty,
+            };
+            var result = validator.TestValidate(edition);
+            result.ShouldHaveValidationErrorFor(e => e.BookType);
         }
     }
 }

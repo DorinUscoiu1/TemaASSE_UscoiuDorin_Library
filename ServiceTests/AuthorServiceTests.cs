@@ -233,8 +233,7 @@ namespace ServiceTests
                 };
 
                 realService.CreateAuthor(author);
-                var retrievedAuthor = this.dbContext.Authors
-                    .FirstOrDefault(a => a.FirstName == "Donald" && a.LastName == "Knuth");
+                var retrievedAuthor = this.dbContext.Authors.FirstOrDefault(a => a.FirstName == "Donald" && a.LastName == "Knuth");
 
                 Assert.IsNotNull(retrievedAuthor, "Author should exist in database");
                 Assert.AreEqual("Donald", retrievedAuthor.FirstName);

@@ -218,13 +218,15 @@ namespace TemaASSE_UscoiuDorin
 
             if (staff == null || user == null || book == null)
             {
+                Logger.Info(" Run Populate first.");
+                return;
                 throw new InvalidOperationException("Demo data missing. Run Populate first.");
             }
 
-            var alreadyActive = context.Borrowings.Any(b => b.ReaderId == user.Id && b.BookId == book.Id && b.IsActive);
+            var alreadyActive = context.Borrowings.Any(b => b.ReaderId == user.Id && b.BookId == book.Id);
             if (alreadyActive)
             {
-                Logger.Info("Borrow skipped: already has an active borrowing for demo book.");
+                Logger.Info("Borrow skipped: already has an borrowing for demo book.");
                 return;
             }
 
@@ -239,13 +241,12 @@ namespace TemaASSE_UscoiuDorin
 
             if (user == null || book == null)
             {
+                Logger.Info(" Run Populate first.");
+                return;
                 throw new InvalidOperationException("Demo data missing. Run Populate first.");
             }
 
-            var borrowing = context.Borrowings
-                .Where(b => b.ReaderId == user.Id && b.BookId == book.Id && b.IsActive)
-                .OrderByDescending(b => b.BorrowingDate)
-                .FirstOrDefault();
+            var borrowing = context.Borrowings.Where(b => b.ReaderId == user.Id && b.BookId == book.Id && b.IsActive).OrderByDescending(b => b.BorrowingDate).FirstOrDefault();
 
             if (borrowing == null)
             {
