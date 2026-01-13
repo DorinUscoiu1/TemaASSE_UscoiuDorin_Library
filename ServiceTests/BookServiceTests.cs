@@ -744,7 +744,6 @@ namespace ServiceTests
         [TestMethod]
         public void GetBooksByAuthor_WithValidAuthorId()
         {
-            // Arrange
             var authorBooks = new List<Book>
             {
                 new Book { Id = 1, Title = "Book by Author 1" },
@@ -943,10 +942,8 @@ namespace ServiceTests
             var booksInChild = new List<Book> { new Book { Id = 2, Title = "Physics Book" } };
 
             this.mockBookDomainRepository.Stub(x => x.GetById(1)).Return(parentDomain);
-            this.mockBookDomainRepository.Stub(x => x.GetSubdomains(1))
-                .Return(new List<BookDomain> { childDomain });
-            this.mockBookDomainRepository.Stub(x => x.GetSubdomains(2))
-                .Return(new List<BookDomain>());
+            this.mockBookDomainRepository.Stub(x => x.GetSubdomains(1)).Return(new List<BookDomain> { childDomain });
+            this.mockBookDomainRepository.Stub(x => x.GetSubdomains(2)).Return(new List<BookDomain>());
 
             this.mockBookRepository.Stub(x => x.GetBooksByDomain(1)).Return(booksInParent);
             this.mockBookRepository.Stub(x => x.GetBooksByDomain(2)).Return(booksInChild);

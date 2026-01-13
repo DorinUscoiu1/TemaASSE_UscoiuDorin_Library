@@ -301,7 +301,6 @@ namespace ServiceTests
         [ExpectedException(typeof(ArgumentNullException))]
         public void UpdateAuthor_WithNullAuthor()
         {
-            // Act
             this.authorService.UpdateAuthor(null);
         }
 

@@ -353,8 +353,7 @@ namespace ServiceTests
                 .Return(new List<Borrowing>());
 
             var todayBorrowings = Enumerable.Range(1, this.mockConfigRepository.MaxBooksPerDay).Select(i => new Borrowing { Id = i, ReaderId = 1, BorrowingDate = borrowDate }).ToList();
-            this.mockBorrowingRepository.Stub(x => x.GetBorrowingsByDateRange(borrowDate.Date, borrowDate))
-                .Return(todayBorrowings);
+            this.mockBorrowingRepository.Stub(x => x.GetBorrowingsByDateRange(borrowDate.Date, borrowDate)).Return(todayBorrowings);
 
             this.borrowingService.CreateBorrowings(1, new List<int> { 10 }, borrowDate, 14, 2);
         }

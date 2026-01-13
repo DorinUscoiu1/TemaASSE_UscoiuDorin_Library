@@ -70,7 +70,6 @@ namespace ServiceTests
             return services;
         }
 
-
         /// <summary>
         /// Helper method to completely clean up all test data.
         /// </summary>
@@ -1303,8 +1302,7 @@ namespace ServiceTests
         }
 
         /// <summary>
-        /// When the new extension would push the sum of extensions in the last 3 months
-        /// above LIM (MaxExtensionDays) the operation must be refused.
+        /// Test.
         /// </summary>
         [TestMethod]
         [ExpectedException(typeof(InvalidOperationException))]
@@ -1320,7 +1318,6 @@ namespace ServiceTests
                 {
                     var services = this.CreateIntegrationServices(context);
 
-                    // Arrange small LIM
                     services.Config.MaxExtensionDays = 10;
 
                     var domain = new BookDomain { Name = "LimExceed_" + Guid.NewGuid().ToString().Substring(0, 5) };
@@ -1369,7 +1366,6 @@ namespace ServiceTests
                     readerIds.Add(createdReader.Id);
                     readerIds.Add(createdStaff.Id);
 
-                    // Create a borrowing within last 3 months and mark it as having previous extensions
                     var borrowDate = DateTime.Now.AddDays(-20);
                     services.BorrowingService.CreateBorrowings(createdReader.Id, new List<int> { createdBook.Id }, borrowDate, 14, createdStaff.Id);
 
@@ -1380,12 +1376,10 @@ namespace ServiceTests
 
                     Assert.IsNotNull(borrowing);
 
-                    // Simulate existing extension days on that borrowing (persisted)
                     borrowing.TotalExtensionDays = 8;
                     borrowing.LastExtensionDate = DateTime.Now.AddDays(-10);
                     services.BorrowingRepo.Update(borrowing);
 
-                    // Now attempt to extend by 3 -> 8 + 3 > LIM (10) => should throw
                     services.BorrowingService.ExtendBorrowing(borrowing.Id, 3, DateTime.Now);
                 }
                 finally
@@ -1396,8 +1390,7 @@ namespace ServiceTests
         }
 
         /// <summary>
-        /// Multiple previous extensions (from different borrowings) inside the last 3 months
-        /// must be accumulated. If their sum plus the new extension exceeds LIM the request is refused.
+        /// Test.
         /// </summary>
         [TestMethod]
         [ExpectedException(typeof(InvalidOperationException))]
@@ -1420,7 +1413,6 @@ namespace ServiceTests
                     context.SaveChanges();
                     domainIds.Add(domain.Id);
 
-                    // Create three distinct books; two will simulate previous extensions
                     for (int i = 0; i < 3; i++)
                     {
                         var b = new Book
@@ -1464,7 +1456,6 @@ namespace ServiceTests
                     readerIds.Add(createdReader.Id);
                     readerIds.Add(createdStaff.Id);
 
-                    // Borrow two books recently and set their TotalExtensionDays so sum = 11 (6 + 5)
                     var recentDate = DateTime.Now.AddDays(-30);
                     services.BorrowingService.CreateBorrowings(createdReader.Id, new List<int> { bookIds[0] }, recentDate, 14, createdStaff.Id);
                     services.BorrowingService.CreateBorrowings(createdReader.Id, new List<int> { bookIds[1] }, recentDate, 14, createdStaff.Id);
@@ -1486,7 +1477,6 @@ namespace ServiceTests
                     b1.LastExtensionDate = DateTime.Now.AddDays(-10);
                     services.BorrowingRepo.Update(b1);
 
-                    // Now try to extend the third book by 1 -> 6 + 5 + 1 = 12 > LIM (10) -> should throw
                     services.BorrowingService.CreateBorrowings(createdReader.Id, new List<int> { bookIds[2] }, recentDate, 14, createdStaff.Id);
                     var b2 = services.BorrowingRepo.GetBorrowingsByBook(bookIds[2])
                         .Where(b => b.ReaderId == createdReader.Id)
@@ -1503,9 +1493,7 @@ namespace ServiceTests
         }
 
         /// <summary>
-        /// Extensions older than 3 months must NOT be counted when checking the 3-month LIM.
-        /// This test ensures old extensions (>3 months) are ignored and a new extension is allowed
-        /// as long as recent extensions remain within the LIM.
+        /// Test.
         /// </summary>
         [TestMethod]
         public void ExtendBorrowing_OldExtensionsIgnored_AllowsExtension()
@@ -1527,7 +1515,6 @@ namespace ServiceTests
                     context.SaveChanges();
                     domainIds.Add(domain.Id);
 
-                    // Two books: one with old extension, one to extend now
                     var bookOld = new Book
                     {
                         Title = "Old Ext Book",
@@ -1580,7 +1567,6 @@ namespace ServiceTests
                     readerIds.Add(createdReader.Id);
                     readerIds.Add(createdStaff.Id);
 
-                    // Borrow old book more than 3 months ago and mark it with extensions (should be ignored)
                     var oldBorrowDate = DateTime.Now.AddMonths(-4);
                     services.BorrowingService.CreateBorrowings(createdReader.Id, new List<int> { createdOld.Id }, oldBorrowDate, 14, createdStaff.Id);
 
@@ -1589,11 +1575,10 @@ namespace ServiceTests
                         .OrderByDescending(b => b.BorrowingDate)
                         .First();
 
-                    oldBorrowing.TotalExtensionDays = 10; // large but old
+                    oldBorrowing.TotalExtensionDays = 10;
                     oldBorrowing.LastExtensionDate = DateTime.Now.AddMonths(-4).AddDays(10);
                     services.BorrowingRepo.Update(oldBorrowing);
 
-                    // Borrow new book recently and try to extend by LIM (should be allowed because old does not count)
                     var recentBorrowDate = DateTime.Now.AddDays(-20);
                     services.BorrowingService.CreateBorrowings(createdReader.Id, new List<int> { createdNow.Id }, recentBorrowDate, 14, createdStaff.Id);
 
@@ -1602,7 +1587,6 @@ namespace ServiceTests
                         .OrderByDescending(b => b.BorrowingDate)
                         .First();
 
-                    // This extension equals LIM and should be allowed (no exception)
                     services.BorrowingService.ExtendBorrowing(recentBorrowing.Id, services.Config.MaxExtensionDays, DateTime.Now);
 
                     var updated = services.BorrowingRepo.GetById(recentBorrowing.Id);
@@ -1836,11 +1820,9 @@ namespace ServiceTests
                 {
                     var services = this.CreateIntegrationServices(context);
 
-                    // Configure a small domain limit to exercise the rule
                     services.Config.MaxBooksPerDomain = 2;
                     services.Config.DomainLimitMonths = 12;
 
-                    // Parent domain and two subdomains
                     var parent = new BookDomain { Name = "Parent_" + Guid.NewGuid().ToString().Substring(0, 5) };
                     context.Domains.Add(parent);
                     context.SaveChanges();
@@ -1861,7 +1843,6 @@ namespace ServiceTests
                     domainIds.Add(createdSub1.Id);
                     domainIds.Add(createdSub2.Id);
 
-                    // Create two books in sub1 and one book in sub2
                     var bookAIsbn = "87654323456432";
                     var bookA = new Book
                     {
@@ -1907,7 +1888,6 @@ namespace ServiceTests
                     bookIds.Add(createdBookB.Id);
                     bookIds.Add(createdBookC.Id);
 
-                    // Create reader and staff
                     var readerEmail = "hier.reader." + Guid.NewGuid().ToString("N").Substring(0, 8) + "@test.com";
                     var staffEmail = "hier.staff." + Guid.NewGuid().ToString("N").Substring(0, 8) + "@test.com";
 
@@ -1942,12 +1922,10 @@ namespace ServiceTests
                     readerIds.Add(createdReader.Id);
                     readerIds.Add(createdStaff.Id);
 
-                    // Borrow two books from sub1 (these should count toward the parent's domain limit)
                     var borrowDate = DateTime.Now.AddDays(-10);
                     services.BorrowingService.CreateBorrowings(createdReader.Id, new List<int> { createdBookA.Id }, borrowDate, 14, createdStaff.Id);
                     services.BorrowingService.CreateBorrowings(createdReader.Id, new List<int> { createdBookB.Id }, borrowDate, 14, createdStaff.Id);
 
-                    // Now trying to borrow a book from sub2 (same parent domain) should be blocked
                     var canBorrow = services.BorrowingService.CanBorrowBook(createdReader.Id, createdBookC.Id);
 
                     Assert.IsFalse(canBorrow, "Domain limit should be applied cumulatively across the domain hierarchy.");
@@ -2107,7 +2085,6 @@ namespace ServiceTests
                     readerIds.Add(createdReader.Id);
                     readerIds.Add(createdStaff.Id);
 
-                    // Borrow and return recently (less than DELTA days ago)
                     var borrowDate = DateTime.Now.AddDays(-30);
                     services.BorrowingService.CreateBorrowings(createdReader.Id, new List<int> { createdBook.Id }, borrowDate, 7, createdStaff.Id);
 
@@ -2116,7 +2093,6 @@ namespace ServiceTests
                         .OrderByDescending(b => b.BorrowingDate)
                         .First();
 
-                    // Returned (daysSinceReturn = delta - 1) -> should be blocked
                     var returnDate = DateTime.Now.AddDays(-(delta - 1));
                     services.BorrowingService.ReturnBorrowing(borrowing.Id, returnDate);
 
@@ -2193,7 +2169,6 @@ namespace ServiceTests
                     readerIds.Add(createdReader.Id);
                     readerIds.Add(createdStaff.Id);
 
-                    // Borrow and return exactly DELTA days ago
                     var borrowDate = DateTime.Now.AddDays(-30);
                     services.BorrowingService.CreateBorrowings(createdReader.Id, new List<int> { createdBook.Id }, borrowDate, 7, createdStaff.Id);
 
@@ -2202,7 +2177,7 @@ namespace ServiceTests
                         .OrderByDescending(b => b.BorrowingDate)
                         .First();
 
-                    var returnDate = DateTime.Now.AddDays(-delta); // exactly DELTA days ago
+                    var returnDate = DateTime.Now.AddDays(-delta);
                     services.BorrowingService.ReturnBorrowing(borrowing.Id, returnDate);
 
                     var canBorrow = services.BorrowingService.CanBorrowBook(createdReader.Id, createdBook.Id);
@@ -2278,7 +2253,6 @@ namespace ServiceTests
                     readerIds.Add(createdReader.Id);
                     readerIds.Add(createdStaff.Id);
 
-                    // First historical borrow (older) - returned long ago
                     var borrowDate1 = DateTime.Now.AddDays(-60);
                     services.BorrowingService.CreateBorrowings(createdReader.Id, new List<int> { createdBook.Id }, borrowDate1, 7, createdStaff.Id);
 
@@ -2289,7 +2263,6 @@ namespace ServiceTests
 
                     services.BorrowingService.ReturnBorrowing(b1.Id, DateTime.Now.AddDays(-50));
 
-                    // Second historical borrow (more recent) - returned recently (inside DELTA)
                     var borrowDate2 = DateTime.Now.AddDays(-10);
                     services.BorrowingService.CreateBorrowings(createdReader.Id, new List<int> { createdBook.Id }, borrowDate2, 7, createdStaff.Id);
 
@@ -2298,7 +2271,6 @@ namespace ServiceTests
                         .OrderByDescending(b => b.BorrowingDate)
                         .First();
 
-                    // Return occurred delta-2 days ago -> should block reborrow
                     services.BorrowingService.ReturnBorrowing(b2.Id, DateTime.Now.AddDays(-(delta - 2)));
 
                     var canBorrow = services.BorrowingService.CanBorrowBook(createdReader.Id, createdBook.Id);
@@ -2328,11 +2300,9 @@ namespace ServiceTests
                 {
                     var services = this.CreateIntegrationServices(context);
 
-                    // Arrange config
                     services.Config.MaxBooksStaffPerDay = 3;
                     services.Config.MinAvailablePercentage = 0;
 
-                    // Domain
                     var domainName = "PERSIMP_" + Guid.NewGuid().ToString("N").Substring(0, 8);
                     var domain = new BookDomain { Name = domainName };
                     context.Domains.Add(domain);
@@ -2341,7 +2311,6 @@ namespace ServiceTests
                     var createdDomain = context.Domains.First(d => d.Name == domainName);
                     domainIds.Add(createdDomain.Id);
 
-                    // Books: need MaxBooksStaffPerDay + 1
                     for (int i = 0; i < services.Config.MaxBooksStaffPerDay + 1; i++)
                     {
                         var isbn = "1234234323" + i.ToString();

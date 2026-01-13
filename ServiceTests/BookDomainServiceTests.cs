@@ -164,7 +164,6 @@ namespace ServiceTests
         [TestMethod]
         public void GetDescendantDomains_WithMultipleLevels()
         {
-            // Arrange
             var child1 = new BookDomain { Id = 2, Name = "Child1", ParentDomainId = 1 };
             var child2 = new BookDomain { Id = 3, Name = "Child2", ParentDomainId = 1 };
             var grandchild = new BookDomain { Id = 4, Name = "Grandchild", ParentDomainId = 2 };

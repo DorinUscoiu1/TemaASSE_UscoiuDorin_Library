@@ -120,7 +120,6 @@ namespace Service
                 throw new ArgumentNullException(nameof(reader));
             }
 
-            // Validate using FluentValidation
             var validationResult = this.readerValidator.Validate(reader);
             if (!validationResult.IsValid)
             {

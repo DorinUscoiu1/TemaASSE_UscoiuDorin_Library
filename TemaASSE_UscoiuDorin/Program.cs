@@ -136,8 +136,6 @@ namespace TemaASSE_UscoiuDorin
             EditionService editionService)
         {
             Logger.Info("Populate started.");
-
-            // Domain hierarchy
             var science = EnsureDomain(context, DemoDomainScience, parentDomainId: null);
             var cs = EnsureDomain(context, DemoDomainCs, parentDomainId: science.Id);
             EnsureReader(context, readerService, DemoStaffEmail, "Demo", "Staff", isStaff: true);
@@ -152,8 +150,6 @@ namespace TemaASSE_UscoiuDorin
         private static void Depopulate(LibraryDbContext context)
         {
             Logger.Info("Depopulate started.");
-
-            // 1) Borrowings (FK to Reader/Book)
             var borrowings = context.Borrowings
                 .Where(b =>
                     (b.Book != null && b.Book.ISBN == DemoIsbn) ||
@@ -168,7 +164,6 @@ namespace TemaASSE_UscoiuDorin
                 Logger.InfoFormat("Deleted borrowings: {0}", borrowings.Count);
             }
 
-            // 2) Editions for demo book
             var editions = context.Editions
                 .Where(e => e.Book != null && e.Book.ISBN == DemoIsbn)
                 .ToList();
@@ -180,7 +175,6 @@ namespace TemaASSE_UscoiuDorin
                 Logger.InfoFormat("Deleted editions: {0}", editions.Count);
             }
 
-            // 3) Demo book
             var book = context.Books.FirstOrDefault(b => b.ISBN == DemoIsbn);
             if (book != null)
             {
@@ -189,7 +183,6 @@ namespace TemaASSE_UscoiuDorin
                 Logger.Info("Deleted demo book.");
             }
 
-            // 4) Demo readers
             var readers = context.Readers
                 .Where(r => r.Email == DemoUserEmail || r.Email == DemoStaffEmail)
                 .ToList();
@@ -201,7 +194,6 @@ namespace TemaASSE_UscoiuDorin
                 Logger.InfoFormat("Deleted readers: {0}", readers.Count);
             }
 
-            // 5) Demo domains (delete child first)
             var domains = context.Domains
                 .Where(d => d.Name == DemoDomainCs || d.Name == DemoDomainScience)
                 .ToList()

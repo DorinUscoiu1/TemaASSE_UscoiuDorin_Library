@@ -96,7 +96,6 @@ namespace Service
                 throw new ValidationException(errors);
                 }
 
-            // Verify book exists
                 var book = this.bookRepository.GetById(edition.BookId);
                 if (book == null)
                 {

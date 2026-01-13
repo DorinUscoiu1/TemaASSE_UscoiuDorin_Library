@@ -242,7 +242,6 @@ namespace Service
 
             try
             {
-                // 1. Validare model (FluentValidation)
                 var validationResult = this.bookValidator.Validate(book);
                 if (!validationResult.IsValid)
                 {
@@ -251,7 +250,6 @@ namespace Service
                     throw new ValidationException(errors);
                 }
 
-                // 2. Verificare ISBN duplicat
                 var existingBook = this.bookRepository.GetByISBN(book.ISBN);
                 if (existingBook != null)
                 {
@@ -259,7 +257,6 @@ namespace Service
                     throw new InvalidOperationException($"O carte cu ISBN-ul {book.ISBN} exist? deja.");
                 }
 
-                // 3. Verificare limite domenii
                 if (domainIds == null || !domainIds.Any())
                 {
                     Logger.Warn("CreateBook called with empty domainIds.");
@@ -272,7 +269,6 @@ namespace Service
                     throw new InvalidOperationException($"S-a dep??it limita maxim? de domenii ({this.configRepository.MaxDomainsPerBook}).");
                 }
 
-                // 4. Încărcare domenii din DB
                 var domains = new List<BookDomain>();
                 foreach (var id in domainIds)
                 {

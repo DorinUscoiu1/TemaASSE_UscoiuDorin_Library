@@ -150,14 +150,12 @@ namespace Service
             var config = this.configRepository;
             var maxExtensionDays = config.MaxExtensionDays;
 
-            // Validation 1: Check total extension limit
             if (borrowing.TotalExtensionDays + extensionDays > maxExtensionDays)
             {
                 throw new InvalidOperationException(
                     $"Extension would exceed limit of {maxExtensionDays} days.");
             }
 
-            // Validation 2: Verify book is still available
             var book = this.bookRepository.GetById(borrowing.BookId);
             if (book == null)
             {
@@ -169,7 +167,6 @@ namespace Service
                 throw new InvalidOperationException("Book is no longer available for extension.");
             }
 
-            // Validation 3: Check minimum available percentage
             var availablePercentage = (double)book.GetAvailableCopies() / book.TotalCopies;
             if (availablePercentage < config.MinAvailablePercentage)
             {
@@ -177,24 +174,18 @@ namespace Service
                     "Cannot extend borrowing. Book availability below minimum threshold.");
             }
 
-            // Validation 4: Check 3-month extension limit (LIM in last 3 months)
             var threeMonthsAgo = extensionDate.AddMonths(-3);
             var borrowingsInLastThreeMonths = this.borrowingRepository.GetBorrowingsByDateRange(
                 threeMonthsAgo,
                 extensionDate);
 
-            var totalExtensionInPeriod = borrowingsInLastThreeMonths
-                .Where(b => b.ReaderId == borrowing.ReaderId)
-                .Sum(b => b.TotalExtensionDays);
+            var totalExtensionInPeriod = borrowingsInLastThreeMonths.Where(b => b.ReaderId == borrowing.ReaderId).Sum(b => b.TotalExtensionDays);
 
-            var maxExtensionInThreeMonths = reader.IsStaff
-                ? maxExtensionDays * 2
-                : maxExtensionDays;
+            var maxExtensionInThreeMonths = reader.IsStaff ? maxExtensionDays * 2 : maxExtensionDays;
 
             if (totalExtensionInPeriod + extensionDays > maxExtensionInThreeMonths)
             {
-                throw new InvalidOperationException(
-                    $"Cannot exceed {maxExtensionInThreeMonths} extension days in 3 months.");
+                throw new InvalidOperationException($"Cannot exceed {maxExtensionInThreeMonths} extension days in 3 months.");
             }
 
             borrowing.DueDate = borrowing.DueDate.AddDays(extensionDays);
@@ -287,32 +278,24 @@ namespace Service
             var domainLimitMonths = config.DomainLimitMonths;
             var lastMonthBorrowings = this.borrowingRepository.GetBorrowingsByDateRange(DateTime.Now.AddMonths(-domainLimitMonths), DateTime.Now) ?? Enumerable.Empty<Borrowing>();
 
-            // New: domain limits apply cumulatively across the domain tree.
-            // For each ancestor in the candidate book's domain chain, compute the set of descendant domains
-            // and count borrowings inside that subtree. If any ancestor subtree count reaches the limit,
-            // borrowing is blocked.
             var processedAncestorIds = new HashSet<int>();
             foreach (var domain in book.Domains ?? Enumerable.Empty<BookDomain>())
             {
-                // load current domain from repository to be safe
                 var current = this.bookDomainRepository.GetById(domain.Id);
                 if (current == null)
                 {
                     continue;
                 }
 
-                // traverse up the ancestor chain and evaluate each ancestor once
                 var ancestor = current;
                 while (ancestor != null)
                 {
                     if (!processedAncestorIds.Add(ancestor.Id))
                     {
-                        // already evaluated this ancestor
                         ancestor = ancestor.ParentDomainId.HasValue ? this.bookDomainRepository.GetById(ancestor.ParentDomainId.Value) : null;
                         continue;
                     }
 
-                    // collect descendant ids including the ancestor itself
                     var descendantIds = new List<int> { ancestor.Id };
                     this.GetDescendantDomainIds(ancestor.Id, descendantIds);
 
@@ -422,8 +405,7 @@ namespace Service
 
                 if (staffBorrowingsToday + 1 > this.configRepository.MaxBooksStaffPerDay)
                   {
-                        throw new InvalidOperationException(
-                            $"Staff cannot distribute more than {this.configRepository.MaxBooksStaffPerDay} books per day.");
+                        throw new InvalidOperationException($"Staff cannot distribute more than {this.configRepository.MaxBooksStaffPerDay} books per day.");
                     }
                 }
             }
@@ -487,8 +469,7 @@ namespace Service
 
                     if (staffBorrowingsToday + bookIds.Count > this.configRepository.MaxBooksStaffPerDay)
                     {
-                        throw new InvalidOperationException(
-                            $"Staff cannot distribute more than {this.configRepository.MaxBooksStaffPerDay} books per day.");
+                        throw new InvalidOperationException($"Staff cannot distribute more than {this.configRepository.MaxBooksStaffPerDay} books per day.");
                     }
                 }
             }
@@ -518,11 +499,7 @@ namespace Service
                     books.Add(book);
                 }
 
-                var distinctDomains = books
-                    .SelectMany(b => b.Domains ?? Enumerable.Empty<BookDomain>())
-                    .Select(d => d.Id)
-                    .Distinct()
-                    .Count();
+                var distinctDomains = books.SelectMany(b => b.Domains ?? Enumerable.Empty<BookDomain>()).Select(d => d.Id).Distinct().Count();
 
                 if (distinctDomains < 2)
                 {
